@@ -1,0 +1,3398 @@
+/* =======================================================================
+
+--------------------------------------------------------------------------
+CSS INDEX
+-> Common Css -------------------------------->
+-> Header-Top Css ---------------------------->
+-> Header-Bottom Css ------------------------->
+-> Hero-Area Css ----------------------------->
+-> romana_search_domain_Area ----------------->
+-> romana_service_area Css ------------------->
+-> romana_people_trust_area Css -------------->
+-> romana_pricing_area Css ------------------->
+-> romana_website_area Css ------------------->
+-> romana_client_area Css -------------------->
+-> romana_Subscribe_area Css ----------------->
+-> romana_footer_area Css -------------------->
+-> All_Page_Common Css ----------------------->
+-> About Page Css----------------------------->
+-> Web-Hosting Page Css----------------------->
+-> Testimonial Page Css----------------------->
+-> faqPage Css-------------------------------->
+-> 404 Page Css------------------------------->
+-> contact page Css--------------------------->
+-> logIn page Css----------------------------->
+-> my support page Css------------------------>
+-> Registration page Css---------------------->
+-> Registration page Css---------------------->
+-> Hosting Management page Css---------------->
+-> domain Management page Css----------------->
+-> my account page Css------------------------>
+-> Check-Out page Css------------------------->
+-> Cart page Css------------------------------>
+-> your domain page Css----------------------->
+-> latest news page Css----------------------->
+-> single news page Css----------------------->
+-> Preloder Css------------------------------->
+/* ===================================== Import Scss ================================== */
+/* ------------------------------------------------
+    1.***Base Css Start***
+------------------------------------------------- */
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none; }
+  
+  a {
+    text-decoration: none;
+    outline: none; }
+  
+  a:hover, a:focus, input, textarea {
+    text-decoration: none;
+    outline: none; }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px; }
+  
+  img {
+    max-width: 50%; }
+  
+  ol, ul {
+    margin: 0px;
+    padding: 0px; }
+  
+  select {
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    -webkit-appearance: none; }
+  
+  html,
+  body {
+    height: 100%; }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #666866;
+    background: #fff;
+    font-weight: 300; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      body {
+        font-size: 14px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      body {
+        font-size: 14px; } }
+  
+  .fix:after,
+  .fix:before {
+    content: "";
+    display: table; }
+  
+  .fix:after {
+    clear: both; }
+  
+  .floatleft {
+    float: left; }
+  
+  .floatright {
+    float: right; }
+  
+  .theme_color, .spanh2, .romana_section_title h2 span, .romana_website_area .hvr-rectangle-out:hover a, 
+  .romana_header_top_right ul li a:hover, .romana_client_log_in_after a, .romana_single_client_text_img:hover .romana_client_title, .romana_Subscribe_area .romana_Subscribe input[type="submit"]:hover, .romana_footer_area form.romana_contact_Subscribe input + input:hover, .widget.footer_menu:hover h2, .romana_allPage_area .romana_allPage_text h1, .breadcrumb a:hover, .single_web_hosting:hover h3, .romana_single_qus_text:hover h3, .romana_single_qus2 .romana_single_qus_text h3, .romana_404_text h1, .romana_404_text h2 span, .romana_logIn_text .forgot_password .romana_single_check label:after, .new_account a i, .togglefaq i, .registration .condition_check .romana_single_check label:after, .romana_hosting_managment_area h3, .hosting_list ul li:last-child, .hosting_list ul li a:hover, .hosting_list ul .active a, .hosting_com_area .hexa2 a, .news_pagination ul li a:hover, .widget.archive_widget a:hover, .romana_single_post:hover .romana_post_detail h2, .single_related_post:hover .related_post_text a h4, .romana_single_news_area .single_post_date li span, .romana_single_news_area .widget.romana_tag_widget ul li a:hover {
+    color: ; }
+  .romana_section_title h2 span {
+      color: #26a65b;
+  }
+  .theme_bg, .romana_header_top_right ul li, .hero_slider_bg, .romana_search_input input, .romana_single_check label,.romana_single_table .hvr-radial-out::before, .romana_client_crsl .owl-prev,
+  .romana_client_crsl .owl-next,.romana_footer_area form.romana_contact_Subscribe input + input, .account_list .active, .account_list .active:after, .check_out_text {
+    background: #0ee266; }
+  
+  .romana_client_crsl .owl-next:hover {
+    background: #EA2229;
+  }
+  
+  .theme_light_color {
+    background: #26a65b; }
+  
+  .theme_light_color2, .romana_search_domain_area {
+    background: #deefe5; }
+  
+  .red_color {
+    color: #26a65b; }
+  .read-more a {
+      background: #26a65b;
+      padding: 10px 25px;
+      color: #fff;
+      border: 1px solid #26a65b;
+      border-radius: 4px;
+  }
+  .read-more a:hover {
+      background: #EA2229;
+      border: 1px solid #EA2229;
+  }
+  .trns, select, .romana_header_top_left, .romana_header_top_left a i, .romana_search_submit input, .romana_client_crsl .owl-next, .breadcrumb a, .news_pagination ul li a {
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  
+  .trns4, .romana_header_top_right ul li:after, .romana_header_top_right ul li a, nav#navbar ul.nav li a, .romana_client_log_in, .romana_client_log_in_after a, .romana_single_table, .romana_client_title, .contact_form_right input[type="text"],
+  .contact_form_right textarea, .widget.widget_related_post .related_post_text h4, .widget.archive_widget a, .romana_single_news_area .widget.romana_tag_widget ul li, .romana_single_news_area .widget.romana_tag_widget ul li a {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s; }
+  
+  .trns5, .common_btn, .common_submit, .romana_faq_form input[type="submit"], .contact_form_right input[type="submit"], .romana_logIn_text input[type="submit"], .romana_client_btn a, .romana_single_table .romana_price_btn a, .my_account_form input[type="submit"], .payment_method input[type="submit"], .hvr-rectangle-out, .romana_website_area .hvr-rectangle-out, .romana_hero_area .owl-theme .owl-dots,
+  .romana_hero_area .owl-theme .owl-nav, .romana_hero_area .owl-theme .owl-dots .owl-dot, .romana_hero_area .owl-theme .owl-dots .owl-dot span, .romana_single_service, .romana_single_service a span, .romana_single_service a span:after, .romana_single_table .hvr-radial-out, .romana_Subscribe_area .romana_Subscribe input[type="submit"], #scrollTop, .romana_footer_area .footer_menu h2, .romana_footer_area .footer_menu ul li a, .romana_footer_area form.romana_contact_Subscribe input + input, .single_web_hosting h3, .romana_single_qus:hover, .romana_single_qus_text h3, .romana_single_post, .romana_single_post .romana_post_detail h2 {
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s; }
+  
+  .commonh2, .romana_section_title h2, .romana_search_domain_area .romana_domain_text h2, .romana_single_table h3, .single_web_hosting h3, .romana_contact_text h2, .romana_single_contact h3, .romana_expert_text h2, .check_form_right h3, .romana_cart_text h2 {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #242524; }
+  
+  .commonh3, .romana_single_service h3 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #242524; }
+  
+  .common_btn, .common_submit, .romana_faq_form input[type="submit"], .contact_form_right input[type="submit"], .romana_logIn_text input[type="submit"], .romana_client_btn a, .romana_single_table .romana_price_btn a, .my_account_form input[type="submit"], .payment_method input[type="submit"] {
+    display: inline-block;
+    width: 180px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #fff;
+    font-size: 15px;
+    background: #26a65b;
+    overflow: hidden; }
+    .common_btn a, .common_submit a, .romana_faq_form input[type="submit"] a, .contact_form_right input[type="submit"] a, .romana_logIn_text input[type="submit"] a, .romana_client_btn a a, .romana_single_table .romana_price_btn a a, .my_account_form input[type="submit"] a, .payment_method input[type="submit"] a {
+      color: #fff; }
+  
+  .romana_section_title {
+    font-size: 14px;
+    color: #242524;
+    margin: 0 auto 70px;
+    max-width: 480px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_section_title {
+        font-size: 13px;
+        margin-bottom: 60px; } }
+    .romana_section_title h2 {
+      margin-bottom: 15px;
+      line-height: 30px; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .romana_section_title h2 {
+          font-size: 24px; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_section_title h2 {
+          font-size: 23px; } }
+  
+  .common_bg, .romana_Subscribe_area, .romana_allPage_area {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative; }
+  
+  .common_after, .romana_header_top_right ul li:after, .romana_single_service a span:after, .romana_allPage_area:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0; }
+  
+  .common_shadow, .romana_single_table:hover {
+    border: 2px solid transparent;
+    box-shadow: 3px 0px 29px rgba(0, 0, 0, 0.26); }
+  
+  .common_shadow2, .romana_board_area {
+    box-shadow: 3px 0px 7px rgba(0, 0, 0, 0.11); }
+  
+  .common_shadow3, .romana_single_qus:hover {
+    box-shadow: 3px 0px 7px rgba(0, 0, 0, 0.22); }
+  
+  .romana_section_padding {
+    padding: 90px 0px; }
+  
+  .romana_section_padding_top {
+    padding-top: 95px; }
+  
+  .romana_section_padding_bottom {
+    padding-bottom: 95px; }
+  
+  .romana_padding40 {
+    padding-bottom: 40px; }
+  
+  .romana_margin_bottom30 {
+    margin-bottom: 30px; }
+  
+  .owl-carousel .owl-item img {
+    width: auto; }
+  
+  .hvr-rectangle-out:hover a {
+    color: #222; }
+  
+  .hvr-rectangle-out::before {
+    background: #fff none repeat scroll 0 0; }
+  
+  .romana_website_area .hvr-rectangle-out::before {
+    background: #222 none repeat scroll 0 0; }
+  
+  .common_input, .romana_faq_form input[type="text"],
+  .romana_faq_form textarea, .contact_form_right input[type="text"],
+  .contact_form_right textarea {
+    background: #f0f0f0 none repeat scroll 0 0;
+    border: 1px solid transparent;
+    color: #666666;
+    height: 50px;
+    margin-bottom: 30px;
+    padding: 0 20px;
+    width: 100%;
+    font-size: 15px; }
+    .common_input:focus, .romana_faq_form input[type="text"]:focus,
+    .romana_faq_form textarea:focus, .contact_form_right input[type="text"]:focus,
+    .contact_form_right textarea:focus {
+      border: 1px solid #26a65b; }
+  
+  .common_textarea, .romana_faq_form textarea, .contact_form_right textarea {
+    height: 140px;
+    padding: 20px;
+    margin-bottom: 20px; }
+  
+  .common_submit, .romana_faq_form input[type="submit"], .contact_form_right input[type="submit"], .romana_logIn_text input[type="submit"] {
+    border: none;
+    width: 170px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 0px; }
+  
+  select {
+    background: #dfdcdc none repeat scroll 0 0;
+    border: 1px solid transparent;
+    color: #aaa6a6;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    width: 100%;
+    font-size: 15px; }
+    select:focus {
+      border: 1px solid #26a65b; }
+  
+  .select_option_one,
+  .select_option_two {
+    position: relative; }
+  
+  .select_option_one::after,
+  .select_option_two::after {
+    background: transparent;
+    color: #666;
+    content: "\eb25";
+    cursor: pointer;
+    font-family: "IcoFont";
+    font-size: 17px;
+    height: 54px;
+    line-height: 58px;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 50px; }
+  
+  option {
+    padding: 0px 20px; }
+  
+  .romana_common_form .field {
+    height: 54px;
+    margin-bottom: 15px;
+    position: relative; }
+  
+  .romana_common_form input[type="text"], .romana_common_form input[type="password"], .romana_common_form label, .romana_common_form textarea {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #c6c6c6;
+    bottom: 0;
+    color: #888;
+    font-size: 15px;
+    height: 44px;
+    left: 0;
+    line-height: 44px;
+    margin: 0;
+    padding: 0 6px;
+    position: absolute;
+    text-indent: 5px;
+    top: 0;
+    transition-duration: 0.3s;
+    width: 100%;
+    font-weight: 300; }
+    .romana_common_form input[type="text"]:focus, .romana_common_form input[type="password"]:focus, .romana_common_form label:focus, .romana_common_form textarea:focus {
+      border: 1px solid #26a65b; }
+  
+  .romana_common_form .red {
+    color: #26a65b; }
+  
+  .romana_common_form textarea {
+    height: 190px;
+    resize: none; }
+  
+  .romana_common_form .text-field label {
+    height: 190px; }
+  
+  .romana_placeholder input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #fff;
+    opacity: 1; }
+  
+  .romana_placeholder input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff;
+    opacity: 1; }
+  
+  .romana_placeholder input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #fff;
+    opacity: 1; }
+  
+  .romana_placeholder input:-moz-placeholder {
+    /* Firefox 18- */
+    color: #fff;
+    opacity: 1; }
+  
+  .payment_input input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #181818;
+    opacity: 1; }
+  
+  .payment_input input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #181818;
+    opacity: 1; }
+  
+  .payment_input input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #181818;
+    opacity: 1; }
+  
+  .payment_input input:-moz-placeholder {
+    /* Firefox 18- */
+    color: #181818;
+    opacity: 1; }
+  
+  /* ==================================== Header-Top Css ============================== */
+  .romana_header_top {
+    position: relative;
+    color: #000;
+    border-bottom: 1px solid #d4d2d2; }
+  
+  .romana_header_top_left {
+    padding: 8px 0px; }
+   
+    .romana_header_top_left .clicked {
+      opacity: 1;
+      visibility: visible;
+      -webkit-transform: translateY(0);
+      transform: translateY(0); }
+    .romana_header_top_left a {
+      color: #000;
+      font-size: 13px; }
+      .romana_header_top_left a:hover i {
+        color: #EA2229; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .romana_header_top_left a {
+          font-size: 12px; } }
+      .romana_header_top_left a i {
+        padding-right: 15px; }
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+          .romana_header_top_left a i {
+            padding-right: 5px; } }
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          .romana_header_top_left a i {
+            padding-right: 8px; } }
+  
+  .romana_left_info {
+    padding-right: 15px; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_left_info {
+        padding-right: 60px; } }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .romana_left_info {
+        padding-right: 0px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_left_info {
+        float: none;
+        overflow: hidden;
+        padding-left: 30px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .romana_left_info {
+        float: right;
+        padding-left: 0px;
+        padding-right: 0px; } }
+    .romana_left_info li {
+      float: left;
+      margin-left: 30px; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .romana_left_info li {
+          margin-left: 10px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .romana_left_info li {
+          margin-left: 11px; } }
+      .romana_left_info li a {
+        color: #000000;
+        font-size: 12px; }
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          .romana_left_info li a {
+            font-size: 11px; } }
+  
+  
+  
+  .romana_header_top_right {
+    padding: 8px 0px;
+    overflow: hidden; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_header_top_right {
+        padding: 12px 0px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_header_top_right {
+        padding: 8px 0 8px 0px;
+        float: right; } }
+    .romana_header_top_right ul li {
+      border: 1px solid #26a65b;
+      border-radius: 50px;
+      display: inline-block;
+      float: right;
+      height: 30px;
+      line-height: 30px;
+      margin-left: 10px;
+      text-align: center;
+      width: 30px;
+      position: relative; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .romana_header_top_right ul li {
+          height: 26px;
+          line-height: 27px;
+          margin-left: 5px;
+          width: 26px; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_header_top_right ul li {
+          height: 25px;
+          line-height: 25px;
+          margin-left: 0;
+          width: 25px; } }
+      .romana_header_top_right ul li:after {
+        background: #EA2229;   
+        border-radius: 50px;
+        transform: scale(0); }
+      .romana_header_top_right ul li:hover:after {
+        transform: scale(1);}
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_header_top_right ul li {
+          float: none; } }
+      .romana_header_top_right ul li a {
+        font-size: 14px;
+        color: #fff;
+        position: relative;
+        z-index: 99; }
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          .romana_header_top_right ul li a {
+            font-size: 12px; } }
+        .romana_header_top_right ul li a .icofont.icofont-social-google-plus {
+          font-size: 15px; }
+          .romana_header_top_right ul li a .icofont.icofont-social-google-plus:hover {
+            font-size: 13px; }
+        .romana_header_top_right ul li a:hover {
+          font-size: 12px; }
+  
+  /* ==================================== Header-Bottom Css ======================= */
+  .romana_header_bottom {
+    background-repeat: repeat;
+    position: relative;
+    z-index: 999; }
+  
+  .romana_logo {
+    margin-top: 23px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_logo {
+        margin-bottom: 6px;
+        margin-top: 13px;
+        position: relative;
+        z-index: 999; } }
+  
+  nav#navbar {
+    text-align: right; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      nav#navbar {
+        background: #ffffff none repeat scroll 0 0;
+        border: 10px solid #ffffff;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        padding-right: 0;
+        position: absolute;
+        right: 15px;
+        top: 55px;
+        width: 265px;
+        padding-left: 0px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      nav#navbar {
+        width: 320px; } }
+  
+  nav#navbar ul.nav {
+    margin: 0;
+    list-style: none;
+    float: none;
+    display: inline-block;
+    vertical-align: top; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      nav#navbar ul.nav {
+        float: right; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      nav#navbar ul.nav {
+        display: block;
+        text-align: left; } }
+    nav#navbar ul.nav li {
+      display: inline-block;
+      position: relative; }
+      nav#navbar ul.nav li a {
+        color: #0f0f0f;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 24px;
+        margin-top: 31px;
+        padding: 0 15px;
+        text-transform: capitalize;
+        font-weight: 500; }
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          nav#navbar ul.nav li a {
+            font-size: 12px;
+            padding: 0 13px; } }
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          nav#navbar ul.nav li a {
+            display: block;
+            margin: 0;
+            padding: 15px; } }
+        nav#navbar ul.nav li a:hover {
+          color: #EA2229; }
+          @media only screen and (min-width: 0px) and (max-width: 767px) {
+            nav#navbar ul.nav li a:hover {
+              color: #EA2229;
+              background-color: #EA2229; } }
+        nav#navbar ul.nav li a i {
+          font-size: 17px;
+          position: relative;
+          color: #828483; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        nav#navbar ul.nav li {
+          border: 1px solid #d2d2d2;
+          display: block;
+          margin: 0px; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        nav#navbar ul.nav li ul {
+          border: none; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        nav#navbar ul.nav li ul li {
+          border: 1px solid #d2d2d2; } }
+    nav#navbar ul.nav li.active a {
+      color: #EA2229; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      nav#navbar ul.nav li.active a:hover {
+        color: #fff; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      nav#navbar ul.nav li a:hover {
+        color: #fff; } }
+  
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    nav#navbar ul.nav li ul.dropdown-menu {
+      box-shadow: none;
+      background: #f8fbfd;
+      float: none;
+      width: 100%;
+      padding: 0;
+      position: static; } }
+  
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    nav#navbar ul.nav li ul.dropdown-menu li {
+      border-left: 3px solid #26a65b; } }
+  
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    nav#navbar ul.nav li ul.dropdown-menu .menu-collumn {
+      border: none !important; } }
+  
+  @media only screen and (min-width: 768px) {
+    nav#navbar ul.nav li ul.dropdown-menu {
+      width: 200px;
+      background: #fff;
+      border-top: 3px solid #26a65b;
+      position: absolute;
+      z-index: 2;
+      left: 0;
+      top: 200%;
+      opacity: 0;
+      visibility: hidden;
+      padding: 0;
+      -webkit-transition: all 0.25s ease-out 0s;
+      transition: all 0.25s ease-out 0s;
+      display: block;
+      margin-top: 1px;
+      transform: scale(0); } }
+    @media only screen and (min-width: 768px) and (min-width: 768px) and (max-width: 991px) {
+      nav#navbar ul.nav li ul.dropdown-menu {
+        left: -25px; } }
+  
+  @media only screen and (min-width: 768px) {
+    nav#navbar ul.nav li ul.dropdown-menu li {
+      width: 100%; }
+  
+    nav#navbar ul.nav li ul.dropdown-menu li a {
+      display: block;
+      width: 100%;
+      line-height: 45px;
+      margin: 0;
+      text-align: left;
+      padding-left: 20px;
+      font-size: 12px; }
+  
+    nav#navbar ul.nav li ul.dropdown-menu li a:before {
+      content: '\eb88';
+      font-family: "IcoFont";
+      margin-right: 12px;
+      color: #26a65b; }
+  
+    nav#navbar ul.nav li ul.dropdown-menu.mega-menu {
+      width: 800px;
+      left: -318px;
+      right: 0;
+      padding: 15px 0;
+      margin-top: 1px; } }
+    @media only screen and (min-width: 768px) and (min-width: 768px) and (max-width: 991px) {
+      nav#navbar ul.nav li ul.dropdown-menu.mega-menu {
+        left: -360px; } }
+  
+  @media only screen and (min-width: 768px) {
+    nav#navbar ul.nav li ul.dropdown-menu.mega-menu .menu-collumn {
+      border-right: 1px solid #eaeaea;
+      float: left;
+      height: 100%;
+      vertical-align: top;
+      width: 33.3333%;
+      border-bottom: none; }
+  
+    nav#navbar ul.nav li ul.dropdown-menu.mega-menu .menu-collumn:last-child {
+      border-right: none; }
+  
+    nav#navbar ul.nav li ul.dropdown-menu.mega-menu .menu-collumn ul {
+      margin-bottom: 25px; }
+  
+    nav#navbar ul.nav li ul.dropdown-menu.mega-menu .menu-collumn ul li {
+      border: none !important; }
+  
+    nav#navbar ul.nav li ul.dropdown-menu.mega-menu .menu-collumn ul li a {
+      line-height: 20px; }
+  
+    nav#navbar ul.nav li ul.dropdown-menu.mega-menu .menu-collumn ul:last-child {
+      margin: 0; }
+  
+    nav#navbar ul.nav li.open ul.dropdown-menu {
+      top: 99%;
+      opacity: 1;
+      visibility: visible;
+      transform: scale(1); }
+  
+    nav#navbar ul.nav li.open > a,
+    nav#navbar ul.nav li.open > a:focus,
+    nav#navbar ul.nav li.open > a:hover {
+      background: transparent; }
+  
+    nav#navbar ul.nav li > a,
+    nav#navbar ul.nav li > a:focus,
+    nav#navbar ul.nav li > a:hover {
+      background: transparent; } }
+  .navbar-toggle {
+    margin-bottom: -1px;
+    margin-right: -6px;
+    margin-top: 6px;
+    color: #222; }
+  
+  .navbar-collapse {
+    padding-right: 8px; }
+  
+  .romana_client_btn {
+    padding: 20px 0px;
+    text-align: right;
+    position: relative; }
+    .romana_client_btn a {
+      background: #26a65b;
+      width: 145px;
+      font-size: 13px;
+      font-weight: 500;
+      text-transform: capitalize; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .romana_client_btn a {
+          font-size: 12px;
+          width: 109px; } }
+      .romana_client_btn a i {
+        padding-right: 13px; }
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          .romana_client_btn a i {
+            padding-right: 5px; } }
+  
+  .romana_client_btn_small a {
+    font-size: 12px;
+    width: 128px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 0px; }
+  
+  .romana_client_log_in {
+    background: #0f0f0f;
+    border: 3px solid #26a65b;
+    list-style: outside none none;
+    margin: 0;
+    opacity: 0;
+    padding: 30px;
+    position: absolute;
+    right: 80px;
+    top: 52px;
+    transform: translateY(60px);
+    visibility: hidden;
+    width: 305px;
+    z-index: 999999; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_client_log_in {
+        padding: 20px;
+        top: 80px; } }
+    .romana_client_log_in p {
+      color: #ffffff;
+      display: inline-block; }
+    .romana_client_log_in input {
+      background: #eef6fd none repeat scroll 0 0;
+      border: 0 solid #ffffff;
+      border-radius: 3px;
+      color: #000000;
+      height: 42px;
+      margin-bottom: 10px;
+      padding: 0 10px; }
+    .romana_client_log_in input[type=submit] {
+      background: #26a65b;
+      color: #fff;
+      padding: 0px 20px;
+      margin-top: 10px;
+      margin-bottom: 0px; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_client_log_in input[type=submit] {
+          margin-right: 10px; } }
+  
+  .clicked {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  
+  .romana_client_log_in_after {
+    position: relative; }
+    .romana_client_log_in_after a {
+      background: transparent none repeat scroll 0 0;
+      width: 80px !important; }
+      .romana_client_log_in_after a:hover {
+        color: #fff; }
+  
+  .romana_client_log_in_after:after {
+    border-color: transparent transparent #26a65b;
+    border-style: solid;
+    border-width: 15px 8px 11px;
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: -58px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_client_log_in_after:after {
+        top: -48px; } }
+  
+  /* ==================================== Hero-Area Css ======================= */
+  .romana_hero_area .owl-theme .owl-dots,
+  .romana_hero_area .owl-theme .owl-nav {
+    bottom: 105px;
+    left: 105px;
+    position: absolute; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .romana_hero_area .owl-theme .owl-dots,
+      .romana_hero_area .owl-theme .owl-nav {
+        left: 30px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_hero_area .owl-theme .owl-dots,
+      .romana_hero_area .owl-theme .owl-nav {
+        left: 32px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_hero_area .owl-theme .owl-dots,
+      .romana_hero_area .owl-theme .owl-nav {
+        bottom: 8%;
+        left: 42%; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .romana_hero_area .owl-theme .owl-dots,
+      .romana_hero_area .owl-theme .owl-nav {
+        bottom: 10%;
+        left: 45%; } }
+  .romana_hero_area .owl-theme .owl-dots .owl-dot {
+    display: inline-block; }
+  .romana_hero_area .owl-theme .owl-dots .owl-dot span {
+    border-radius: 50px;
+    display: block;
+    height: 14px;
+    margin: 5px 7px;
+    transition: opacity 0.2s ease 0s;
+    width: 14px;
+    border: 1px solid #fff; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_hero_area .owl-theme .owl-dots .owl-dot span {
+        height: 10px;
+        margin: 5px 3px;
+        width: 10px; } }
+  .romana_hero_area .owl-theme .owl-dots .owl-dot.active span,
+  .romana_hero_area .owl-theme .owl-dots .owl-dot:hover span {
+    background: #fff; }
+  
+  .hero_slider_bg {
+    height: 350px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .hero_slider_bg {
+        height: 480px !important; } }
+  
+  .romana_hero_text {
+    color: #fff;
+    padding-top: 140px; }
+  
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_hero_text {
+        font-size: 15px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_hero_text {
+        font-size: 13px;
+        padding-top: 100px;
+        text-align: center; } }
+    @media only screen and (min-width: 0px) and (max-width: 320px) {
+      .romana_hero_text {
+        font-size: 13px;
+        padding-top: 10px;
+        text-align: center; } }
+    .romana_hero_text h1 {
+      font-size: 42px;
+      font-weight: 600;
+      margin-bottom: 13px;
+      margin-top: 13px; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .romana_hero_text h1 {
+          font-size: 38px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .romana_hero_text h1 {
+          font-size: 28px; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_hero_text h1 {
+          font-size: 24px; } }
+    .romana_hero_text li {
+      display: inline-block;
+      float: left;
+      padding-right: 40px;
+      position: relative;
+      font-weight: 500; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_hero_text li {
+          font-size: 13px;
+          padding-right: 0;
+          padding: 0px 14px; } }
+      .romana_hero_text li:after {
+        background: #fff;
+        border-radius: 50px;
+        height: 8px;
+        width: 8px;
+        left: -25px;
+        top: 11px; }
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          .romana_hero_text li:after {
+            left: -6px; } }
+      .romana_hero_text li:first-child:after {
+        width: 0px; }
+    .romana_hero_text .hero_btn {
+      border: 1px solid #fff;
+      width: 170px;
+      margin-top: 12px; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_hero_text .hero_btn {
+          font-size: 12px;
+          height: 40px;
+          line-height: 40px;
+          width: 138px; } }
+  
+  /*
+  .romana_hero_img {
+    padding-top: 130px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_hero_img {
+        display: none !important; } }
+  */
+  
+  
+  /* ==================================== romana_search_domain_Area Css ======================= */
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .romana_search_domain_area {
+      padding-bottom: 50px; } }
+  .romana_search_domain_area .romana_domain_text {
+    color: #252525;
+    font-size: 15px;
+    padding-top: 68px;
+    padding-bottom: 55px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_search_domain_area .romana_domain_text {
+        padding-bottom: 40px;
+        text-align: center;
+        font-size: 13px; } }
+    .romana_search_domain_area .romana_domain_text h2 {
+      margin-bottom: 10px;
+      font-size: 22px; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .romana_search_domain_area .romana_domain_text h2 {
+          font-size: 25px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .romana_search_domain_area .romana_domain_text h2 {
+          font-size: 21px; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_search_domain_area .romana_domain_text h2 {
+          margin-bottom: 20px; } }
+  
+  .romana_domain_search {
+    padding-top: 70px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_domain_search {
+        padding-top: 0px;
+        padding-bottom: 90px; } }
+  
+  .romana_submit {
+    position: relative; }
+  
+  .romana_submit a {
+    background: #26a65b;  
+    color: #fff;
+    border: medium none;
+    height: 50px;
+    padding: 0px 30px;
+    width: 94%;
+    margin-left: 35px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 50px;
+    text-transform: uppercase;}
+    .romana_submit a:hover {
+      background: #449d44  none repeat scroll 0 0;
+      box-shadow: 0px 0px 3px #26a65b; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .romana_submit a {
+        width: 86%; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_submit a {
+        width: 80%;
+        margin-left: 22px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_submit a {
+        font-size: 12px;
+        padding-left: 8px;
+        height: 44px;
+        margin-left: 0px;
+        padding: 0px 15px;
+        width: 92%; } }
+  
+  
+  .romana_single_check {
+    color: #fff;
+    float: left;
+    padding-right: 30px;
+    margin-top: 10px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .romana_single_check {
+        padding-right: 11px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_single_check {
+        padding-right: 8px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_single_check {
+        padding-right: 8px; } }
+  
+  .romana_single_check span {
+    margin-left: 4px;
+    color: #252525; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_single_check span {
+        margin-left: 1px; } }
+  
+  .romana_checkbox2 {
+    margin-left: 58px;
+    margin-top: 3px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_checkbox2 {
+        margin-left: 0px; } }
+  
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .romana_checkbox {
+      margin-left: 10px; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .romana_checkbox {
+      padding: 0px 80px 0px; } }
+  
+  .romana_single_check {
+    position: relative; }
+  
+  .romana_single_check label {
+    border-radius: 5px 0 0;
+    cursor: pointer;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    width: 14px; }
+  
+  .romana_single_check label:after {
+    opacity: 0;
+    position: absolute;
+    content: '\f0f4 ';
+    font-family: "IcoFont";
+    background: transparent;
+    top: -7px;
+    left: 2px;
+    border-top: none;
+    border-right: none;
+    font-size: 9px; }
+  
+  .romana_single_check label:focus::after {
+    opacity: 1; }
+  
+  .romana_single_check input[type=checkbox]:checked + label:after {
+    opacity: 1;
+    color: #fff; }
+  
+  .romana_single_check input[type=checkbox]:checked + label {
+    background: #3e4951; }
+  
+  .romana_single_check input[type=checkbox] {
+    visibility: hidden; }
+  
+  /* ==================================== romana_service_area Css ======================= */
+  .romana_service_area {
+    background: #f5f5f5;    
+    padding-bottom: 32px; }
+  
+  .romana_single_service {
+    background: #fff;    
+    font-size: 15px;
+    margin-bottom: 56px;
+    border: 1px solid #eee;
+    text-align: center;
+    padding: 20px 20px;}
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_single_service {
+        font-size: 12px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_single_service {
+        font-size: 13px;
+        margin-bottom: 50px;
+        padding: 0 28px;
+        text-align: center; } }
+  .romana_single_service:hover {
+      box-shadow: 0 20px 20px rgba(0,0,0,0.14);
+  }
+    .romana_single_service .service-icon {
+      display: block;
+      overflow: hidden;
+      margin-bottom: 12px;
+      margin-left: 105px;}
+      .romana_single_service .service-icon span {
+      border: 1px solid #26a65b;
+      border-radius: 50px;
+      display: inline-block;
+      float: left;
+      height: 85px;
+      line-height: 85px;
+      text-align: center;
+      width: 85px;
+      position: relative;    
+  }
+  .romana_single_service:hover .service-icon span {
+      background: #EA2229;
+      border: 1px solid #EA2229;
+  }
+  /*.romana_single_service a span:after,*/
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          .romana_single_service a span {
+            height: 40px;
+            line-height: 40px;
+            width: 40px;
+            float: none; } }
+        .romana_single_service a span:after {
+          border-radius: 50px;
+          transform: scale(0);
+          visibility: hidden;
+          z-index: -1; }
+  
+  
+    .romana_single_service h3 {
+      color: #26a65b;  
+      display: block;
+      padding: 14px 0; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .romana_single_service h3 {
+          font-size: 13px; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_single_service h3 {
+          font-size: 16px;
+          padding-left: 0px;
+          text-align: center; } }
+  .romana_single_service:hover h3 {
+      color: #EA2229;
+  }
+  .romana_single_service:hover a span:after {    
+    transform: scale(1);
+    visibility: visible; 
+    z-index: 999;}
+  
+  /* ==================================== romana_people_trust_area Css ======================= */
+  .romana_people_trust_area {
+    background: transparent url("images/people_trst.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
+  
+  .romana_people_trust_text h2 {
+    color: #fff;
+      padding-bottom: 50px;
+      padding-top: 70px;
+      font-size: 30px;
+      text-align: center; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .romana_people_trust_text h2 {
+        font-size: 25px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_people_trust_text h2 {
+        font-size: 24px;
+        padding-bottom: 44px;
+        padding-top: 60px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_people_trust_text h2 {
+        font-size: 19px;
+        line-height: 25px;
+        padding-top: 30px;
+        text-align: center;
+        padding-bottom: 30px; } }
+  /*#2f2b2b*/
+  .romana_people_trust_btn {
+      background: #EA2229;
+      margin-bottom: 70px;
+      margin-left: 41%; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .romana_people_trust_btn {
+        width: 132px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_people_trust_btn {
+        width: 158px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_people_trust_btn {
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        height: 44px;
+        line-height: 44px;
+        margin-top: -13px;
+        margin-bottom: 33px; } }
+  
+  /* ====================================Product_area Css ======================= */
+  
+  .our_product {
+      background: #f5f5f5;
+  }
+  
+  .product .owl-carousel .owl-item img {
+      width: 100%;
+  }
+  .product .romana_single_client_text_img {
+      background: #fff;
+      margin: 15px;
+      border: 1px solid #eee;
+      transition: all .35s ease-out;
+  }
+  .product .romana_single_client_text_img:hover {
+      box-shadow: 0 20px 20px rgba(0,0,0,0.14);
+  }
+  .product .romana_client_title {
+      padding: 0;
+      text-align: center; 
+  }
+  .product .romana_client_title h3 a {
+      font-size: 25px;
+      color: #26a65b;
+      font-weight: 400;
+      transition: all .35s ease-out;
+  }
+  .product .romana_single_client_text_img:hover h3 {
+      color: red;
+  } 
+  .product .romana_single_client_text {
+      color: #666666;
+      font-size: 15px;
+      padding: 20px 30px;
+      text-align: center;
+      word-spacing: 2px;
+      font-style: normal;
+  }
+  /* ====================================Our_solution_area Css ======================= */
+  .our_solution {
+      background: #deefe5;
+  }
+  /* ==================================== romana_website_area Css ======================= */
+  .romana_website_text {
+    padding-top: 165px; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_website_text {
+        padding-top: 50px;
+        font-size: 13px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_website_text {
+        font-size: 13px;
+        padding-top: 67px;
+        text-align: center; } }
+    .romana_website_text h2 {
+      font-size: 28px;
+      color: #141313;
+      font-weight: 600;
+      margin-bottom: 20px; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .romana_website_text h2 {
+          font-size: 24px;
+          line-height: 28px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .romana_website_text h2 {
+          font-size: 22px;
+          line-height: 28px; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_website_text h2 {
+          font-size: 22px;
+          line-height: 28px; } }
+  
+  .website_btn {
+    margin-top: 20px; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .website_btn {
+        font-size: 14px;
+        height: 45px;
+        line-height: 45px;
+        width: 150px; } }
+  
+  .romana_website_img {
+    padding-top: 85px; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_website_img {
+        padding-top: 60px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_website_img {
+        text-align: center; } }
+  
+  .romana_website_text2 {
+    margin-top: -14px; }
+  
+  /* ==================================== romana_client_area Css ======================= */
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .romana_single_client_text_img {
+      margin-right: 16px; } }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .romana_single_client_text_img {
+      text-align: center; } }
+  
+  .romana_client_img img {
+    display: block;
+    float: left; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_client_img img {
+        float: none;
+        margin: 0 auto; } }
+  
+  .romana_client_title {
+    padding-left: 100px;
+    padding-top: 30px;
+    font-size: 14px;
+    color: #666;
+    font-weight: 400; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_client_title {
+        font-size: 13px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_client_title {
+        padding-left: 0px; } }
+    .romana_client_title h3 {
+      color: #363535;
+      font-size: 17px;
+      text-transform: capitalize;
+      font-weight: 500; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .romana_client_title h3 {
+          font-size: 15px; } }
+  
+  .romana_single_client_text {
+    color: #666666;
+    font-size: 15px;
+    font-style: italic; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .romana_single_client_text {
+        font-size: 14px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_single_client_text {
+        font-size: 13px;
+        padding-right: 20px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_single_client_text {
+        font-size: 13px;
+        margin-top: 11px; } }
+  
+  .romana_client_crsl .owl-controls {
+    display: block;
+    text-align: center;
+    margin-top: 44px; }
+  .romana_client_crsl .owl-prev,
+  .romana_client_crsl .owl-next {
+    color: #fff;
+    display: inline-block;
+    height: 31px;
+    line-height: 33px;
+    width: 31px; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_client_crsl .owl-prev,
+      .romana_client_crsl .owl-next {
+        line-height: 32px; } }
+  .romana_client_crsl .owl-prev {
+    margin-right: 5px; }
+  .romana_client_crsl .owl-next {
+    margin-left: 5px;
+    background: #d4d2d2;
+    color: #282828; }
+    .romana_client_crsl .owl-next:hover {
+      color: #fff; }
+  
+  /* ==================================== romana_Subscribe_area Css =================== */
+  .romana_Subscribe_area {
+    background: transparent url("../../images/pattern_bg.jpg");
+    overflow: hidden; }
+    .romana_Subscribe_area .romana_Subscribe {
+      padding-top: 65px;
+      text-align: right; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .romana_Subscribe_area .romana_Subscribe {
+          padding-top: 42px; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_Subscribe_area .romana_Subscribe {
+          padding-bottom: 40px;
+          padding-top: 4px;
+          text-align: right; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_Subscribe_area .romana_people_trust_text h2 {
+        padding-top: 55px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_Subscribe_area .romana_people_trust_text h2 {
+        font-size: 26px;
+        padding-bottom: 30px;
+        padding-top: 30px; } }
+    .romana_Subscribe_area .romana_Subscribe input {
+      height: 50px; }
+    .romana_Subscribe_area form {
+      margin-right: 58px; }
+    .romana_Subscribe_area .romana_Subscribe input[type="text"] {
+      background: transparent none repeat scroll 0 0;
+      border: 1px solid #fff;
+      border-radius: 4px 0 0 4px;
+      color: #fff;
+      height: 50px;
+      margin-left: 0;
+      margin-right: 17px;
+      padding: 0 20px;
+      width: 98%;
+      margin-right: 192px; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .romana_Subscribe_area .romana_Subscribe input[type="text"] {
+          height: 49px; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_Subscribe_area .romana_Subscribe input[type="text"] {
+          height: 44px;
+          width: 100%; } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .romana_Subscribe_area .romana_Subscribe input[type="text"] {
+          width: 100%; } }
+    .romana_Subscribe_area .romana_Subscribe input[type="submit"] {
+      background: #fff;
+      font-weight: 400;
+      border: medium none;
+      border-radius: 4px;
+      color: #141313;
+      font-size: 15px;
+      height: 50px;
+      position: absolute;
+      right: 16px;
+      top: 65px;
+      width: 170px; }
+      .romana_Subscribe_area .romana_Subscribe input[type="submit"]:hover {
+        background: #222; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .romana_Subscribe_area .romana_Subscribe input[type="submit"] {
+          width: 140px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .romana_Subscribe_area .romana_Subscribe input[type="submit"] {
+          width: 115px;
+          top: 42px;
+          height: 49px; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_Subscribe_area .romana_Subscribe input[type="submit"] {
+          font-size: 13px;
+          height: 44px;
+          line-height: 45px;
+          top: 4px;
+          width: 28%; } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .romana_Subscribe_area .romana_Subscribe input[type="submit"] {
+          width: 20%; } }
+  
+  /* ==================================== romana_footer_area Css ======================= */
+  #scrollTop {
+    background-color: #26a65b;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #fff inset;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -35px;
+    position: absolute;
+    right: 100px;
+    text-align: center;
+    top: -22px;
+    width: 40px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      #scrollTop {
+        right: 25px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      #scrollTop {
+        right: 25px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      #scrollTop {
+        right: 20px; } }
+    #scrollTop:hover {
+      color: #222; }
+  
+  .romana_footer_area {
+    position: relative;
+    background: #080808; }
+    .romana_footer_area .footer_left_text {
+      color: #949393;
+      font-size: 15px;
+      width: 280px; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .romana_footer_area .footer_left_text {
+          font-size: 14px;
+          width: 230px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .romana_footer_area .footer_left_text {
+          font-size: 12px;
+          width: 161px; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_footer_area .footer_left_text {
+          font-size: 13px;
+          padding-right: 0px; } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .romana_footer_area .footer_left_text {
+          width: 445px; } }
+    .romana_footer_area .footer_menu {
+      margin-top: 100px;
+      margin-bottom: 47px; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_footer_area .footer_menu {
+          margin-bottom: 56px;
+          margin-top: 50px; } }
+      .romana_footer_area .footer_menu h2 {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 500;
+        text-transform: capitalize; }
+      .romana_footer_area .footer_menu ul {
+        margin-top: 27px; }
+        .romana_footer_area .footer_menu ul li {
+          padding-bottom: 6px; }
+          .romana_footer_area .footer_menu ul li a {
+            color: #949393;
+            font-size: 12px;
+            font-weight: 300; }
+            .romana_footer_area .footer_menu ul li a:hover {
+              color: #EA2229; }
+            .romana_footer_area .footer_menu ul li a i {
+              color: #fff;
+              margin-right: 20px; }
+              @media only screen and (min-width: 768px) and (max-width: 991px) {
+                .romana_footer_area .footer_menu ul li a i {
+                  margin-right: 10px; } }
+    .romana_footer_area .footer_logo {
+      margin-bottom: 22px; }
+    .romana_footer_area .footer_padding_left {
+      padding-left: 70px; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .romana_footer_area .footer_padding_left {
+          padding-left: 40px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .romana_footer_area .footer_padding_left {
+          padding-left: 0px; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_footer_area .footer_padding_left {
+          padding-left: 10px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_footer_area .footer_left10 {
+        padding-left: 10px; } }
+    
+    .romana_footer_area .widget.footer_menu.widget_right_text {
+      font-size: 12px;
+      color: #949393; }
+      .romana_footer_area .widget.footer_menu.widget_right_text h2 {
+        margin-bottom: 27px; }
+  
+  .romana_footer_bottom_content {
+    border-top: 1px solid #393737;
+    color: #949393;
+    font-size: 15px;
+    padding-bottom: 21px;
+    padding-top: 35px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .romana_footer_bottom_content {
+        font-size: 13px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_footer_bottom_content {
+        font-size: 12px;
+        padding-bottom: 6px;
+        padding-top: 20px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_footer_bottom_content {
+        font-size: 12px;
+        padding-top: 20px;
+        margin-top: 50px; } }
+    .romana_footer_bottom_content span {
+      color: #26a65b;
+      padding-right: 4px; }
+  
+  .romana_footer_social_icon {
+    padding: 0px;
+    margin-top: -2px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_footer_social_icon {
+        float: none; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .romana_footer_social_icon {
+        margin-top: 0px; } }
+  
+  /* ==================================== All_Page_Common Css ======================= */
+  .romana_allPage_area {
+    background: url("../../images/all_page_bg.jpg");
+    background-repeat: no-repeat; }
+    .romana_allPage_area:after {
+      background: rgba(0, 0, 0, 0.95);
+      height: 100%; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_allPage_area {
+        height: 200px; } }
+    .romana_allPage_area .romana_allPage_text {
+      color: #fff;
+      position: relative;
+      z-index: 9;
+      text-align: left; }
+      .romana_allPage_area .romana_allPage_text h1 {
+        font-size: 30px;
+        text-transform: capitalize;
+        font-weight: 600;
+        padding-top: 80px;
+        padding-bottom: 75px; }
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          .romana_allPage_area .romana_allPage_text h1 {
+            font-size: 28px;
+            padding-top: 60px;
+            margin-bottom: -60px;
+            text-align: center; } }
+  
+  .breadcrumb {
+    background: transparent none repeat scroll 0 0;
+    padding: 0;
+    position: relative;
+    z-index: 9;
+    float: right;
+    padding-top: 80px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .breadcrumb {
+        padding: 0px;
+        text-align: center;
+        float: none; } }
+    .breadcrumb a {
+      color: #fff;
+      font-size: 16px;
+      text-transform: capitalize; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .breadcrumb a {
+          font-size: 14px; } }
+  
+  .breadcrumb > li + li::before {
+    color: #fff; }
+  
+  /* ==================================== About Page Css ======================= */
+  .romana_board_area {
+    background: #f6f6f6;
+    margin-top: 100px;
+    height: 536px;
+    position: relative; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_board_area {
+        margin-top: 0px;
+        height: 600px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .romana_board_area {
+        height: 480px; } }
+    .romana_board_area .romana_board_text {
+      padding-bottom: 92px;
+      padding-top: 92px; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_board_area .romana_board_text {
+          padding-bottom: 70px;
+          padding-top: 70px; } }
+      .romana_board_area .romana_board_text h2 {
+        margin-bottom: 30px;
+        line-height: 35px; }
+    .romana_board_area .board_margin_top {
+      margin-top: 34px; }
+  
+  .romana_board_img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%; }
+    .romana_board_img img {
+      height: 536px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_board_img {
+        display: none; } }
+  
+  .romana_board_area::after {
+    border-bottom: 0 solid transparent;
+    border-left: 172px solid #f6f6f6;
+    border-top: 541px solid transparent;
+    content: "";
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    top: -5px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .romana_board_area::after {
+        border-left: 80px solid #f6f6f6; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_board_area::after {
+        border-left: 50px solid #f6f6f6; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_board_area::after {
+        border-left: 50px solid #f6f6f6; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_board_area::after {
+        display: none; } }
+  
+  /* ==================================== Web-Hosting Page Css ======================= */
+  .romana_web_hosting_area {
+    padding-bottom: 80px;
+    margin-top: -12px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_web_hosting_area .romana_section_title {
+        margin-bottom: 30px; } }
+    .romana_web_hosting_area .romana_section_title h2 {
+      font-size: 27px; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_web_hosting_area .romana_section_title h2 {
+          font-size: 21px; } }
+  
+  .single_web_hosting {
+    margin-top: 60px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .single_web_hosting {
+        font-size: 13px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .single_web_hosting {
+        font-size: 13px;
+        margin-top: 25px; } }
+    .single_web_hosting h3 {
+      color: #030202;
+      font-size: 22px;
+      margin-bottom: 18px;
+      margin-top: 65px; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .single_web_hosting h3 {
+          margin-top: 45px; } }
+  
+  .romana_single_qus {
+    background: #f5f0f0 none repeat scroll 0 0;
+    padding: 14px;
+    margin-bottom: 60px; }
+  
+  .romana_single_qus_text {
+    border: 1px solid #d4d6d5;
+    font-size: 15px;
+    padding: 20px; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_single_qus_text {
+        font-size: 13px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_single_qus_text {
+        text-align: center;
+        padding: 10px;
+        font-size: 13px;
+        padding-top: 20px; } }
+    .romana_single_qus_text h3 {
+      margin-bottom: 20px;
+      color: #4d4b4b;
+      margin-top: 0px; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .romana_single_qus_text h3 {
+          font-size: 20px; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_single_qus_text h3 {
+          font-size: 18px; } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .romana_single_qus_text h3 {
+          font-size: 22px; } }
+  
+  .web_hosting_icon {
+    position: relative;
+    width: 100px;
+    height: 57.74px;
+    background-color: #000;
+    display: block;
+    margin: 0 auto; }
+  
+  .web_hosting_icon:before,
+  .web_hosting_icon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent; }
+  
+  .web_hosting_icon:before {
+    bottom: 100%;
+    border-bottom: 28.87px solid #000;
+    left: 0; }
+  
+  .web_hosting_icon:after {
+    top: 100%;
+    width: 0;
+    border-top: 28.87px solid #000;
+    left: 0; }
+  
+  .hexagon {
+    background-color: #26a65b;
+    height: 49.65px;
+    left: 7px;
+    margin: 24.83px 0;
+    position: relative;
+    top: 4px;
+    width: 86px; }
+  
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 43px solid transparent;
+    border-right: 43px solid transparent;
+    left: 0;
+    z-index: 9; }
+  
+  .hexagon:before {
+    bottom: 100%;
+    border-bottom: 24.83px solid #26a65b; }
+  
+  .hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 24.83px solid #26a65b; }
+  
+  .hexagon2 {
+    background-color: #000;
+    height: 47.5px;
+    margin: 24.25px 0;
+    position: relative;
+    width: 84px;
+    left: 1px;
+    top: 1px; }
+  
+  .hexagon2:before,
+  .hexagon2:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 42px solid transparent;
+    border-right: 42px solid transparent;
+    left: 0;
+    z-index: 99; }
+  
+  .hexagon2:before {
+    bottom: 100%;
+    border-bottom: 24.25px solid #000; }
+  
+  .hexagon2:after {
+    top: 100%;
+    width: 0;
+    border-top: 24.25px solid #000; }
+  
+  .hexagon2 a {
+    left: 27px;
+    position: absolute;
+    top: 7px; }
+  
+  .hosting .romana_pricing_area {
+    padding-bottom: 50px; }
+  
+  /* ==================================== Testimonial Page Css ======================= */
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .romana_client_area2 {
+      padding-top: 80px; } }
+  .romana_client_area2 .romana_single_client_text_img {
+    margin-bottom: 80px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_client_area2 .romana_single_client_text_img {
+        margin-bottom: 50px; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .romana_client_area2 .romana_single_client_text {
+      font-size: 12px; } }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .romana_client_area2 .romana_single_client_text {
+      font-size: 12px; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .romana_client_area2 .romana_client_title {
+      font-size: 12px; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .romana_client_area2 .romana_client_title h3 {
+      font-size: 14px; } }
+  
+  .romana_single_qus2 {
+    margin-bottom: 60px;
+    background: #efeeee; }
+    .romana_single_qus2 .romana_single_qus_text {
+      font-size: 16px; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .romana_single_qus2 .romana_single_qus_text {
+          font-size: 14px; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_single_qus2 .romana_single_qus_text {
+          font-size: 13px; } }
+  
+  /* ==================================== Faq Page Css ======================= */
+  .romana_common_qus_area h2 {
+    font-size: 21px; }
+  
+  .romana_faq_form {
+    padding-bottom: 70px; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_faq_form input[type="text"],
+      .romana_faq_form textarea {
+        font-size: 14px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_faq_form input[type="text"],
+      .romana_faq_form textarea {
+        font-size: 13px; } }
+  
+  /* ==================================== 404 Page Css ======================= */
+  .romana_404_text {
+    font-size: 15px;
+    padding-bottom: 144px;
+    padding-top: 73px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_404_text {
+        text-align: center;
+        padding-bottom: 80px;
+        padding-top: 50px; } }
+    .romana_404_text h1 {
+      font-size: 150px;
+      font-weight: 700;
+      margin-left: -6px; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_404_text h1 {
+          font-size: 130px; } }
+      .romana_404_text h1 span {
+        font-size: 222px;
+        margin-top: 6px;
+        position: relative;
+        top: 22px; }
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          .romana_404_text h1 span {
+            font-size: 180px; } }
+    .romana_404_text h2 {
+      color: #222;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 22px;
+      margin-bottom: 8px; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_404_text h2 {
+          font-size: 20px; } }
+    .romana_404_text .btn_404 {
+      width: 200px;
+      margin-top: 23px; }
+  
+  .romana_404_img {
+    padding-left: 50px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_404_img {
+        display: none; } }
+  
+  /* ==================================== Contact Page Css ======================= */
+  .romana_contact_form {
+    padding-top: 84px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_contact_form {
+        padding-top: 0px; } }
+  
+  .romana_contact_form_left {
+    margin-top: 40px; }
+  
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .romana_contact_text {
+      font-size: 13px;
+      text-align: center; } }
+  .romana_contact_text h2 {
+    margin-bottom: 23px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_contact_text h2 {
+        font-size: 25px; } }
+  
+  .romana_single_contact {
+    margin-top: 25px; }
+    .romana_single_contact h3 {
+      color: #26a65b;
+      font-size: 18px;
+      margin-bottom: 9px; }
+      .romana_single_contact h3 i {
+        color: #232222;
+        margin-right: 10px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .romana_single_contact ul li {
+        font-size: 14px; } }
+    .romana_single_contact ul li span {
+      font-size: 16px;
+      color: #232222;
+      font-weight: 600;
+      width: 120px;
+      display: inline-block; }
+    .romana_single_contact ul li a {
+      color: #242524; }
+  
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .contact_form_right {
+      padding-top: 50px; } }
+  .contact_form_right input[type="text"],
+  .contact_form_right textarea {
+    background: #dfdcdc none repeat scroll 0 0;
+    margin-bottom: 20px;
+    padding: 0 25px; }
+  .contact_form_right textarea {
+    padding: 10px 25px;
+    height: 168px; }
+  .contact_form_right input[type="submit"]:hover {
+    background: #222; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .contact_form_right input[type="submit"] {
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px; } }
+  
+  #googleMap {
+    height: 260px; }
+  
+  /* ==================================== LogIn Page Css ======================= */
+  .romana_logIn_text h2 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #222020;
+    margin-bottom: 70px;
+    text-align: center; }
+  .romana_logIn_text input[type="submit"] {
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .romana_logIn_text input[type="submit"] {
+        width: 130px;
+        margin-left: 10px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_logIn_text input[type="submit"] {
+        width: 120px;
+        margin-left: 10px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .romana_logIn_text input[type="submit"] {
+        margin-left: 30px;
+        width: 200px; } }
+  .romana_logIn_text .forgot_password {
+    color: #666;
+    float: right;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 10px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .romana_logIn_text .forgot_password {
+        font-size: 13px;
+        margin-right: 10px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_logIn_text .forgot_password {
+        font-size: 13px;
+        margin-right: 10px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .romana_logIn_text .forgot_password {
+        margin-right: 50px; } }
+    .romana_logIn_text .forgot_password .romana_single_check {
+      margin-top: -9px;
+      padding-right: 5px; }
+      .romana_logIn_text .forgot_password .romana_single_check input[type="checkbox"]:checked + label {
+        background: transparent none repeat scroll 0 0;
+        border: 1px solid #26a65b; }
+      .romana_logIn_text .forgot_password .romana_single_check label {
+        border-radius: 0 5px 0 0;
+        background: #fff;
+        border: 1px solid #26a65b;
+        padding: 0px 2px; }
+        .romana_logIn_text .forgot_password .romana_single_check label:after {
+          font-size: 15px;
+          font-weight: 100;
+          left: -5px;
+          opacity: 1;
+          position: absolute;
+          top: -17px; }
+      .romana_logIn_text .forgot_password .romana_single_check input[type="checkbox"]:checked + label {
+        background: #fff none repeat scroll 0 0;
+        border: 1px solid #26a65b; }
+  
+  .new_account {
+    background: #edebeb none repeat scroll 0 0;
+    margin-top: 52px;
+    height: 50px;
+    line-height: 50px;
+    width: 100%; }
+    .new_account a {
+      color: #666666;
+      font-size: 15px;
+      font-weight: 400;
+      padding: 20px 0;
+      text-transform: capitalize; }
+      .new_account a i {
+        margin-right: 18px; }
+  
+  /* ==================================== my support page Css ======================= */
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .romana_expert_text {
+      font-size: 13px; } }
+  .romana_expert_text h2 {
+    color: #070606;
+    margin-bottom: 18px; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_expert_text h2 {
+        font-size: 25px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_expert_text h2 {
+        font-size: 18px; } }
+  
+  .romana_accordion_area {
+    padding-top: 140px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_accordion_area {
+        padding-top: 80px; } }
+  
+  .accordion_top_text {
+    max-width: 535px;
+    margin-bottom: 40px; }
+    .accordion_top_text h2 {
+      font-size: 30px;
+      color: #070606;
+      font-weight: 600;
+      margin-bottom: 20px; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .accordion_top_text h2 {
+          font-size: 20px; } }
+  
+  .acordion-area-content {
+    padding-right: 30px; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .acordion-area-content {
+        padding-right: 0px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .acordion-area-content {
+        padding-right: 0px; } }
+  
+  .acordion-area {
+    height: 280px;
+    width: 100%; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .acordion-area {
+        height: 360px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .acordion-area {
+        height: 300px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .acordion-area {
+        height: 440px; } }
+  
+  .single-acordion {
+    margin-bottom: 10px; }
+  
+  .single-acordion.display-block .faqanswer {
+    display: block; }
+  
+  .faqanswer {
+    color: #fff;
+    display: none;
+    line-height: 28px;
+    padding: 20px 0 12px 6px;
+    width: 100%; }
+    .faqanswer p {
+      color: #666;
+      font-size: 16px;
+      line-height: 30px; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .faqanswer p {
+          font-size: 12px; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .faqanswer p {
+          font-size: 13px; } }
+  
+  .togglefaq {
+    color: #070606;
+    display: block;
+    font-size: 22px;
+    width: 100%;
+    font-weight: 500; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .togglefaq {
+        font-size: 20px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .togglefaq {
+        font-size: 15px;
+        font-weight: 400; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .togglefaq {
+        font-size: 16px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .togglefaq {
+        font-size: 18px; } }
+    .togglefaq span {
+      padding-left: 20px; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .togglefaq span {
+          padding-left: 22px; } }
+  
+  .togglefaq i {
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 3px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .togglefaq i {
+        top: -26px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .togglefaq i {
+        top: 6px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .togglefaq i {
+        top: -23px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .togglefaq i {
+        top: 3px; } }
+  
+  /* ==================================== Registration page Css ======================= */
+  .romana_registration_form h2 {
+    color: #222020;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 62px; }
+  .romana_registration_form h3 {
+    color: #212020;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 35px;
+    margin-left: 5px; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_registration_form h3 {
+        text-align: center; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_registration_form h3 {
+        text-align: center; } }
+  .romana_registration_form .field {
+    margin: 0px 5px; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_registration_form .field {
+        margin: 0px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_registration_form .field {
+        margin: 0px; } }
+  .romana_registration_form .field.width_50 {
+    float: left;
+    width: calc(50% - 10px); }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_registration_form .field.width_50 {
+        width: 100%; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_registration_form .field.width_50 {
+        width: 100%; } }
+  .romana_registration_form .create_account_btn {
+    border-radius: 0px;
+    margin-left: 5px;
+    width: 130px;
+    margin-top: 10px;
+    display: inline-block;
+    float: left; }
+  
+  .registration .romana_common_form input[type="text"],
+  .registration .romana_common_form input[type="password"],
+  .registration .romana_common_form label,
+  .registration .romana_common_form textarea {
+    border: 1px solid #e9e7e7; }
+  .registration .romana_registration_form input:focus {
+    border: 1px solid #26a65b; }
+  .registration .condition_check {
+    margin-top: 17px;
+    padding-left: 160px; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .registration .condition_check h4 {
+        font-size: 13px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .registration .condition_check h4 {
+        font-size: 13px; } }
+    .registration .condition_check .romana_single_check {
+      margin-top: -3px;
+      padding-right: 15px; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .registration .condition_check .romana_single_check {
+          padding-right: 8px;
+          margin-top: -8px; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .registration .condition_check .romana_single_check {
+          margin-top: -8px; } }
+      .registration .condition_check .romana_single_check input[type="checkbox"]:checked + label {
+        background: transparent none repeat scroll 0 0;
+        border: 1px solid #26a65b; }
+      .registration .condition_check .romana_single_check label {
+        border-radius: 0 5px 0 0;
+        background: #fff;
+        border: 1px solid #26a65b;
+        padding: 0px 2px; }
+        .registration .condition_check .romana_single_check label:after {
+          font-size: 15px;
+          font-weight: 100;
+          left: -5px;
+          opacity: 1;
+          position: absolute;
+          top: -17px; }
+      .registration .condition_check .romana_single_check input[type="checkbox"]:checked + label {
+        background: #fff none repeat scroll 0 0;
+        border: 1px solid #26a65b; }
+  
+  /* ==================================== Hosting Management page Css ======================= */
+  .account_list ul li {
+    background: #edeaea none repeat scroll 0 0;
+    display: inline-block;
+    margin: -2px;
+    padding: 11px 35px 8px 50px;
+    position: relative; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .account_list ul li {
+        padding: 11px 35px 8px 43px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .account_list ul li {
+        margin: 6px;
+        padding: 10px 35px 8px 18px;
+        width: 90%; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .account_list ul li {
+        width: 60%; } }
+    .account_list ul li:first-child {
+      padding-left: 20px; }
+    .account_list ul li:after {
+      background: #edeaea none repeat scroll 0 0;
+      content: "";
+      height: 35px;
+      position: absolute;
+      right: -18px;
+      top: 7px;
+      transform: rotate(45deg);
+      width: 36px;
+      z-index: 9; }
+    .account_list ul li:before {
+      background: #fff none repeat scroll 0 0;
+      content: "";
+      height: 41px;
+      position: absolute;
+      right: -26px;
+      top: 4px;
+      transform: rotate(45deg);
+      width: 42px;
+      z-index: 9; }
+  .account_list ul a {
+    font-size: 18px;
+    color: #3a3838; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .account_list ul a {
+        font-size: 16px; } }
+  .account_list .active a {
+    color: #fff; }
+  
+  .romana_hosting_managment_area h3 {
+    font-size: 22px;
+    margin-top: 84px;
+    margin-bottom: 70px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_hosting_managment_area h3 {
+        margin: 60px 0px; } }
+  
+  .hosting_list {
+    border: 1px solid #26a65b; }
+    .hosting_list ul {
+      background: #f2f0f0 none repeat scroll 0 0;
+      border-bottom: 1px solid #26a65b;
+      padding: 12px 0px; }
+      .hosting_list ul:last-child {
+        border: none; }
+      .hosting_list ul li {
+        background: #f2f0f0 none repeat scroll 0 0;
+        color: #949494;
+        display: inline-block;
+        font-size: 15px;
+        padding: 0 10px;
+        text-align: center; }
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          .hosting_list ul li {
+            padding: 0px 9px; } }
+        .hosting_list ul li:first-child {
+          padding-left: 30px;
+          text-align: left;
+          width: 74%; }
+          @media only screen and (min-width: 992px) and (max-width: 1199px) {
+            .hosting_list ul li:first-child {
+              width: 68%; } }
+          @media only screen and (min-width: 768px) and (max-width: 991px) {
+            .hosting_list ul li:first-child {
+              width: 60%; } }
+          @media only screen and (min-width: 0px) and (max-width: 767px) {
+            .hosting_list ul li:first-child {
+              width: 100%;
+              padding-left: 10px; } }
+          @media only screen and (min-width: 480px) and (max-width: 767px) {
+            .hosting_list ul li:first-child {
+              width: 37%; } }
+        .hosting_list ul li:last-child {
+          padding-right: 10px; }
+        .hosting_list ul li a {
+          color: #949494;
+          font-weight: 500; }
+  
+  /* ==================================== Domain Management page Css ======================= */
+  .domain_list ul li:first-child {
+    width: 80%; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .domain_list ul li:first-child {
+        width: 78%; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .domain_list ul li:first-child {
+        width: 70%; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .domain_list ul li:first-child {
+        width: 100%; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .domain_list ul li:first-child {
+        width: 53%; } }
+  
+  /* ==================================== my account page Css ======================= */
+  .my_account_form {
+    margin-top: -30px; }
+    .my_account_form label {
+      font-weight: 500;
+      color: #0c0b0b;
+      font-size: 15px;
+      margin-bottom: 8px;
+      margin-top: 30px;
+      text-transform: capitalize; }
+    .my_account_form input {
+      width: 100%;
+      border: 1px solid #979595;
+      height: 50px;
+      color: #222;
+      padding: 0px 20px; }
+    .my_account_form input[type="submit"] {
+      height: 52px;
+      border: none;
+      border-radius: 0px;
+      margin-top: 40px; }
+      .my_account_form input[type="submit"]:hover {
+        background: #222; }
+  
+  /* ==================================== Check-Out page Css ======================= */
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .romana_check_out_form {
+      padding-top: 10px; } }
+  
+  .check_out_text {
+    color: #fff;
+    margin-top: 100px;
+    padding-bottom: 8px;
+    padding-top: 20px; }
+    .check_out_text a {
+      color: #000; }
+  
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .check_form_right {
+      text-align: center; } }
+  .check_form_right h3 {
+    color: #111;
+    margin-top: 0px;
+    margin-bottom: 82px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .check_form_right h3 {
+        margin-bottom: 50px; } }
+  .check_form_right input,
+  .check_form_right select {
+    background: #f1eeee !important; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .check_form_right input,
+      .check_form_right select {
+        font-size: 12px; } }
+  .check_form_right select {
+    margin-bottom: 20px; }
+  
+  .check_out_left {
+    background: #f2efef none repeat scroll 0 0;
+    margin-top: 196px;
+    border: 1px solid #26a65b; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .check_out_left {
+        margin-top: 50px; } }
+    .check_out_left h4 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #181818;
+      padding: 18px 20px; }
+    .check_out_left li {
+      border-top: 1px solid #fff;
+      padding: 10px 20px;
+      color: #181818;
+      font-size: 16px; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .check_out_left li {
+          font-size: 12px;
+          padding: 10px; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .check_out_left li {
+          font-size: 14px; } }
+      .check_out_left li span {
+        display: inline-block;
+        width: 88%; }
+      .check_out_left li:last-child {
+        font-weight: 500; }
+  
+  .payment_method {
+    margin-top: 80px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .payment_method {
+        margin-top: 50px;
+        text-align: center; } }
+    .payment_method h4 {
+      color: #181818;
+      font-size: 20px;
+      margin-bottom: 80px;
+      text-transform: capitalize;
+      font-weight: 600; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .payment_method h4 {
+          margin-bottom: 50px; } }
+    .payment_method input[type="submit"] {
+      margin-top: 25px;
+      border: none;
+      height: 48px;
+      border-radius: 0px; }
+      .payment_method input[type="submit"]:hover {
+        background: #222; }
+  
+  .payment_left {
+    margin-top: 10px; }
+    .payment_left li {
+      color: #181818;
+      font-weight: 500;
+      padding: 15px 10px;
+      font-size: 18px; }
+  
+  .mayment_form {
+    background: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #a9adab; }
+  
+  .payment_input {
+    color: #181818;
+    font-size: 15px;
+    font-weight: 500; }
+    .payment_input input,
+    .payment_input select {
+      background: #fff none repeat scroll 0 0;
+      border: 1px solid #989797;
+      color: #181818;
+      font-weight: 500;
+      height: 40px;
+      padding: 0 17px;
+      width: 100%;
+      margin-top: 20px; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .payment_input input,
+        .payment_input select {
+          font-size: 12px; } }
+    .payment_input select {
+      color: #181818;
+      font-weight: 400;
+      padding: 0 15px;
+      margin-bottom: 0px; }
+    .payment_input input {
+      margin-bottom: 30px;
+      font-weight: 400; }
+    .payment_input .select_option_one::after {
+      content: "\eb73";
+      right: 0;
+      top: 12px; }
+  
+  .payment_input input[type="checkbox"] {
+    display: inline-block;
+    left: -40px;
+    position: absolute;
+    width: 20%;
+    top: 66%;
+    outline: none; }
+  
+  .payment_input span {
+    padding-left: 30px; }
+  
+  /* ==================================== Cart page Css ======================= */
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .romana_cart_area {
+      margin-bottom: 80px;
+      overflow-x: scroll;
+      padding: 0; } }
+  .romana_cart_area thead {
+    background: #acf4b7 none repeat scroll 0 0;
+    padding: 10px;
+    color: #1d1f1e;
+    text-transform: capitalize;
+    font-weight: 500 !important; }
+  .romana_cart_area .table > thead > tr > th {
+    border-bottom: 0;
+    vertical-align: bottom;
+    font-weight: 600 !important; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_cart_area .table > thead > tr > th {
+        padding: 20px 9px; } }
+  .romana_cart_area tbody {
+    color: #1d1f1e;
+    font-size: 16px; }
+    .romana_cart_area tbody tr th {
+      font-weight: 400; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_cart_area tbody {
+        font-size: 13px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_cart_area tbody {
+        font-size: 13px; } }
+    .romana_cart_area tbody .last_item {
+      background: #3e4951 none repeat scroll 0 0;
+      color: #fff; }
+  .romana_cart_area .table-striped > tbody > tr:nth-of-type(2n+1) {
+    background-color: #f2f2f2; }
+  .romana_cart_area .table > tbody > tr > td,
+  .romana_cart_area .table > tbody > tr > th,
+  .romana_cart_area .table > tfoot > tr > td,
+  .romana_cart_area .table > tfoot > tr > th,
+  .romana_cart_area .table > thead > tr > td,
+  .romana_cart_area .table > thead > tr > th {
+    border-top: medium none;
+    line-height: 1.42857;
+    padding: 12px 20px 12px 37px;
+    vertical-align: top; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .romana_cart_area .table > tbody > tr > td,
+      .romana_cart_area .table > tbody > tr > th,
+      .romana_cart_area .table > tfoot > tr > td,
+      .romana_cart_area .table > tfoot > tr > th,
+      .romana_cart_area .table > thead > tr > td,
+      .romana_cart_area .table > thead > tr > th {
+        padding: 12px 35px; } }
+  
+  .romana_cart_text {
+    font-size: 15px;
+    margin: 0 auto;
+    max-width: 740px;
+    text-align: center;
+    margin-bottom: 56px; }
+    .romana_cart_text h2 {
+      margin-bottom: 17px; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_cart_text h2 {
+          font-size: 25px; } }
+  
+  .check_out_btn {
+    border-radius: 0;
+    float: right;
+    margin-top: 10px;
+    width: 20%; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .check_out_btn {
+        float: none;
+        width: 100%;
+        margin-top: 30px; } }
+  
+  .romana_addto_cart_area {
+    padding-top: 100px; }
+    .romana_addto_cart_area thead {
+      background: #3e4951;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 20px; }
+      .romana_addto_cart_area thead th {
+        padding: 20px 0px; }
+    .romana_addto_cart_area .table > thead > tr > td,
+    .romana_addto_cart_area .table > thead > tr > th {
+      padding: 20px 20px 20px 37px; }
+    .romana_addto_cart_area .table > tbody > tr > td, .romana_addto_cart_area .romana_cart_area .table > tbody > tr > th {
+      margin-top: 75px;
+      padding-bottom: 0;
+      padding-top: 12px; }
+    .romana_addto_cart_area .common_btn, .romana_addto_cart_area .common_submit, .romana_addto_cart_area .romana_faq_form input[type="submit"], .romana_faq_form .romana_addto_cart_area input[type="submit"], .romana_addto_cart_area .contact_form_right input[type="submit"], .contact_form_right .romana_addto_cart_area input[type="submit"], .romana_addto_cart_area .romana_logIn_text input[type="submit"], .romana_logIn_text .romana_addto_cart_area input[type="submit"], .romana_addto_cart_area .romana_client_btn a, .romana_client_btn .romana_addto_cart_area a, .romana_addto_cart_area .romana_single_table .romana_price_btn a, .romana_single_table .romana_price_btn .romana_addto_cart_area a, .romana_addto_cart_area .my_account_form input[type="submit"], .my_account_form .romana_addto_cart_area input[type="submit"], .romana_addto_cart_area .payment_method input[type="submit"], .payment_method .romana_addto_cart_area input[type="submit"] {
+      height: 40px;
+      line-height: 40px;
+      margin-bottom: -15px;
+      margin-top: -72px;
+      width: 150px; }
+      .romana_addto_cart_area .common_btn:hover, .romana_addto_cart_area .common_submit:hover, .romana_addto_cart_area .romana_faq_form input[type="submit"]:hover, .romana_faq_form .romana_addto_cart_area input[type="submit"]:hover, .romana_addto_cart_area .contact_form_right input[type="submit"]:hover, .contact_form_right .romana_addto_cart_area input[type="submit"]:hover, .romana_addto_cart_area .romana_logIn_text input[type="submit"]:hover, .romana_logIn_text .romana_addto_cart_area input[type="submit"]:hover, .romana_addto_cart_area .romana_client_btn a:hover, .romana_client_btn .romana_addto_cart_area a:hover, .romana_addto_cart_area .romana_single_table .romana_price_btn a:hover, .romana_single_table .romana_price_btn .romana_addto_cart_area a:hover, .romana_addto_cart_area .my_account_form input[type="submit"]:hover, .my_account_form .romana_addto_cart_area input[type="submit"]:hover, .romana_addto_cart_area .payment_method input[type="submit"]:hover, .payment_method .romana_addto_cart_area input[type="submit"]:hover {
+        background: #222;
+        color: #fff; }
+  
+  /* ==================================== Your-Domain page Css ======================= */
+  .romana_your_domain_text h2 {
+    font-weight: 500;
+    text-transform: inherit;
+    line-height: 40px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_your_domain_text h2 {
+        font-size: 21px;
+        margin-top: -30px;
+        line-height: 28px; } }
+  
+  .romana_your_domain_text br {
+    display: none; }
+  
+  .your_domain_area .romana_search_input input {
+    width: 90%;
+    border-radius: 50px;
+    background: #99ce89;
+    color: #222; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .your_domain_area .romana_search_input input {
+        width: 100%; } }
+  .your_domain_area .romana_search_submit input {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50px;
+    color: #222;
+    font-size: 15px;
+    font-weight: 500;
+    height: 40px;
+    right: 60px;
+    top: 5px;
+    width: 70px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .your_domain_area .romana_search_submit input {
+        right: 47px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .your_domain_area .romana_search_submit input {
+        right: 45px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .your_domain_area .romana_search_submit input {
+        height: 36px;
+        padding-left: 10px;
+        right: 19px;
+        top: 4px;
+        width: 62px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .your_domain_area .romana_search_submit input {
+        top: 4px; } }
+  
+  .hosting_com_area {
+    background: #45ad54; }
+    .hosting_com_area .all_hexa {
+      display: block;
+      float: left;
+      padding: 42px 0px; }
+    .hosting_com_area .romana_hexaon {
+      position: relative;
+      width: 60px;
+      height: 34.64px;
+      background-color: #fff;
+      margin: 17.32px 0; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .hosting_com_area .romana_hexaon {
+          margin-left: 40px; } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .hosting_com_area .romana_hexaon {
+          margin-left: 0px; } }
+    .hosting_com_area .romana_hexaon:before,
+    .hosting_com_area .romana_hexaon:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent; }
+    .hosting_com_area .romana_hexaon:before {
+      bottom: 100%;
+      border-bottom: 17.32px solid #fff; }
+    .hosting_com_area .romana_hexaon:after {
+      top: 100%;
+      width: 0;
+      border-top: 17.32px solid #fff; }
+    .hosting_com_area .hexa1 {
+      background-color: #26a65b;
+      height: 32.33px;
+      left: 2px;
+      margin: 16.17px 0;
+      position: relative;
+      width: 56px;
+      top: 1px; }
+    .hosting_com_area .hexa1:before,
+    .hosting_com_area .hexa1:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      border-left: 28px solid transparent;
+      border-right: 28px solid transparent;
+      z-index: 9; }
+    .hosting_com_area .hexa1:before {
+      bottom: 100%;
+      border-bottom: 16.17px solid #26a65b; }
+    .hosting_com_area .hexa1:after {
+      top: 100%;
+      width: 0;
+      border-top: 16.17px solid #26a65b; }
+    .hosting_com_area .hexa2 {
+      background-color: #fff;
+      height: 27.71px;
+      left: 4px;
+      margin: 13.86px 0;
+      position: relative;
+      top: 2px;
+      width: 48px; }
+      .hosting_com_area .hexa2 a {
+        display: block;
+        position: relative;
+        text-align: center;
+        top: 3px; }
+    .hosting_com_area .hexa2:before,
+    .hosting_com_area .hexa2:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      border-left: 24px solid transparent;
+      border-right: 24px solid transparent;
+      z-index: 99; }
+    .hosting_com_area .hexa2:before {
+      bottom: 100%;
+      border-bottom: 13.86px solid #fff; }
+    .hosting_com_area .hexa2:after {
+      top: 100%;
+      width: 0;
+      border-top: 13.86px solid #fff;
+      left: 0; }
+  
+  .romana_hexagon_text {
+    padding-left: 90px;
+    padding-top: 53px;
+    color: #3e4951; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_hexagon_text {
+        padding-left: 115px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .romana_hexagon_text {
+        font-size: 12px;
+        padding-left: 70px;
+        padding-top: 58px; } }
+    .romana_hexagon_text h3 {
+      color: #fff;
+      font-weight: 600;
+      font-size: 22px; }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .romana_hexagon_text h3 {
+          font-size: 16px; } }
+  
+  .your_dom_btns {
+    display: inline-flex;
+    float: right;
+    padding-top: 52px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .your_dom_btns {
+        float: none;
+        padding-bottom: 50px;
+        padding-left: 17px;
+        padding-top: 0; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .your_dom_btns {
+        float: right;
+        margin-top: -60px;
+        padding-bottom: 50px;
+        padding-top: 0; } }
+    .your_dom_btns .your_dom_btn1,
+    .your_dom_btns .your_dom_btn2 {
+      border-radius: 50px;
+      font-size: 15px;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-right: 10px;
+      line-height: 50px; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .your_dom_btns .your_dom_btn1,
+        .your_dom_btns .your_dom_btn2 {
+          width: 132px; } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .your_dom_btns .your_dom_btn1,
+        .your_dom_btns .your_dom_btn2 {
+          height: 40px;
+          line-height: 40px;
+          width: 123px; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .your_dom_btns .your_dom_btn1 a,
+        .your_dom_btns .your_dom_btn2 a {
+          font-size: 13px; } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .your_dom_btns .your_dom_btn1 a,
+        .your_dom_btns .your_dom_btn2 a {
+          font-size: 10px; } }
+    .your_dom_btns .your_dom_btn1 {
+      background: #fff;
+      margin-right: 10px; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .your_dom_btns .your_dom_btn1 {
+          padding-right: 5px; } }
+      .your_dom_btns .your_dom_btn1:hover {
+        background: #3e4951; }
+      .your_dom_btns .your_dom_btn1:hover a {
+        color: #fff; }
+      .your_dom_btns .your_dom_btn1 a {
+        color: #151715; }
+    .your_dom_btns .your_dom_btn2 {
+      background: #3e4951; }
+      .your_dom_btns .your_dom_btn2:hover {
+        background: #fff; }
+      .your_dom_btns .your_dom_btn2:hover a {
+        color: #3e4951; }
+  
+  .your_dom_btn1 .hvr-radial-out::before {
+    background: #3e4951; }
+  
+  .romana_addto_cart_head_area {
+    background: #3e4951;
+    margin-top: 100px; }
+    .romana_addto_cart_head_area .cart_head li {
+      color: #fff;
+      display: inline-block;
+      font-size: 20px;
+      font-weight: 600;
+      padding: 25px 0;
+      text-align: center;
+      text-transform: uppercase;
+      width: 19%; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_addto_cart_head_area .cart_head li {
+          width: 100%;
+          padding: 10px 0px;
+          font-size: 17px; } }
+      .romana_addto_cart_head_area .cart_head li:first-child {
+        text-align: left; }
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          .romana_addto_cart_head_area .cart_head li:first-child {
+            float: none;
+            text-align: center; } }
+      .romana_addto_cart_head_area .cart_head li:last-child {
+        text-align: right;
+        padding-right: 8px; }
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          .romana_addto_cart_head_area .cart_head li:last-child {
+            float: none;
+            text-align: center; } }
+  
+  .romana_addto_cart_area .add_cart_list {
+    margin-top: 30px; }
+    .romana_addto_cart_area .add_cart_list ul {
+      background: #fff; }
+      .romana_addto_cart_area .add_cart_list ul:nth-child(odd) {
+        background: #f3f3f3; }
+      .romana_addto_cart_area .add_cart_list ul li {
+        display: inline-block;
+        text-align: center;
+        width: 19%;
+        padding: 10px 0px; }
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          .romana_addto_cart_area .add_cart_list ul li {
+            width: 100%; } }
+        .romana_addto_cart_area .add_cart_list ul li:first-child {
+          text-align: left;
+          padding-left: 22px; }
+          @media only screen and (min-width: 0px) and (max-width: 767px) {
+            .romana_addto_cart_area .add_cart_list ul li:first-child {
+              float: none;
+              text-align: center;
+              padding-left: 0px; } }
+        .romana_addto_cart_area .add_cart_list ul li:last-child {
+          text-align: right;
+          padding-right: 25px; }
+          @media only screen and (min-width: 0px) and (max-width: 767px) {
+            .romana_addto_cart_area .add_cart_list ul li:last-child {
+              float: none;
+              text-align: center;
+              padding-right: 0px; } }
+  .romana_addto_cart_area .addToCart_btns {
+    margin-top: 32px; }
+    .romana_addto_cart_area .addToCart_btns .common_btn, .romana_addto_cart_area .addToCart_btns .common_submit, .romana_addto_cart_area .addToCart_btns .romana_faq_form input[type="submit"], .romana_faq_form .romana_addto_cart_area .addToCart_btns input[type="submit"], .romana_addto_cart_area .addToCart_btns .contact_form_right input[type="submit"], .contact_form_right .romana_addto_cart_area .addToCart_btns input[type="submit"], .romana_addto_cart_area .addToCart_btns .romana_logIn_text input[type="submit"], .romana_logIn_text .romana_addto_cart_area .addToCart_btns input[type="submit"], .romana_addto_cart_area .addToCart_btns .romana_client_btn a, .romana_client_btn .romana_addto_cart_area .addToCart_btns a, .romana_addto_cart_area .addToCart_btns .romana_single_table .romana_price_btn a, .romana_single_table .romana_price_btn .romana_addto_cart_area .addToCart_btns a, .romana_addto_cart_area .addToCart_btns .my_account_form input[type="submit"], .my_account_form .romana_addto_cart_area .addToCart_btns input[type="submit"], .romana_addto_cart_area .addToCart_btns .payment_method input[type="submit"], .payment_method .romana_addto_cart_area .addToCart_btns input[type="submit"] {
+      margin-bottom: 1px;
+      width: 150px;
+      height: 40px;
+      line-height: 40px; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .romana_addto_cart_area .addToCart_btns .common_btn, .romana_addto_cart_area .addToCart_btns .common_submit, .romana_addto_cart_area .addToCart_btns .romana_faq_form input[type="submit"], .romana_faq_form .romana_addto_cart_area .addToCart_btns input[type="submit"], .romana_addto_cart_area .addToCart_btns .contact_form_right input[type="submit"], .contact_form_right .romana_addto_cart_area .addToCart_btns input[type="submit"], .romana_addto_cart_area .addToCart_btns .romana_logIn_text input[type="submit"], .romana_logIn_text .romana_addto_cart_area .addToCart_btns input[type="submit"], .romana_addto_cart_area .addToCart_btns .romana_client_btn a, .romana_client_btn .romana_addto_cart_area .addToCart_btns a, .romana_addto_cart_area .addToCart_btns .romana_single_table .romana_price_btn a, .romana_single_table .romana_price_btn .romana_addto_cart_area .addToCart_btns a, .romana_addto_cart_area .addToCart_btns .my_account_form input[type="submit"], .my_account_form .romana_addto_cart_area .addToCart_btns input[type="submit"], .romana_addto_cart_area .addToCart_btns .payment_method input[type="submit"], .payment_method .romana_addto_cart_area .addToCart_btns input[type="submit"] {
+          width: 140px; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_addto_cart_area .addToCart_btns .common_btn, .romana_addto_cart_area .addToCart_btns .common_submit, .romana_addto_cart_area .addToCart_btns .romana_faq_form input[type="submit"], .romana_faq_form .romana_addto_cart_area .addToCart_btns input[type="submit"], .romana_addto_cart_area .addToCart_btns .contact_form_right input[type="submit"], .contact_form_right .romana_addto_cart_area .addToCart_btns input[type="submit"], .romana_addto_cart_area .addToCart_btns .romana_logIn_text input[type="submit"], .romana_logIn_text .romana_addto_cart_area .addToCart_btns input[type="submit"], .romana_addto_cart_area .addToCart_btns .romana_client_btn a, .romana_client_btn .romana_addto_cart_area .addToCart_btns a, .romana_addto_cart_area .addToCart_btns .romana_single_table .romana_price_btn a, .romana_single_table .romana_price_btn .romana_addto_cart_area .addToCart_btns a, .romana_addto_cart_area .addToCart_btns .my_account_form input[type="submit"], .my_account_form .romana_addto_cart_area .addToCart_btns input[type="submit"], .romana_addto_cart_area .addToCart_btns .payment_method input[type="submit"], .payment_method .romana_addto_cart_area .addToCart_btns input[type="submit"] {
+          display: block;
+          margin: 0 auto;
+          margin-top: 20px; } }
+  
+  /* ==================================== Latest-News page Css ======================= */
+  .romana_latest_news_area {
+    padding-bottom: 40px; }
+  
+  .romana_single_post {
+    border: 1px solid #e5e1e1;
+    margin-bottom: 60px;
+    padding: 10px 10px 15px; }
+    .romana_single_post:hover {
+      border: 1px solid #26a65b; }
+    .romana_single_post .romana_post_img img {
+      width: 100%; }
+    .romana_single_post .romana_post_detail {
+      text-align: center;
+      font-size: 12px;
+      font-weight: 500; }
+      .romana_single_post .romana_post_detail span {
+        padding-left: 10px; }
+      .romana_single_post .romana_post_detail h2 {
+        font-size: 18px;
+        color: #252222;
+        font-weight: 500;
+        padding-top: 22px;
+        margin-bottom: 8px; }
+  
+  .news_pagination {
+    padding-bottom: 55px;
+    padding-top: 38px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .news_pagination {
+        padding-right: 17px; } }
+    .news_pagination ul li {
+      display: inline-block;
+      font-weight: 500;
+      text-transform: uppercase;
+      margin: 0px 2px;
+      border: 1px solid #c5c5c5;
+      height: 22px;
+      line-height: 23px;
+      width: 22px; }
+      .news_pagination ul li:first-child {
+        border: 0px solid #c5c5c5;
+        margin-right: 30px; }
+      .news_pagination ul li:last-child {
+        border: 0px solid #c5c5c5;
+        margin-left: 10px; }
+      .news_pagination ul li a {
+        color: #101010;
+        font-size: 16px; }
+  
+  .widget h3 {
+    font-size: 18px;
+    color: #252222;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 25px; }
+  
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .widget.widget_search_news {
+      padding-top: 50px; } }
+  .widget.widget_search_news h3 {
+    text-transform: uppercase; }
+  .widget.widget_search_news select {
+    background: transparent none repeat scroll 0 0 !important;
+    border: 1px solid #c4c2c2;
+    color: #666;
+    font-size: 15px;
+    height: 48px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    width: 100%;
+    border-radius: 3px; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .widget.widget_search_news select {
+        font-size: 12px; } }
+  .widget.widget_search_news .select_option_one::after {
+    border: 1px solid #c4c2c2;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 3px; }
+  
+  .widget.widget_related_post {
+    margin-top: 80px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .widget.widget_related_post {
+        margin-top: 50px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .widget.widget_related_post {
+        margin-top: 30px; } }
+    .widget.widget_related_post .single_related_post {
+      margin-bottom: 40px; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .widget.widget_related_post .single_related_post {
+          margin-bottom: 20px; } }
+    .widget.widget_related_post .related_post_img {
+      display: block;
+      float: left; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .widget.widget_related_post .related_post_img img {
+          width: 60px;
+          height: 60px; } }
+    .widget.widget_related_post .related_post_text {
+      padding-left: 125px;
+      color: #252222;
+      font-size: 15px; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .widget.widget_related_post .related_post_text {
+          font-size: 12px;
+          padding-left: 112px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .widget.widget_related_post .related_post_text {
+          font-size: 12px;
+          padding-left: 70px; } }
+      .widget.widget_related_post .related_post_text h4 {
+        font-size: 16px;
+        font-weight: 500;
+        color: #252222;
+        line-height: 30px;
+        margin-bottom: 5px; }
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+          .widget.widget_related_post .related_post_text h4 {
+            font-size: 13px;
+            line-height: 21px; } }
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          .widget.widget_related_post .related_post_text h4 {
+            font-size: 12px;
+            line-height: 19px; } }
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          .widget.widget_related_post .related_post_text h4 {
+            font-size: 12px;
+            line-height: 19px; } }
+  
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .widget.archive_widget {
+      margin-top: 60px; } }
+  .widget.archive_widget h3 {
+    margin-bottom: 8px; }
+  .widget.archive_widget a {
+    font-size: 15px;
+    color: #666; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .widget.archive_widget a {
+        font-size: 12px; } }
+  
+  .widget.romana_flicker_img {
+    margin-top: 74px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .widget.romana_flicker_img {
+        margin-top: 62px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .widget.romana_flicker_img {
+        margin-top: 30px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .widget.romana_flicker_img {
+        margin-top: 50px; } }
+    .widget.romana_flicker_img .flickr_badge_image {
+      float: left;
+      position: relative;
+      margin: 3px; }
+      .widget.romana_flicker_img .flickr_badge_image img {
+        width: 114px;
+        height: 114px; }
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+          .widget.romana_flicker_img .flickr_badge_image img {
+            width: 80px;
+            height: 80px; } }
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          .widget.romana_flicker_img .flickr_badge_image img {
+            width: 50px;
+            height: 50px; } }
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          .widget.romana_flicker_img .flickr_badge_image img {
+            width: 85px;
+            height: 85px; } }
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+          .widget.romana_flicker_img .flickr_badge_image img {
+            width: 80px;
+            height: 80px; } }
+  
+  /* ==================================== Single-News page Css ======================= */
+  .romana_single_news_area .single_post_date {
+    margin-top: 21px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_single_news_area .single_post_date {
+        text-align: center; } }
+    .romana_single_news_area .single_post_date li {
+      border-right: 1px solid #868887;
+      color: #353635;
+      display: inline-block;
+      font-size: 15px;
+      font-weight: 400;
+      height: 16px;
+      line-height: 16px;
+      padding-right: 30px; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .romana_single_news_area .single_post_date li {
+          font-size: 12px;
+          padding-right: 26px; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_single_news_area .single_post_date li {
+          font-size: 12px;
+          padding-right: 2px; } }
+      .romana_single_news_area .single_post_date li i {
+        color: #5c5d5c;
+        padding: 0px 6px; }
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          .romana_single_news_area .single_post_date li i {
+            padding: 0px 2px; } }
+      .romana_single_news_area .single_post_date li span {
+        font-weight: 500; }
+      .romana_single_news_area .single_post_date li:first-child {
+        text-transform: uppercase; }
+      .romana_single_news_area .single_post_date li:last-child {
+        border-right: 0px solid #868887; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .romana_single_news_area .single_news_text {
+      font-size: 13px;
+      padding: 10px;
+      text-align: center; } }
+  .romana_single_news_area .single_news_text h2 {
+    font-size: 22px;
+    color: #252222;
+    font-weight: 500;
+    margin: 32px 0px; }
+  .romana_single_news_area .single_news_text p {
+    margin-top: 20px; }
+  .romana_single_news_area .romana_share_article {
+    margin-top: 60px;
+    overflow: hidden; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_single_news_area .romana_share_article {
+        float: none;
+        text-align: center; } }
+    .romana_single_news_area .romana_share_article ul {
+      margin-top: 18px; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_single_news_area .romana_share_article ul {
+          display: inline-block; } }
+      .romana_single_news_area .romana_share_article ul li {
+        float: left;
+        margin-left: 0px;
+        margin-right: 10px; }
+    .romana_single_news_area .romana_share_article h3 {
+      font-size: 18px;
+      font-weight: 500;
+      color: #121212; }
+  .romana_single_news_area .romana_comments_area {
+    margin-top: 60px; }
+    .romana_single_news_area .romana_comments_area h3 {
+      font-size: 22px;
+      color: #121212;
+      font-weight: 500;
+      text-transform: uppercase; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_single_news_area .romana_comments_area h3 {
+          text-align: center;
+          margin-bottom: 30px; } }
+    .romana_single_news_area .romana_comments_area .romana_single_comment {
+      border-bottom: 1px solid #dee0df;
+      padding: 20px 0;
+      overflow: hidden; }
+      .romana_single_news_area .romana_comments_area .romana_single_comment:nth-child(odd) {
+        padding-left: 100px; }
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+          .romana_single_news_area .romana_comments_area .romana_single_comment:nth-child(odd) {
+            padding-left: 0px; } }
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          .romana_single_news_area .romana_comments_area .romana_single_comment:nth-child(odd) {
+            padding-left: 0px; } }
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          .romana_single_news_area .romana_comments_area .romana_single_comment:nth-child(odd) {
+            padding-left: 0px; } }
+      .romana_single_news_area .romana_comments_area .romana_single_comment:last-child {
+        border-bottom: 0px solid #dee0df; }
+      .romana_single_news_area .romana_comments_area .romana_single_comment .romana_comment_img {
+        display: block;
+        float: left; }
+        .romana_single_news_area .romana_comments_area .romana_single_comment .romana_comment_img img {
+          border-radius: 50%;
+          width: 100px;
+          height: 102px;
+          background: #fff;
+          padding: 3px;
+          border: 3px solid #26a65b; }
+          @media only screen and (min-width: 0px) and (max-width: 767px) {
+            .romana_single_news_area .romana_comments_area .romana_single_comment .romana_comment_img img {
+              height: 80px;
+              width: 77px; } }
+      .romana_single_news_area .romana_comments_area .romana_single_comment .romana_comment_text {
+        padding-left: 115px;
+        font-size: 15px;
+        color: #666; }
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          .romana_single_news_area .romana_comments_area .romana_single_comment .romana_comment_text {
+            font-size: 13px;
+            padding-left: 88px; } }
+        .romana_single_news_area .romana_comments_area .romana_single_comment .romana_comment_text ul li {
+          display: inline-block;
+          padding: 0px 8px;
+          padding-left: 0px;
+          font-size: 14px; }
+          @media only screen and (min-width: 768px) and (max-width: 991px) {
+            .romana_single_news_area .romana_comments_area .romana_single_comment .romana_comment_text ul li {
+              font-size: 12px;
+              padding: 0 5px 0 0; } }
+          @media only screen and (min-width: 0px) and (max-width: 767px) {
+            .romana_single_news_area .romana_comments_area .romana_single_comment .romana_comment_text ul li {
+              font-size: 12px; } }
+          .romana_single_news_area .romana_comments_area .romana_single_comment .romana_comment_text ul li i {
+            color: #292727;
+            padding-right: 20px; }
+            @media only screen and (min-width: 768px) and (max-width: 991px) {
+              .romana_single_news_area .romana_comments_area .romana_single_comment .romana_comment_text ul li i {
+                padding-right: 8px; } }
+            @media only screen and (min-width: 0px) and (max-width: 767px) {
+              .romana_single_news_area .romana_comments_area .romana_single_comment .romana_comment_text ul li i {
+                padding-right: 6px; } }
+          .romana_single_news_area .romana_comments_area .romana_single_comment .romana_comment_text ul li:first-child {
+            color: #0e0e0e;
+            font-weight: 500;
+            font-size: 16px;
+            text-transform: capitalize; }
+            @media only screen and (min-width: 768px) and (max-width: 991px) {
+              .romana_single_news_area .romana_comments_area .romana_single_comment .romana_comment_text ul li:first-child {
+                font-size: 14px; } }
+      .romana_single_news_area .romana_comments_area .romana_single_comment .common_btn, .romana_single_news_area .romana_comments_area .romana_single_comment .common_submit, .romana_single_news_area .romana_comments_area .romana_single_comment .romana_faq_form input[type="submit"], .romana_faq_form .romana_single_news_area .romana_comments_area .romana_single_comment input[type="submit"], .romana_single_news_area .romana_comments_area .romana_single_comment .contact_form_right input[type="submit"], .contact_form_right .romana_single_news_area .romana_comments_area .romana_single_comment input[type="submit"], .romana_single_news_area .romana_comments_area .romana_single_comment .romana_logIn_text input[type="submit"], .romana_logIn_text .romana_single_news_area .romana_comments_area .romana_single_comment input[type="submit"], .romana_single_news_area .romana_comments_area .romana_single_comment .romana_client_btn a, .romana_client_btn .romana_single_news_area .romana_comments_area .romana_single_comment a, .romana_single_news_area .romana_comments_area .romana_single_comment .romana_single_table .romana_price_btn a, .romana_single_table .romana_price_btn .romana_single_news_area .romana_comments_area .romana_single_comment a, .romana_single_news_area .romana_comments_area .romana_single_comment .my_account_form input[type="submit"], .my_account_form .romana_single_news_area .romana_comments_area .romana_single_comment input[type="submit"], .romana_single_news_area .romana_comments_area .romana_single_comment .payment_method input[type="submit"], .payment_method .romana_single_news_area .romana_comments_area .romana_single_comment input[type="submit"] {
+        float: right;
+        border-radius: 0px;
+        width: 100px;
+        height: 43px;
+        line-height: 43px; }
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          .romana_single_news_area .romana_comments_area .romana_single_comment .common_btn, .romana_single_news_area .romana_comments_area .romana_single_comment .common_submit, .romana_single_news_area .romana_comments_area .romana_single_comment .romana_faq_form input[type="submit"], .romana_faq_form .romana_single_news_area .romana_comments_area .romana_single_comment input[type="submit"], .romana_single_news_area .romana_comments_area .romana_single_comment .contact_form_right input[type="submit"], .contact_form_right .romana_single_news_area .romana_comments_area .romana_single_comment input[type="submit"], .romana_single_news_area .romana_comments_area .romana_single_comment .romana_logIn_text input[type="submit"], .romana_logIn_text .romana_single_news_area .romana_comments_area .romana_single_comment input[type="submit"], .romana_single_news_area .romana_comments_area .romana_single_comment .romana_client_btn a, .romana_client_btn .romana_single_news_area .romana_comments_area .romana_single_comment a, .romana_single_news_area .romana_comments_area .romana_single_comment .romana_single_table .romana_price_btn a, .romana_single_table .romana_price_btn .romana_single_news_area .romana_comments_area .romana_single_comment a, .romana_single_news_area .romana_comments_area .romana_single_comment .my_account_form input[type="submit"], .my_account_form .romana_single_news_area .romana_comments_area .romana_single_comment input[type="submit"], .romana_single_news_area .romana_comments_area .romana_single_comment .payment_method input[type="submit"], .payment_method .romana_single_news_area .romana_comments_area .romana_single_comment input[type="submit"] {
+            height: 38px;
+            line-height: 38px;
+            width: 85px; } }
+        .romana_single_news_area .romana_comments_area .romana_single_comment .common_btn a, .romana_single_news_area .romana_comments_area .romana_single_comment .common_submit a, .romana_single_news_area .romana_comments_area .romana_single_comment .romana_faq_form input[type="submit"] a, .romana_faq_form .romana_single_news_area .romana_comments_area .romana_single_comment input[type="submit"] a, .romana_single_news_area .romana_comments_area .romana_single_comment .contact_form_right input[type="submit"] a, .contact_form_right .romana_single_news_area .romana_comments_area .romana_single_comment input[type="submit"] a, .romana_single_news_area .romana_comments_area .romana_single_comment .romana_logIn_text input[type="submit"] a, .romana_logIn_text .romana_single_news_area .romana_comments_area .romana_single_comment input[type="submit"] a, .romana_single_news_area .romana_comments_area .romana_single_comment .romana_client_btn a a, .romana_client_btn .romana_single_news_area .romana_comments_area .romana_single_comment a a, .romana_single_news_area .romana_comments_area .romana_single_comment .romana_single_table .romana_price_btn a a, .romana_single_table .romana_price_btn .romana_single_news_area .romana_comments_area .romana_single_comment a a, .romana_single_news_area .romana_comments_area .romana_single_comment .my_account_form input[type="submit"] a, .my_account_form .romana_single_news_area .romana_comments_area .romana_single_comment input[type="submit"] a, .romana_single_news_area .romana_comments_area .romana_single_comment .payment_method input[type="submit"] a, .payment_method .romana_single_news_area .romana_comments_area .romana_single_comment input[type="submit"] a {
+          font-size: 16px; }
+          @media only screen and (min-width: 0px) and (max-width: 767px) {
+            .romana_single_news_area .romana_comments_area .romana_single_comment .common_btn a, .romana_single_news_area .romana_comments_area .romana_single_comment .common_submit a, .romana_single_news_area .romana_comments_area .romana_single_comment .romana_faq_form input[type="submit"] a, .romana_faq_form .romana_single_news_area .romana_comments_area .romana_single_comment input[type="submit"] a, .romana_single_news_area .romana_comments_area .romana_single_comment .contact_form_right input[type="submit"] a, .contact_form_right .romana_single_news_area .romana_comments_area .romana_single_comment input[type="submit"] a, .romana_single_news_area .romana_comments_area .romana_single_comment .romana_logIn_text input[type="submit"] a, .romana_logIn_text .romana_single_news_area .romana_comments_area .romana_single_comment input[type="submit"] a, .romana_single_news_area .romana_comments_area .romana_single_comment .romana_client_btn a a, .romana_client_btn .romana_single_news_area .romana_comments_area .romana_single_comment a a, .romana_single_news_area .romana_comments_area .romana_single_comment .romana_single_table .romana_price_btn a a, .romana_single_table .romana_price_btn .romana_single_news_area .romana_comments_area .romana_single_comment a a, .romana_single_news_area .romana_comments_area .romana_single_comment .my_account_form input[type="submit"] a, .my_account_form .romana_single_news_area .romana_comments_area .romana_single_comment input[type="submit"] a, .romana_single_news_area .romana_comments_area .romana_single_comment .payment_method input[type="submit"] a, .payment_method .romana_single_news_area .romana_comments_area .romana_single_comment input[type="submit"] a {
+              font-size: 13px; } }
+  .romana_single_news_area .romana_leave_comment_area {
+    margin-top: 35px; }
+    .romana_single_news_area .romana_leave_comment_area h3 {
+      font-size: 22px;
+      font-weight: 500;
+      color: #141414;
+      margin-bottom: 65px; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .romana_single_news_area .romana_leave_comment_area h3 {
+          text-align: center;
+          margin-bottom: 0px; } }
+  .romana_single_news_area .contact_form_right input[type="text"],
+  .romana_single_news_area .contact_form_right textarea {
+    background: #efeeee none repeat scroll 0 0;
+    margin-bottom: 20px;
+    padding: 0 25px; }
+  .romana_single_news_area .widget.romana_tag_widget {
+    margin-top: 117px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .romana_single_news_area .widget.romana_tag_widget {
+        margin-top: 70px; } }
+    .romana_single_news_area .widget.romana_tag_widget ul li {
+      border: 1px solid #26a65b;
+      display: inline-block;
+      margin: 0 5px 8px;
+      padding: 5px 18px; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .romana_single_news_area .widget.romana_tag_widget ul li {
+          margin: 0 0 6px;
+          padding: 3px 12px; } }
+      .romana_single_news_area .widget.romana_tag_widget ul li:hover {
+        border: 1px solid #252222; }
+      .romana_single_news_area .widget.romana_tag_widget ul li a {
+        color: #252222;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: 400; }
+  
+  /* ==================================== preloader Css ======================= */
+  body.preloader_active {
+    position: relative;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+  
+  #preloader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 99999999999; }
+  
+  .preloader_spinner {
+    background: transparent url("../../images/preloader.gif") no-repeat scroll center center;
+    display: block;
+    height: 120px;
+    left: 50%;
+    margin-left: -30px;
+    margin-top: -32px;
+    position: absolute;
+    top: 40%;
+    width: 150px;
+    z-index: 2147483647;
+    margin-left: -74px; }
+  
+  /*# sourceMappingURL=style.css.map */
+  
+  
+  
+  /*custom code*/
+  .red-line {
+      background: red;
+      height: .4%;
+      width: 100%;
+  }
