@@ -15,6 +15,9 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', function () {
-    return view('master'); 
+    return view('pages.home');
 });
+Route::get('/home',[HomeController::class,'Home'])->name('home');
 Route::get('/contactus',[HomeController::class,'ContactUs'])->name('contactus');
+Route::get('/termsandconditions',[HomeController::class,'TermCondition'])->name('termsandcondition');
+Route::get('/refundpolicy',[HomeController::class,'RefundPolicy'])->name('refundpolicy');

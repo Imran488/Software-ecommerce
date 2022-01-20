@@ -25,8 +25,8 @@
                         <div class="romana_single_client_text_img">
                             <div class="romana_client_img">
                                 <a href="https://bgdonline.net/switch/">
-                                    <img src="https://bgdonline.net/wp-content/uploads/2017/04/ethernet-routing-switch-500x500-341x199.jpg"
-                                        alt=""><br>
+                                    <img src="{{url('images/switch.jpg')}}"alt="">
+                                    <br>
                                     <div class="romana_client_title">
                                         <h3><a href="https://bgdonline.net/switch/">Switch</a></h3>
                                     </div>
@@ -51,8 +51,7 @@
                         <div class="romana_single_client_text_img">
                             <div class="romana_client_img">
                                 <a href="https://bgdonline.net/router-2/">
-                                    <img src="https://bgdonline.net/wp-content/uploads/2017/03/wifi-router-group-testing-630-1-341x199.jpg"
-                                        alt=""><br>
+                                    <img src="{{url('images/router.jpg')}}"alt=""><br>
                                     <div class="romana_client_title">
                                         <h3><a href="https://bgdonline.net/router-2/">Router</a></h3>
                                     </div>
@@ -77,8 +76,7 @@
                         <div class="romana_single_client_text_img">
                             <div class="romana_client_img">
                                 <a href="https://bgdonline.net/radio-station/">
-                                    <img src="https://bgdonline.net/wp-content/uploads/2017/03/33Radio-Station-341x199.jpg"
-                                        alt=""><br>
+                                    <img src="{{url('images/RadioStation.jpg')}}"alt=""><br>
                                     <div class="romana_client_title">
                                         <h3><a href="https://bgdonline.net/radio-station/">Radio Station</a></h3>
                                     </div>
@@ -104,7 +102,8 @@
                         <div class="romana_single_client_text_img">
                             <div class="romana_client_img">
                                 <a href="https://bgdonline.net/ip-camera/">
-                                    <img src="https://bgdonline.net/wp-content/uploads/2017/03/additional.png" alt="">
+                                    <img src="{{url('images/ipcamera.png')}}" alt="">
+                                    <br>
                                     <div class="romana_client_title">
                                         <h3><a href="https://bgdonline.net/ip-camera/">IP Camera</a></h3>
                                     </div>
@@ -129,8 +128,8 @@
                         <div class="romana_single_client_text_img">
                             <div class="romana_client_img">
                                 <a href="https://bgdonline.net/cc-camera/">
-                                    <img src="https://bgdonline.net/wp-content/uploads/2017/03/hikvision-3014-image1-341x199.jpg"
-                                        alt="">
+                                    <img src="{{url('images/cc camera.jpg')}}"alt="">
+                                    <br>
                                     <div class="romana_client_title">
                                         <h3><a href="https://bgdonline.net/cc-camera/">CC Camera</a></h3>
                                     </div>
@@ -155,8 +154,8 @@
                         <div class="romana_single_client_text_img">
                             <div class="romana_client_img">
                                 <a href="https://bgdonline.net/utp-cable/">
-                                    <img src="https://bgdonline.net/wp-content/uploads/2017/03/UTP-cale-1024x576-341x199.jpg"
-                                        alt="">
+                                    <img src="{{url('images/UTPcable.jpg')}}"alt="">
+                                    <br>
                                     <div class="romana_client_title">
                                         <h3><a href="https://bgdonline.net/utp-cable/">UTP Cable</a></h3>
                                     </div>

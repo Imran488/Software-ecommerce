@@ -16,7 +16,20 @@
 
                         <div class="romana_single_client_text_img">
                             <div class="romana_client_img">
-                                <a href=""><img src="https://bgdonline.net/wp-content/uploads/2018/06/Untitled-1-2.jpg"
+                                <a href=""><img src="{{url('images/partner1.jpg')}}"alt=""></a>
+                            </div>
+                        </div>
+                        <!-- romana_single_client_text End -->
+
+
+
+                        <!-- getting thumbnails url  -->
+
+
+
+                        <div class="romana_single_client_text_img">
+                            <div class="romana_client_img">
+                                <a href=""><img src="{{url('images/partner2.jpg')}}"
                                         alt=""></a>
                             </div>
                         </div>
@@ -30,7 +43,7 @@
 
                         <div class="romana_single_client_text_img">
                             <div class="romana_client_img">
-                                <a href=""><img src="https://bgdonline.net/wp-content/uploads/2018/06/Untitled-1-1.jpg"
+                                <a href=""><img src="{{url('images/partner3.jpg')}}"
                                         alt=""></a>
                             </div>
                         </div>
@@ -44,7 +57,7 @@
 
                         <div class="romana_single_client_text_img">
                             <div class="romana_client_img">
-                                <a href=""><img src="https://bgdonline.net/wp-content/uploads/2018/06/Untitled-1.jpg"
+                                <a href=""><img src="{{url('images/partner4.jpg')}}"
                                         alt=""></a>
                             </div>
                         </div>
@@ -58,7 +71,7 @@
 
                         <div class="romana_single_client_text_img">
                             <div class="romana_client_img">
-                                <a href=""><img src="https://bgdonline.net/wp-content/uploads/2018/05/logo2.jpg"
+                                <a href=""><img src="{{url('images/partner5.jpg')}}"
                                         alt=""></a>
                             </div>
                         </div>
@@ -72,7 +85,7 @@
 
                         <div class="romana_single_client_text_img">
                             <div class="romana_client_img">
-                                <a href=""><img src="https://bgdonline.net/wp-content/uploads/2018/05/1-17.jpg"
+                                <a href=""><img src="{{url('images/partner6.jpg')}}"
                                         alt=""></a>
                             </div>
                         </div>
@@ -84,32 +97,13 @@
 
 
 
-                        <div class="romana_single_client_text_img">
-                            <div class="romana_client_img">
-                                <a href=""><img src="https://bgdonline.net/wp-content/uploads/2018/05/1-16.jpg"
-                                        alt=""></a>
-                            </div>
-                        </div>
-                        <!-- romana_single_client_text End -->
-
-
-
-                        <!-- getting thumbnails url  -->
-
-
-
-                        <div class="romana_single_client_text_img">
+                        <!-- <div class="romana_single_client_text_img">
                             <div class="romana_client_img">
                                 <a href=""><img src="https://bgdonline.net/wp-content/uploads/2018/05/1-15.jpg"
                                         alt=""></a>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- romana_single_client_text End -->
-
-
-
-
-
 
                     </div>
                 </div>
