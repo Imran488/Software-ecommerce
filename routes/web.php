@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +22,5 @@ Route::get('/home',[HomeController::class,'Home'])->name('home');
 Route::get('/contactus',[HomeController::class,'ContactUs'])->name('contactus');
 Route::get('/termsandconditions',[HomeController::class,'TermCondition'])->name('termsandcondition');
 Route::get('/refundpolicy',[HomeController::class,'RefundPolicy'])->name('refundpolicy');
+Route::get('/login',[LoginController::class,'Login'])->name('login');
+Route::get('/signup',[LoginController::class,'SignUp'])->name('signup');

@@ -83,8 +83,7 @@
                                 </a>
                             </div><br>
                             <div class="romana_single_client_text">
-                                <p> We have a specialized team for the installation and maintenance of radio station. We
-                                    provide</p>
+                                <p> We have a specialized team for the installation  of radio station. </p>
 
                                 <div class="read-more"> <a href="http://bgdonline.net/contact-us">Order Now</a> </div>
                             </div>
