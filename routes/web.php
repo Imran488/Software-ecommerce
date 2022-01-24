@@ -18,9 +18,14 @@ use App\Http\Controllers\LoginController;
 Route::get('/', function () {
     return view('pages.home');
 });
+Route::get('/login',[LoginController::class,'Login'])->name('login');
+Route::post('/userlogin',[LoginController::class,'UserLogin'])->name('user.login');
+Route::get('/logout',[LoginController::class,'userlogout'])->name('logout');
+Route::get('/signup',[LoginController::class,'SignUp'])->name('signup');
+Route::post('/usersignup',[LoginController::class,'UserSignup'])->name('user.signup');
 Route::get('/home',[HomeController::class,'Home'])->name('home');
 Route::get('/contactus',[HomeController::class,'ContactUs'])->name('contactus');
 Route::get('/termsandconditions',[HomeController::class,'TermCondition'])->name('termsandcondition');
 Route::get('/refundpolicy',[HomeController::class,'RefundPolicy'])->name('refundpolicy');
-Route::get('/login',[LoginController::class,'Login'])->name('login');
-Route::get('/signup',[LoginController::class,'SignUp'])->name('signup');
+Route::get('/aboutus',[HomeController::class,'AboutUs'])->name('about.us');
+

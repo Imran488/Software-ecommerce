@@ -17,7 +17,7 @@
                                             <path fill="none" d="M0 0h24v24H0z" />
                                             <path
                                                 d="M21 16.42v3.536a1 1 0 0 1-.93.998c-.437.03-.794.046-1.07.046-8.837 0-16-7.163-16-16 0-.276.015-.633.046-1.07A1 1 0 0 1 4.044 3H7.58a.5.5 0 0 1 .498.45c.023.23.044.413.064.552A13.901 13.901 0 0 0 9.35 8.003c.095.2.033.439-.147.567l-2.158 1.542a13.047 13.047 0 0 0 6.844 6.844l1.54-2.154a.462.462 0 0 1 .573-.149 13.901 13.901 0 0 0 4 1.205c.139.02.322.042.55.064a.5.5 0 0 1 .449.498z" />
-                                            </svg>+88 01904-111666</a></li>
+                                        </svg>+88 01904-111666</a></li>
                             </ul>
                         </div>
                     </div>
@@ -72,17 +72,47 @@
                                 class="sr-only"></span> <i class="icofont icofont-navigation-menu"></i>
                         </button>
                     </div>
+
+                    @if(session()->has('message'))
+                    <p class="alert alert-success">{{session()->get('message')}}</p>
+                    @endif
+
+                    @if(session()->has('error'))
+                    <p class="alert alert-danger">{{session()->get('error')}}</p>
+                    @endif
                     <nav id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li><a href="{{route('home')}}"><b>HOME</b></a></li>
-                            <li><a href="#"><b>ABOUT US</b></a>
-                                <ul class="dropdown-menu" style="color:red;">
-                                    <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M11 11V5.828L9.172 7.657 7.757 6.243 12 2l4.243 4.243-1.415 1.414L13 5.828V11h5.172l-1.829-1.828 1.414-1.415L22 12l-4.243 4.243-1.414-1.415L18.172 13H13v5.172l1.828-1.829 1.415 1.414L12 22l-4.243-4.243 1.415-1.414L11 18.172V13H5.828l1.829 1.828-1.414 1.415L2 12l4.243-4.243 1.414 1.415L5.828 11z"/></svg><b>At A Glance</b></a>
-                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M11 11V5.828L9.172 7.657 7.757 6.243 12 2l4.243 4.243-1.415 1.414L13 5.828V11h5.172l-1.829-1.828 1.414-1.415L22 12l-4.243 4.243-1.414-1.415L18.172 13H13v5.172l1.828-1.829 1.415 1.414L12 22l-4.243-4.243 1.415-1.414L11 18.172V13H5.828l1.829 1.828-1.414 1.415L2 12l4.243-4.243 1.414 1.415L5.828 11z"/></svg><b>Message from C.E.O</b></a>
-                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M11 11V5.828L9.172 7.657 7.757 6.243 12 2l4.243 4.243-1.415 1.414L13 5.828V11h5.172l-1.829-1.828 1.414-1.415L22 12l-4.243 4.243-1.414-1.415L18.172 13H13v5.172l1.828-1.829 1.415 1.414L12 22l-4.243-4.243 1.415-1.414L11 18.172V13H5.828l1.829 1.828-1.414 1.415L2 12l4.243-4.243 1.414 1.415L5.828 11z"/></svg><b>Company Profile</b></a>
-                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M11 11V5.828L9.172 7.657 7.757 6.243 12 2l4.243 4.243-1.415 1.414L13 5.828V11h5.172l-1.829-1.828 1.414-1.415L22 12l-4.243 4.243-1.414-1.415L18.172 13H13v5.172l1.828-1.829 1.415 1.414L12 22l-4.243-4.243 1.415-1.414L11 18.172V13H5.828l1.829 1.828-1.414 1.415L2 12l4.243-4.243 1.414 1.415L5.828 11z"/></svg><b>Our Concern</b></a>
 
-                                </ul>
+                            <li><a href="{{route('home')}}"><b>HOME</b></a></li>
+
+                            <li><a href="{{route('about.us')}}"><b>ABOUT US</b></a>
+                                {{-- <ul class="dropdown-menu" style="color:red;" margin: 10px; padding: 10px;>
+                                    <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12"
+                                            height="12">
+                                            <path fill="none" d="M0 0h24v24H0z" />
+                                            <path
+                                                d="M11 11V5.828L9.172 7.657 7.757 6.243 12 2l4.243 4.243-1.415 1.414L13 5.828V11h5.172l-1.829-1.828 1.414-1.415L22 12l-4.243 4.243-1.414-1.415L18.172 13H13v5.172l1.828-1.829 1.415 1.414L12 22l-4.243-4.243 1.415-1.414L11 18.172V13H5.828l1.829 1.828-1.414 1.415L2 12l4.243-4.243 1.414 1.415L5.828 11z" />
+                                        </svg><b>At A Glance</b></a>
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12"
+                                            height="12">
+                                            <path fill="none" d="M0 0h24v24H0z" />
+                                            <path
+                                                d="M11 11V5.828L9.172 7.657 7.757 6.243 12 2l4.243 4.243-1.415 1.414L13 5.828V11h5.172l-1.829-1.828 1.414-1.415L22 12l-4.243 4.243-1.414-1.415L18.172 13H13v5.172l1.828-1.829 1.415 1.414L12 22l-4.243-4.243 1.415-1.414L11 18.172V13H5.828l1.829 1.828-1.414 1.415L2 12l4.243-4.243 1.414 1.415L5.828 11z" />
+                                        </svg><b>Message from C.E.O</b></a>
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12"
+                                            height="12">
+                                            <path fill="none" d="M0 0h24v24H0z" />
+                                            <path
+                                                d="M11 11V5.828L9.172 7.657 7.757 6.243 12 2l4.243 4.243-1.415 1.414L13 5.828V11h5.172l-1.829-1.828 1.414-1.415L22 12l-4.243 4.243-1.414-1.415L18.172 13H13v5.172l1.828-1.829 1.415 1.414L12 22l-4.243-4.243 1.415-1.414L11 18.172V13H5.828l1.829 1.828-1.414 1.415L2 12l4.243-4.243 1.414 1.415L5.828 11z" />
+                                        </svg><b>Company Profile</b></a>
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12"
+                                            height="12">
+                                            <path fill="none" d="M0 0h24v24H0z" />
+                                            <path
+                                                d="M11 11V5.828L9.172 7.657 7.757 6.243 12 2l4.243 4.243-1.415 1.414L13 5.828V11h5.172l-1.829-1.828 1.414-1.415L22 12l-4.243 4.243-1.414-1.415L18.172 13H13v5.172l1.828-1.829 1.415 1.414L12 22l-4.243-4.243 1.415-1.414L11 18.172V13H5.828l1.829 1.828-1.414 1.415L2 12l4.243-4.243 1.414 1.415L5.828 11z" />
+                                        </svg><b>Our Concern</b></a>
+
+                                </ul> --}}
                             </li>
 
                             <li><a href="#"><b>SERVICES</b></a>
@@ -90,69 +120,187 @@
 
                                     <li class="menu-collumn">
                                         <span href="#" target="_blank"
-                                                style="color:red; padding-left: 8px; font-weight: 700;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z"/></svg>Internet
-                                                Connectivity</span>
+                                            style="color:red; padding-left: 8px; font-weight: 700;"><svg
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12"
+                                                height="12">
+                                                <path fill="none" d="M0 0h24v24H0z" />
+                                                <path
+                                                    d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z" />
+                                            </svg>Internet
+                                            Connectivity</span>
                                         <ul>
-                                            <a  href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Corporate</a>
-                                            <a  href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Small Offices</a>
-                                            <a  href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Home User</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Corporate</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Small Offices</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Home User</a>
 
                                             <br><br><span href="#" target="_blank"
-                                                    style="color:red; padding-left: 8px; font-weight: 700;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z"/></svg>Web
-                                                    Hosting</span>
+                                                style="color:red; padding-left: 8px; font-weight: 700;"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12"
+                                                    height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path
+                                                        d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z" />
+                                                </svg>Web
+                                                Hosting</span>
                                             <!--<li><a href="http://bgdonline.net/archives/23">Shared web hosting</a></li>-->
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Shared web hosting</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Windows hosting</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Linux Hosting</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Reseller hosting (Windows)</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Reseller hosting (Linux)</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>VPS Hosting</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Dedicated Server</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Shared web hosting</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Windows hosting</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Linux Hosting</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Reseller hosting
+                                                (Windows)</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Reseller hosting
+                                                (Linux)</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>VPS Hosting</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Dedicated Server</a>
                                         </ul>
                                     </li>
 
                                     <li class="menu-collumn">
                                         <span href="#" target="_blank"
-                                                style="color:red; padding-left: 8px; font-weight: 700;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z"/></svg>Data
-                                                Connectivity</span>
+                                            style="color:red; padding-left: 8px; font-weight: 700;"><svg
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12"
+                                                height="12">
+                                                <path fill="none" d="M0 0h24v24H0z" />
+                                                <path
+                                                    d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z" />
+                                            </svg>Data
+                                            Connectivity</span>
 
                                         <ul>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Nationwide Secure Connectivity</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Dark Fiber Connectivity</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Clear Channel Connectivity</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Capacity Based Connectivity</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Nationwide Secure
+                                                Connectivity</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Dark Fiber
+                                                Connectivity</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Clear Channel
+                                                Connectivity</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Capacity Based
+                                                Connectivity</a>
 
                                             <br><br><span href="#" target="_blank"
-                                                    style="color:red; padding-left: 8px; font-weight: 700;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z"/></svg>Managed
-                                                    Services
+                                                style="color:red; padding-left: 8px; font-weight: 700;"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12"
+                                                    height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path
+                                                        d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z" />
+                                                </svg>Managed
+                                                Services
                                             </span>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Office PC Maintenance</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Radio Maintenance</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Fiber Optic Networks Maintenance</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Office PC Maintenance</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Radio Maintenance</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Fiber Optic Networks
+                                                Maintenance</a>
                                         </ul>
                                     </li>
 
                                     <li class="menu-collumn">
                                         <span href="#" target="_blank"
-                                                style="color:red; padding-left: 8px; font-weight: 700;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z"/></svg>Web
-                                                Development
+                                            style="color:red; padding-left: 8px; font-weight: 700;"><svg
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12"
+                                                height="12">
+                                                <path fill="none" d="M0 0h24v24H0z" />
+                                                <path
+                                                    d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z" />
+                                            </svg>Web
+                                            Development
 
                                         </span>
                                         <ul>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Starter Package</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Basic Package</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Economy Package</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Deluxe Package</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Gold Package</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Platinum Package </a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Starter Package</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Basic Package</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Economy Package</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Deluxe Package</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Gold Package</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Platinum Package </a>
 
 
                                             <br><br><span href="#" target="_blank"
-                                                    style="color:red; padding-left: 8px; font-weight: 700;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z"/></svg>Domain
+                                                style="color:red; padding-left: 8px; font-weight: 700;"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12"
+                                                    height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path
+                                                        d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z" />
+                                                </svg>Domain
                                             </span>
                                             <!-- <li><a href="http://bgdonline.net/archives/107">Domain Registration</a></li> -->
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Domain Registration</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Domain Transfer</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Domain Registration</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Domain Transfer</a>
                                         </ul>
                                     </li>
                                 </ul>
@@ -163,33 +311,76 @@
                                 <ul class="dropdown-menu mega-menu">
                                     <li class="menu-collumn">
                                         <span href="#" target="_blank"
-                                                style="color:red; padding-left: 8px; font-weight: 700;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z"/></svg>Camera
+                                            style="color:red; padding-left: 8px; font-weight: 700;"><svg
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12"
+                                                height="12">
+                                                <path fill="none" d="M0 0h24v24H0z" />
+                                                <path
+                                                    d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z" />
+                                            </svg>Camera
 
                                         </span>
                                         <ul>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>CC Camera </a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>IP Camera</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>CC Camera </a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>IP Camera</a>
 
 
                                         </ul>
                                     </li>
 
                                     <li class="menu-collumn">
-                                    <span href="#" target="_blank"style="color:red; padding-left: 8px; font-weight: 700;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z"/></svg>Network Products</span>
+                                        <span href="#" target="_blank"
+                                            style="color:red; padding-left: 8px; font-weight: 700;"><svg
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12"
+                                                height="12">
+                                                <path fill="none" d="M0 0h24v24H0z" />
+                                                <path
+                                                    d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z" />
+                                            </svg>Network Products</span>
                                         <ul>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Router</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Switch</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>TJ Box</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Fiber Optic Cable</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>UTP Cable</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Router</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Switch</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>TJ Box</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Fiber Optic Cable</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>UTP Cable</a>
                                         </ul>
                                     </li>
                                     <li class="menu-collumn">
                                         <span href="#" target="_blank"
-                                                style="color:red; padding-left: 8px; font-weight: 700;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z"/></svg>Radio
-                                                Station</span>
+                                            style="color:red; padding-left: 8px; font-weight: 700;"><svg
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12"
+                                                height="12">
+                                                <path fill="none" d="M0 0h24v24H0z" />
+                                                <path
+                                                    d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z" />
+                                            </svg>Radio
+                                            Station</span>
                                         <ul>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Radio Station</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Radio Station</a>
 
                                         </ul>
                                     </li>
@@ -200,40 +391,94 @@
                                 <ul class="dropdown-menu mega-menu">
                                     <li class="menu-collumn">
                                         <span href="#" target="_blank"
-                                                style="color:red; padding-left: 8px; font-weight: 700;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z"/></svg>Enterprize
+                                            style="color:red; padding-left: 8px; font-weight: 700;"><svg
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12"
+                                                height="12">
+                                                <path fill="none" d="M0 0h24v24H0z" />
+                                                <path
+                                                    d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z" />
+                                            </svg>Enterprize
                                         </span>
                                         <ul>
-                                            <a  href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Networks</a>
-                                            <a  href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>IP- VPN</a>
-                                            <a  href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Hosting</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Co- location</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Networks</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>IP- VPN</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Hosting</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Co- location</a>
                                         </ul>
                                     </li>
                                     <li class="menu-collumn">
                                         <span href="#" target="_blank"
-                                                style="color:red; padding-left: 8px; font-weight: 700;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z"/></svg>System
-                                                Integration</span>
+                                            style="color:red; padding-left: 8px; font-weight: 700;"><svg
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12"
+                                                height="12">
+                                                <path fill="none" d="M0 0h24v24H0z" />
+                                                <path
+                                                    d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z" />
+                                            </svg>System
+                                            Integration</span>
                                         <ul>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>ICT Consultancy</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Customized Solution</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Training</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>ICT Consultancy</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Customized Solution</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Training</a>
                                         </ul>
                                     </li>
                                     <li class="menu-collumn">
                                         <span href="#" target="_blank"
-                                                style="color:red; padding-left: 8px; font-weight: 700;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z"/></svg>IP
-                                                Phone</span>
+                                            style="color:red; padding-left: 8px; font-weight: 700;"><svg
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12"
+                                                height="12">
+                                                <path fill="none" d="M0 0h24v24H0z" />
+                                                <path
+                                                    d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 12.5v-4l2 2 2-2v4h2v-7h-2l-2 2-2-2H5v7h2zm11-3v-4h-2v4h-2l3 3 3-3h-2z" />
+                                            </svg>IP
+                                            Phone</span>
                                         <ul>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>IPPBX</a>
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13H4v-2h8V4l8 8-8 8z"/></svg>Call Center</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>IPPBX</a>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    width="12" height="12">
+                                                    <path fill="none" d="M0 0h24v24H0z" />
+                                                    <path d="M12 13H4v-2h8V4l8 8-8 8z" /></svg>Call Center</a>
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
 
-                            <!--<li><a href="http://bgdonline.net/signup">Sign up</a></li>-->
-                            <li><a href="{{route('login')}}" style="color:#ea2229;font-weight:800;"><b>LOGIN</b></a></li>
                             <li><a href="{{route('contactus')}}"><b>CONTACT US</b></a></li>
+                            @if(auth()->user())
+                            <li>
+                                <a href="{{route('logout')}}"
+                                    class="dropdown-item w3-hover-purple w3-medium w3-text-purple">{{auth()->user()->name}}|Logout
+                                </a>
+                            </li>@else
+                            <li>
+                                <a href="{{route('login')}}" style="color:#ea2229;font-weight:800;"><b>LOGIN</b></a>
+                            </li>@endif
+
+
                         </ul>
                         <!-- mega-menu End -->
                     </nav>

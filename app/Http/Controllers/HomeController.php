@@ -21,4 +21,7 @@ class HomeController extends Controller
     public function RefundPolicy(){
         return view('pages.refundpolicy');
     }
+    public function AboutUs(){
+        return view('pages.aboutus');
+    }
 }

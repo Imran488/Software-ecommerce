@@ -1,8 +1,9 @@
 @extends('master')
 @include('partials.header')
+
 <center>
     <h1><b><u>Please Login</u></b></h1><br>
-    <form action="{{route('login')}}" method="post">
+    <form action="{{route('user.login')}}" method="post">
         @csrf
         <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
