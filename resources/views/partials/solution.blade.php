@@ -24,16 +24,16 @@
 
                     <div class="romana_single_client_text_img">
                         <div class="romana_client_img">
-                            <a href="https://bgdonline.net/call-center/">
-                                <img src="{{url('images/callcenter.jpg')}}" alt=""><br>
+                            <a href="#"><img src="{{url('images/callcenter.jpg')}}" alt=""><br>
+
                                 <div class="romana_client_title">
-                                    <h3> <a href="https://bgdonline.net/call-center/">Call Center</a></h3>
+                                    <h3> <a href="#">Call Center</a></h3>
                                 </div>
                             </a>
-                        </div><br>
+                        </div>
                         <div class="romana_single_client_text">
-                            <p>It is a blended call center solution where you can get experience for inbound and</p>
-                            <div class="read-more"> <a href="http://bgdonline.net/contact-us">Order Now</a> </div>
+                            <p>It is a blended call center solution where you can get experience for inbound and outbound</p>
+                            <div class="read-more"> <a href="#">Take Solution</a> </div>
                         </div>
                     </div>
                     <!-- romana_single_client_text End -->
@@ -48,18 +48,18 @@
 
                     <div class="romana_single_client_text_img">
                         <div class="romana_client_img">
-                            <a href="https://bgdonline.net/ippbx/">
-                                <img src="{{url('images/ippbx.jpg')}}" alt="">
+                            <a href="#"><img src="{{url('images/ippbx.jpg')}}" alt="">
+
                                 <br>
 
                                 <div class="romana_client_title">
-                                    <h3> <a href="https://bgdonline.net/ippbx/">IP PBX</a></h3>
+                                    <h3> <a href="#">IP PBX</a></h3>
                                 </div>
                             </a>
                         </div><br>
                         <div class="romana_single_client_text">
                             <p>It is a fully customized PBX solution from small to large corporates. </p>
-                            <div class="read-more"> <a href="http://bgdonline.net/contact-us">Order Now</a> </div>
+                            <div class="read-more"> <a href="#">Take Solution</a> </div>
                         </div>
                     </div>
                     <!-- romana_single_client_text End -->
@@ -74,16 +74,16 @@
 
                     <div class="romana_single_client_text_img">
                         <div class="romana_client_img">
-                            <a href="https://bgdonline.net/training/">
-                                <img src="{{url('images/training.jpg')}}" alt=""><br>
+                            <a href="#"><img src="{{url('images/training.jpg')}}" alt=""><br>
+
                                 <div class="romana_client_title">
-                                    <h3> <a href="https://bgdonline.net/training/">Training</a></h3>
+                                    <h3> <a href="#">Training</a></h3>
                                 </div>
                             </a>
                         </div><br>
                         <div class="romana_single_client_text">
                             <p>Technology has become an indispensable tool for business, industry.</p>
-                            <div class="read-more"> <a href="http://bgdonline.net/contact-us">Order Now</a> </div>
+                            <div class="read-more"> <a href="#">Take Solution</a> </div>
                         </div>
                     </div>
                     <!-- romana_single_client_text End -->
@@ -98,18 +98,18 @@
 
                     <div class="romana_single_client_text_img">
                         <div class="romana_client_img">
-                            <a href="https://bgdonline.net/customized-solution/">
-                                <img src="{{url('images/customizedsolution.png')}}" alt="">
+                            <a href="#"><img src="{{url('images/customizedsolution.png')}}" alt="">
+
                                 <br>
                                 <div class="romana_client_title">
-                                    <h3> <a href="https://bgdonline.net/customized-solution/">Customized
-                                            Solution</a></h3>
+                                    <h3> <a href="#">Customized Solution</a></h3>
+
                                 </div>
                             </a>
                         </div>
                         <div class="romana_single_client_text">
-                            <p>We do Accounts Software, School Management Software, ERP Software and so on.</p>
-                            <div class="read-more"> <a href="http://bgdonline.net/contact-us">Order Now</a> </div>
+                            <p>We do Accounts Software, School Management Software and so on.</p>
+                            <div class="read-more"> <a href="#">Take Solution</a> </div>
                         </div>
                     </div>
                     <!-- romana_single_client_text End -->
@@ -124,18 +124,16 @@
 
                     <div class="romana_single_client_text_img">
                         <div class="romana_client_img">
-                            <a href="https://bgdonline.net/ict-consultancy/">
-                                <img src="{{url('images/ict.jpg')}}" alt="">
-                                <br>
+                            <a href="#"><img src="{{url('images/ict.jpg')}}" alt="">
                                 <div class="romana_client_title">
-                                    <h3> <a href="https://bgdonline.net/ict-consultancy/">ICT Consultancy</a></h3>
+                                    <h3> <a href="#">ICT Consultancy</a></h3>
                                 </div>
                             </a>
                         </div>
                         <div class="romana_single_client_text">
-                            <p>BGD Technologies (UK) Limited is one of the leading information technology
-                                consulting.</p>
-                            <div class="read-more"> <a href="http://bgdonline.net/contact-us">Order Now</a> </div>
+                            <p>BGD Technologies (UK) Limited is one of the leading information technology consulting.</p>
+
+                            <div class="read-more"> <a href="#">Take Solution</a> </div>
                         </div>
                     </div>
                     <!-- romana_single_client_text End -->
@@ -150,17 +148,17 @@
 
                     <div class="romana_single_client_text_img">
                         <div class="romana_client_img">
-                            <a href="https://bgdonline.net/co-location/">
-                                <img src="{{url('images/datacentre.jpg')}}" alt="">
+                            <a href="#"><img src="{{url('images/datacentre.jpg')}}" alt="">
+
                                 <div class="romana_client_title">
-                                    <h3> <a href="https://bgdonline.net/co-location/">Co-Location</a></h3>
+                                    <h3> <a href="#">Co-Location</a></h3>
                                 </div>
                             </a>
                         </div>
                         <div class="romana_single_client_text">
                             <p>Enjoy the peace of mind that comes with knowing your servers are protected with the
                             </p>
-                            <div class="read-more"> <a href="http://bgdonline.net/contact-us">Order Now</a> </div>
+                            <div class="read-more"> <a href="#">Take Solution</a> </div>
                         </div>
                     </div>
                     <!-- romana_single_client_text End -->

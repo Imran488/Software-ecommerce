@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\ServiceController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,4 +29,9 @@ Route::get('/contactus',[HomeController::class,'ContactUs'])->name('contactus');
 Route::get('/termsandconditions',[HomeController::class,'TermCondition'])->name('termsandcondition');
 Route::get('/refundpolicy',[HomeController::class,'RefundPolicy'])->name('refundpolicy');
 Route::get('/aboutus',[HomeController::class,'AboutUs'])->name('about.us');
+Route::get('/digital-marketting',[ServiceController::class,'Digitalmarketting'])->name('read.digital.marketting');
+Route::get('/web-hosting',[ServiceController::class,'Webhosting'])->name('read.web.hosting');
+Route::get('/web-development',[ServiceController::class,'Webdevelopment'])->name('read.web.development');
+Route::get('/stripe',[ServiceController::class,'Payment'])->name('stripe.payment');
+
 
