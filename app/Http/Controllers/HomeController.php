@@ -21,6 +21,23 @@ class HomeController extends Controller
     public function RefundPolicy(){
         return view('pages.refundpolicy');
     }
+
+public function PrivacyPolicy(){
+    return view ('pages.privacypolicy');
+}
+
+public function Faq(){
+    return view ('pages.faq');
+}
+
+public function CookiesPolicy(){
+    return view ('pages.cookiespolicy');
+}
+
+public function LicenseAgreement(){
+    return view ('pages.license');
+}
+
     public function AboutUs(){
         return view('pages.aboutus');
     }

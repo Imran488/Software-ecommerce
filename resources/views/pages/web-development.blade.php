@@ -185,7 +185,7 @@
                                 </ul>
                             </div>
 
-                            <form action="{{route('stripe.payment')}}" method="">
+                            <form action="{{route('stripe.payment')}}" method="#">
                                 @csrf
                                 <div style="display:none;">
                                     <input type="text" name="name" value="{{$data['title']}}">

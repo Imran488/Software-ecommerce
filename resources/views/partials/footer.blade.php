@@ -23,71 +23,78 @@
                 <!-- column End -->
                 <div class="col-sm-3">
                     <div class="widget footer_menu footer_padding_left">
-                        <h2>Contact Us</h2>
+                        <h2 style="color:rgba(10, 243, 10, 0.884)">Contact Us</h2>
                         <ul>
                             <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12"
                                         height="12">
                                         <path fill="none" d="M0 0h24v24H0z" />
                                         <path
                                             d="M21 16.42v3.536a1 1 0 0 1-.93.998c-.437.03-.794.046-1.07.046-8.837 0-16-7.163-16-16 0-.276.015-.633.046-1.07A1 1 0 0 1 4.044 3H7.58a.5.5 0 0 1 .498.45c.023.23.044.413.064.552A13.901 13.901 0 0 0 9.35 8.003c.095.2.033.439-.147.567l-2.158 1.542a13.047 13.047 0 0 0 6.844 6.844l1.54-2.154a.462.462 0 0 1 .573-.149 13.901 13.901 0 0 0 4 1.205c.139.02.322.042.55.064a.5.5 0 0 1 .449.498z"
-                                            fill="rgba(247,241,241,1)" /></svg></i>Phone : +88 019-72379494 </a></li>
+                                            fill="rgba(247,241,241,1)" /></svg></i>    Phone : +88 019-72379494 </a></li>
                             <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12"
                                         height="12">
                                         <path fill="none" d="M0 0h24v24H0z" />
                                         <path
                                             d="M21 16.42v3.536a1 1 0 0 1-.93.998c-.437.03-.794.046-1.07.046-8.837 0-16-7.163-16-16 0-.276.015-.633.046-1.07A1 1 0 0 1 4.044 3H7.58a.5.5 0 0 1 .498.45c.023.23.044.413.064.552A13.901 13.901 0 0 0 9.35 8.003c.095.2.033.439-.147.567l-2.158 1.542a13.047 13.047 0 0 0 6.844 6.844l1.54-2.154a.462.462 0 0 1 .573-.149 13.901 13.901 0 0 0 4 1.205c.139.02.322.042.55.064a.5.5 0 0 1 .449.498z"
-                                            fill="rgba(247,241,241,1)" /></svg>Landline : : +88 02-8090528 </a></li>
+                                            fill="rgba(247,241,241,1)" /></svg>    Landline : : +88 02-8090528 </a></li>
                             <li><a href="mailto:info@bgdonline.com"><svg xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 24 24" width="12" height="12">
                                         <path fill="none" d="M0 0h24v24H0z" />
                                         <path
                                             d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z"
-                                            fill="rgba(249,243,243,1)" /></svg>Email : info@bgdonline.net</a></li>
-                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12"
+                                            fill="rgba(249,243,243,1)" /></svg>    Email : info@bgdonline.net</a></li>
+                            <li> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12"
                                         height="12">
                                         <path fill="none" d="M0 0h24v24H0z" />
                                         <path
                                             d="M17.084 15.812a7 7 0 1 0-10.168 0A5.996 5.996 0 0 1 12 13a5.996 5.996 0 0 1 5.084 2.812zm-8.699 1.473L12 20.899l3.615-3.614a4 4 0 0 0-7.23 0zM12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0L12 23.728zM12 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
-                                            fill="rgba(244,240,240,1)" /></svg>Address : 820, Mamun Tower(8th floor),
-                                    Shewrapara, Mirpur, Dhaka-1216</a></li>
+                                            fill="rgba(244,240,240,1)" /></svg>     Address :820,MamunTower(8th floor)Shewrapara, Mirpur,<br> Dhaka-1216</a>
+
+                            </li>
 
                         </ul>
                     </div>
                 </div>
-                <!-- column End -->
-                <div class="col-sm-2">
-                    <div class="widget footer_menu footer_left10">
-                        <h2>Link</h2>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#"> Services</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-
-                <div class="col-sm-2">
-                    <div class="widget footer_menu footer_left10">
-                        <h2>Policies</h2>
-                        <ul>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="{{route('refundpolicy')}}">Refund Policy</a></li>
-                            <li><a href="{{route('termsandcondition')}}">Terms and Conditions</a></li>
-                            <li><a href="#">Privacy policies</a></li>
-                        </ul>
-                    </div>
-                </div>
-
                 <!-- column End -->
                 <div class="col-sm-2">
                     <div class="widget footer_menu widget_right_text">
-                        <h2>Our Services</h2>
+                        <h2 style="color:rgba(10, 243, 10, 0.884)">Our Services</h2>
                         <ul>
                             <li><a href="#">Domain Registration</a></li>
                             <li><a href="#">Web Hosting</a></li>
-                            <li><a href="#">Internet Connectivity</a></li>
+                            <li><a href="#">Web Developing</a></li>
+                            <li><a href="#">Digital Marketting</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-2">
+                    <div class="widget footer_menu footer_left10">
+                        <h2 style="color:rgba(10, 243, 10, 0.884)">Resources</h2>
+                        <ul>
+                            <li><a href="{{route('faq')}}">FAQ</a></li>
+                            <li><a href="{{route('refundpolicy')}}">Refund Policy</a></li>
+                            <li><a href="{{route('termsandcondition')}}">Terms and Conditions</a></li>
+                            <li><a href="{{route('privacy.policy')}}">Privacy & Policy</a></li>
+                            <li><a href="{{route('cookies.policy')}}">Cookies policy</a></li>
+                            <li><a href="{{route('license.agreement')}}">License Agreement</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- column End -->
+
+                <div class="col-sm-2">
+                    <div class="widget footer_menu footer_left10">
+                        <h2 style="color:rgba(10, 243, 10, 0.884)">Link</h2>
+                        <ul>
+                            <li ><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#"> Products</a></li>
+                            <li><a href="#"> Solutions</a></li>
+                            <li><a href="#"> Support</a></li>
+                            <li><a href="#"> Copyright information</a></li>
                         </ul>
                     </div>
                 </div>
