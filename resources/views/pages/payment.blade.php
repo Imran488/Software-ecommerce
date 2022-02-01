@@ -137,7 +137,7 @@
     <div class="row">
         <div class="col-75">
             <div class="container">
-                <form action="{{route('stripe.payment')}}" method="post">
+                <form action="{{route('stripe.post')}}" method="post">
                     @csrf
                     <div class="row">
                         <div class="col-50">
@@ -181,25 +181,23 @@
 
 
                             <label for="ccnum">Account number</label>
-                            <input type="text" id="ccnum" name="accountnumber"
-                                placeholder="Enter Your Mobile Banking Account Number" required>
+                            <input type="text" id="ccnum" name="accountnumber" placeholder="Enter Your  Account Number"
+                                required>
 
-                            <label for="ccnum">TxnId Number</label>
-                            <input type="text" id="txnid" name="txnid"
-                                placeholder="Enter Your Mobile Banking TxnId Number" required>
+
 
 
                             <label for="ccnum">Total Amount</label>
-                            <input type="text" id="txnid" name="totalamount" placeholder="Enter Total amount here"
+                            <input type="text" id="number" name="totalamount" placeholder="Enter Total Amount "
                                 required>
                         </div>
 
                     </div>
-                    <!-- <label>
-          <input type="checkbox" checked="checked" name="checkbox"> Shipping address same as billing
-        </label> -->
+                    <label>
+                        <input type="checkbox" checked="checked" name="checkbox"> Shipping address same as billing
+                    </label>
                     <input type="submit" value="Continue to checkout" class="btn">
-                    <a href="#" class="btn" style="background-color:lightgray; border-radius:10px">Back</a>
+                    <a href="{{route('home')}}" class="btn" style="background-color:lightgray; border-radius:10px">Back</a>
                 </form>
                 <div style="height: 100px;"></div>
             </div>

@@ -23,7 +23,7 @@
                     <p>BGD Technologies (UK) Limited make registration of web hosting fast, secure, affordable and
                         secure manner. If you are looking to transfer hosting to shared, reseller , vps or dedicated
                         server provider with superb customer support and have a 99.99% uptime. </p>
-                    <div class="read-more"> <a href="{{route('read.web.hosting')}}">Read More</a> </div>
+                    <div class="read-more"> <a href="{{route('read.web.hosting')}}">Take Services</a> </div>
                 </div>
             </div>
 
@@ -38,7 +38,7 @@
                     </a>
                     <p>We provide UK .uk or and the all the popular domain registration services. Our server uptime
                         99.99% compared to others. We ensure high server uptime with superb support.</p>
-                    <div class="read-more"> <a href="{{url('https://bgdonline.net/whmcs/cart.php?a=add&domain=register')}}">Read More</a> </div>
+                    <div class="read-more"> <a href="{{url('https://bgdonline.net/whmcs/cart.php?a=add&domain=register')}}">Take Services</a> </div>
                 </div>
                 <div class="romana_single_service">
                     <a class="service-icon"href="#"><span><img src="{{url('images/manageservices.png')}}" alt=""></span>
@@ -51,7 +51,7 @@
                     <p>A generic term for connecting devices to each other in order to transfer data back and forth.
                         It often refers to network connections., which embraces bridges, routers, switches.
                     </p>
-                    <div class="read-more"> <a href="{{route('read.digital.marketting')}}">Read More</a> </div>
+                    <div class="read-more"> <a href="{{route('read.digital.marketting')}}">Take Services</a> </div>
 
                 </div>
             </div>
@@ -70,92 +70,9 @@
                     <p>BGD Technologies (UK) Limited expertise in web development. We do outsourcing web design and
                         provide hosting services.We developcompany website , ecommerce solution, Content rich CMS
                         web application for the business needs.</p>
-                    <div class="read-more"> <a href="{{route('read.web.development')}}">Read More</a> </div>
+                    <div class="read-more"> <a href="{{route('read.web.development')}}">Take Services</a> </div>
                 </div>
             </div>
-
-
-
-
-
-                {{-- <div class="romana_single_service">
-                    <a class="service-icon"
-                        href="#"><span><img src="{{url('images/domain.png')}}" alt=""></span>
-                    </a>
-
-                    <a href="#"><h3>DOMAIN REGISTRATION</h3>
-
-                    </a>
-                    <p>We provide UK .uk or and the all the popular domain registration services. Our server uptime
-                        99.99% compared to others. We ensure high server uptime with superb support.</p>
-                    <div class="read-more"> <a href="{{url('https://bgdonline.net/whmcs/cart.php?a=add&domain=register')}}">Read More</a> </div>
-                </div>
-            </div>
-            <!-- column End -->
-
-            <div class="col-sm-4">
-
-                <div class="romana_single_service">
-                    <a class="service-icon"
-                        href="#"><span><img src="{{url('images/webdevelopment.png')}}" alt=""></span>
-                    </a>
-
-                    <a href="#">
-                        <h3>WEB DEVELOPMENT</h3>
-                    </a>
-                    <p>BGD Technologies (UK) Limited expertise in web development. We do outsourcing web design and
-                        provide hosting services.We developcompany website , ecommerce solution, Content rich CMS
-                        web application for the business needs.</p>
-                    <div class="read-more"> <a href="{{route('read.web.development')}}">Read More</a> </div>
-                </div>
-
-                <div class="romana_single_service">
-                    <a class="service-icon"
-                        href="#"><span><img src="{{url('images/dataconnectivity.png')}}" alt=""></span>
-                    </a>
-
-                    <a href="#">
-                        <h3>Digital Marketting</h3>
-                    </a>
-                    <p>A generic term for connecting devices to each other in order to transfer data back and forth.
-                        It often refers to network connections., which embraces bridges, routers, switches.
-                    </p>
-                    <div class="read-more"> <a href="{{route('read.digital.marketting')}}">Read More</a> </div>
-
-                </div>
-            </div> --}}
-            <!-- column End -->
-            {{-- <div class="col-sm-4">
-                <div class="romana_single_service">
-                    <a class="service-icon"
-                        href="#"><span><img src="{{('images/internetconnectivity.png')}}" alt=""></span>
-                    </a>
-
-                    <a href="#">
-                        <h3>INTERNET CONNECTIVITY</h3>
-                    </a>
-                    <p>Internet access is the process that enables individuals and organisations to connect to the
-                        Internet using computer terminals, computers, mobile devices, sometimes via computer
-                        networks. Once connected to the Internet, users can access Internet services, such as email.
-                    </p>
-                    <div class="read-more"> <a href="#">Read More</a> </div>
-
-                </div>
-                <div class="romana_single_service">
-                    <a class="service-icon"
-                        href="#"><span><img src="{{url('images/manageservices.png')}}" alt=""></span>
-                    </a>
-
-                    <a href="#">
-                        <h3>MANAGED SERVICES</h3>
-                    </a>
-                    <p>A managed services provider (MSP) is most often an information technology (IT) services
-                        provider that manages and assumes responsibility.
-                    </p>
-                    <div class="read-more"> <a href="#">Read More</a> </div>
-
-                </div>
-            </div> --}}
             <!-- column End -->
         </div>
         <!-- row End -->

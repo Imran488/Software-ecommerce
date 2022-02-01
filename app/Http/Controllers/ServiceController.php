@@ -21,9 +21,6 @@ class ServiceController extends Controller
 
     }
 
-    public function Payment(){
-        return view('pages.stripe');
 
-    }
 }
 

@@ -23,7 +23,7 @@
                 <!-- column End -->
                 <div class="col-sm-3">
                     <div class="widget footer_menu footer_padding_left">
-                        <h2 style="color:rgba(10, 243, 10, 0.884)">Contact Us</h2>
+                        <h2 style="color:#2dd967">Contact Us</h2>
                         <ul>
                             <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12"
                                         height="12">
@@ -48,7 +48,7 @@
                                         <path fill="none" d="M0 0h24v24H0z" />
                                         <path
                                             d="M17.084 15.812a7 7 0 1 0-10.168 0A5.996 5.996 0 0 1 12 13a5.996 5.996 0 0 1 5.084 2.812zm-8.699 1.473L12 20.899l3.615-3.614a4 4 0 0 0-7.23 0zM12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0L12 23.728zM12 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
-                                            fill="rgba(244,240,240,1)" /></svg>     Address :820,MamunTower(8th floor)Shewrapara, Mirpur,<br> Dhaka-1216</a>
+                                            fill="rgba(244,240,240,1)" /></svg>     Address :71-75, Shelton Street, Covent Garden, London, WC2H 9JQ, UNITED KINGDOM</a>
 
                             </li>
 
@@ -58,7 +58,7 @@
                 <!-- column End -->
                 <div class="col-sm-2">
                     <div class="widget footer_menu widget_right_text">
-                        <h2 style="color:rgba(10, 243, 10, 0.884)">Our Services</h2>
+                        <h2 style="color:#2dd967">Our Services</h2>
                         <ul>
                             <li><a href="#">Domain Registration</a></li>
                             <li><a href="#">Web Hosting</a></li>
@@ -71,7 +71,7 @@
 
                 <div class="col-sm-2">
                     <div class="widget footer_menu footer_left10">
-                        <h2 style="color:rgba(10, 243, 10, 0.884)">Resources</h2>
+                        <h2 style="color:#2dd967">Resources</h2>
                         <ul>
                             <li><a href="{{route('faq')}}">FAQ</a></li>
                             <li><a href="{{route('refundpolicy')}}">Refund Policy</a></li>
@@ -87,7 +87,7 @@
 
                 <div class="col-sm-2">
                     <div class="widget footer_menu footer_left10">
-                        <h2 style="color:rgba(10, 243, 10, 0.884)">Link</h2>
+                        <h2 style="color:#2dd967">Link</h2>
                         <ul>
                             <li ><a href="#">Home</a></li>
                             <li><a href="#">About Us</a></li>
@@ -107,13 +107,13 @@
         <div class="container">
             <div class="romana_footer_bottom_content text-center">
                 <div class="row">
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-6 col-sm-6">
                         <div class="copyright_romana">
-                            <p><span>&copy;</span>Copyright 2022@BGDTechnologies(UK)Limited®. <br>All Rights Reserved
+                            <p><span>&copy;</span>Copyright 2022@BGDTechnologies(UK)Limited®.All Rights Reserved
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-8 col-sm-6 col-xs-12">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="romana_header_top_right romana_footer_social_icon">
                             <ul>
                                 <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"

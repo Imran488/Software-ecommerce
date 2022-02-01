@@ -3,7 +3,7 @@
     $datas = array(
             array(
                 'title'=>'Basic Package',
-                'price'=>'$249',
+                'price'=>'249',
                 'description'=>array(
                     'Static Website',
                     'Fully mobile responsive',
@@ -18,7 +18,7 @@
         ),
                 array(
                 'title'=>'Standard Package',
-                'price'=>'$299',
+                'price'=>'299',
                 'description'=>array(
                     'Web Development with CMS(Content management system)Word press',
                     'Innovative design',
@@ -41,7 +41,7 @@
 
             array(
                 'title' => 'Premium Package',
-                'price' => '$399',
+                'price' => '399',
                 'description' => array(
                     'Web Development with CMS(Content management system)Word press',
                     'Innovative design',
@@ -65,7 +65,7 @@
             ),
                 array(
                 'title'=>'News Portal or Magazine Portal',
-                'price'=>'$999',
+                'price'=>'999',
                 'description'=>array(
                     'Web Development with CMS(Content management system)Word press',
                     'Completely Innovative Design',
@@ -90,7 +90,7 @@
                 ),
                 array(
                 'title'=>'E-commerce',
-                'price'=>'$1999',
+                'price'=>'1999',
                 'description'=>array(
                     'Web Development with CMS(Content management system)Word press',
                     'Completely innovative design',
@@ -113,8 +113,8 @@
                     ),
                 ),
                 array(
-                'title'=>'Customized Like Matrimony, Jobs Portal',
-                'price'=>'$1999',
+                'title'=>'Customized',
+                'price'=>'1999',
                 'description'=>array(
                     'Web Development with CMS(Content management system)Word press or other CMS or Framework depending on need',
                     'Fully mobile responsive',
@@ -174,7 +174,7 @@
                                  {{ $data['title'] }}
                              </h5>
                              <h3 class="pkg-price">
-                                 {{ $data['price'] }} USD
+                                 {{ $data['price'] }} GBP
                              </h3>
                              <div class="description-area">
                                 <ul>
@@ -185,13 +185,15 @@
                                 </ul>
                             </div>
 
-                            <form action="{{route('stripe.payment')}}" method="#">
+                            <form action="{{route('stripe.post')}}" method="post">
                                 @csrf
                                 <div style="display:none;">
                                     <input type="text" name="name" value="{{$data['title']}}">
                                     <input type="text" name="amount" value="{{$data['price']}}">
                                 </div>
-<br>
+
+                                <br>
+
                                 <button type="submit" class="btn btn-primary">
                                     Buy Now
                                 </button>
@@ -232,7 +234,7 @@
         }
 
         .pkg-item h3 {
-            color: rgb(8, 145, 60);
+            color: rgb(8, 34, 150);
             background:color:lightblue;
             padding: 1rem 0rem;
         }

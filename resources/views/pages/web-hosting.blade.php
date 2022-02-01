@@ -3,7 +3,7 @@
     $datas = array(
             array(
                 'title'=>'Basic Package',
-                'price'=>'$200',
+                'price'=>'200',
                 'description'=>array(
                     'Host 5 Domain',
                     '5GB SSD Storage',
@@ -22,7 +22,7 @@
         ),
                 array(
                 'title'=>'Standard Package',
-                'price'=>'$400',
+                'price'=>'400',
                 'description'=>array(
                     'Host 10 Domain',
                     '10GB SSD Storage',
@@ -42,7 +42,7 @@
 
             array(
                 'title' => 'Premium Package',
-                'price' => '$800',
+                'price' => '800',
                 'description' => array(
                     'Host 20 Domain',
                     '20GB SSD Storage',
@@ -60,7 +60,7 @@
             ),
                 array(
                 'title'=>'Ultimate Package',
-                'price'=>'$1000',
+                'price'=>'1000',
                 'description'=>array(
                     'Unlimited Domain',
                     'Unlimited  SSD Storage',
@@ -113,7 +113,7 @@
                                  {{ $data['title'] }}
                              </h5>
                              <h3 class="pkg-price">
-                                 {{ $data['price'] }} USD
+                                 {{ $data['price'] }} GBP
                              </h3>
                              <div class="description-area">
                                 <ul>
@@ -124,9 +124,19 @@
                                 </ul>
                             </div><br>
 
-                             <a href="{{route('stripe.payment')}}" class="btn btn-primary">
-                                 Buy Now
-                             </a>
+                            <form action="{{route('stripe.post')}}" method="post">
+                                @csrf
+                                <div style="display:none;">
+                                    <input type="text" name="name" value="{{$data['title']}}">
+                                    <input type="text" name="amount" value="{{$data['price']}}">
+                                </div>
+
+                                <br>
+
+                                <button type="submit" class="btn btn-primary">
+                                    Buy Now
+                                </button>
+                            </form>
                          </div>
                      </div>
                  @endforeach
@@ -166,7 +176,7 @@
         }
 
         .pkg-item h3 {
-            color: rgb(8, 145, 60);
+            color: rgb(8, 34, 150);
             background:color:lightblue;
             padding: 1rem 0rem;
         }
