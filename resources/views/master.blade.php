@@ -28,6 +28,8 @@
 
     <!-- ================= *** Font-awesome CSS *** ================== -->
     <link href="{{url('css/hover-min.css')}}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
     <!-- ================= *** icofont CSS *** ======================= -->
     <link href="{{url('css/icofont.css')}}" rel="stylesheet" type="text/css">
@@ -93,6 +95,8 @@
 
     <!-- ================= Active Js ================== -->
     <script src="{{url('js/active.js')}}"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-fzff82+8pzHnwA1mQ0dzz9/E0B+ZRizq08yZfya66INZBz86qKTCt9MLU0NCNIgaMJCgeyhujhasnFUsYMsi0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
 

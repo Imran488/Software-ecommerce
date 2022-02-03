@@ -2,23 +2,15 @@
 <div id="preloader">
         <div class="preloader_spinner"></div>
     </div>
-    <!-- preloader end -->
-    <!-- ==========================================================
-    1.*Header_area start
-============================================================ -->
+
     @include('partials.header')
-    <!-- Header End -->
-    <!-- ==========================================================
-2.*Hero_area start
-============================================================ -->
+
     @include('partials.slider')
-    <!-- HeroSlider area end -->
 
 
 
-    <!-- ==========================================================
-3.*romana_search_domain_area start
-============================================================ -->
+
+
     <div class="romana_search_domain_area">
         <div class="container">
             <div class="row">
@@ -51,7 +43,7 @@
                                 <label for="link"></label> <span>.us</span> </div>
                             <div class="romana_single_check">
                                 <input id="link2" name="link" type="checkbox">
-                                <label for="link2"></label> <span>.info</span> </div>
+                                <label for="link2"></label> <span>.uk</span> </div>
                         </div>
                     </div>
                 </div>
@@ -68,24 +60,22 @@
 
 
 
-    <!-- ==========================================================
-4.*romana_service_area start
-============================================================ -->
+
     @include('partials.service')
+    @include('partials.solution')
+
+{{-- @include('partials.product') --}}
 
 
 
 
-
-    <!-- ==========================================================
-5.*romana_people_trust_area start
-============================================================ -->
     <div class="romana_people_trust_area">
         <div class="container">
             <div class="row ">
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="romana_people_trust_text">
-                        <h2>Feel free to contact with us.</h2>
+                    <div class="romana_section_title text-center">
+                        <h2>Feel Free to <span>Contact with Us</span> </h2>
+                        <p>We are Always with You.</p>
                     </div>
                     <!--            </div>-->
                     <!-- column End -->
@@ -101,32 +91,11 @@
     </div>
 
 
-
-
-    <!--=============================================
-    6.*Product_area  start
-===============================================-->
-    @include('partials.product')
+@include('partials.subscriber')
 
 
 
 
 
-    <!-- ==========================================================
-7.*our_solution area start
-============================================================ -->
-    @include('partials.solution')
-    <!-- ==========================================================
-8.*Client_area start
-============================================================ -->
-
-
- 
-
-
-    <!-- ==========================================================
-9.*romana_Subscribe_area start
-============================================================ -->
-    @include('partials.subscriber')
 
 
