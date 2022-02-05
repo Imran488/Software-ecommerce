@@ -1,8 +1,8 @@
 <div class="romana_people_trust_area romana_section_padding">
     <div class="container">
         <div class="romana_section_title text-center">
-            <h2>Our <span>Customers</span> </h2>
-            <p>All are Satisfied Customer.</p>
+            <h2>Our <span>Partners</span> </h2>
+            <p>All are Satisfied Partners.</p>
         </div>
         <div class="row ">
             <div class="col-xs-12">

@@ -15,25 +15,25 @@
             <div class="col-sm-4">
 
                 <div class="romana_single_service">
-                    <a class="service-icon" href="#"><span><img src="{{url('images/callcenter.jpg')}}" alt=""></span>
+                    <a class="service-icon" href="#"><span><img src="{{url('images/callcenter.jpg')}}" alt=""width="100"height="100"></span>
 
                     </a>
                     <a href="#"><h3>Call Center</h3>
 
                     </a>
                     <p>It is a blended call center solution where you can get experience for inbound and outbound</p>
-                    <div class="read-more"> <a href="#">Take Services</a> </div>
+                    <div class="read-more"> <a href="#">Take Solutions</a> </div>
                 </div>
 
                 <div class="romana_single_service">
-                    <a class="service-icon" href="#"><span><img src="{{url('images/ippbx.jpg')}}" alt=""></span>
+                    <a class="service-icon" href="#"><span><img src="{{url('images/ippbx.jpg')}}" alt=""width="100"height="100"></span>
 
                     </a>
                     <a href="#"><h3>IP PBX</h3>
 
                     </a>
                     <p>It is a fully customized PBX solution from small to large corporates. </p>
-                    <div class="read-more"> <a href="#">Take Services</a> </div>
+                    <div class="read-more"> <a href="#">Take Solutions</a> </div>
                 </div>
             </div>
 
@@ -42,25 +42,25 @@
 
             <div class="col-sm-4">
                 <div class="romana_single_service">
-                    <a class="service-icon" href="#"><span><img src="{{url('images/customizedsolution.png')}}" alt=""></span>
+                    <a class="service-icon" href="#"><span><img src="{{url('images/customizedsolution.png')}}" alt=""width="100"height="100"></span>
 
                     </a>
                     <a href="#"><h3>Customized Solution</h3>
 
                     </a>
                     <p>We do Accounts Software, School Management Software and so on.</p>
-                    <div class="read-more"> <a href="#">Take Services</a> </div>
+                    <div class="read-more"> <a href="#">Take Solutions</a> </div>
                 </div>
 
                 <div class="romana_single_service">
-                    <a class="service-icon" href="#"><span><img src="{{url('images/datacentre.jpg')}}" alt=""></span>
+                    <a class="service-icon" href="#"><span><img src="{{url('images/datacentre.jpg')}}" alt=""width="100"height="100"></span>
 
                     </a>
                     <a href="#"><h3>Co-Location</h3>
 
                     </a>
                     <p>Enjoy the peace of mind that comes with knowing your servers are protected with something</p>
-                    <div class="read-more"> <a href="#">Take Services</a> </div>
+                    <div class="read-more"> <a href="#">Take Solutions</a> </div>
                 </div>
             </div>
 
@@ -68,24 +68,24 @@
 
             <div class="col-sm-4">
                 <div class="romana_single_service">
-                    <a class="service-icon" href="#"><span><img src="{{url('images/ict.jpg')}}" alt=""></span>
+                    <a class="service-icon" href="#"><span><img src="{{url('images/ict.jpg')}}" alt=""width="100"height="100"></span>
 
                     </a>
                     <a href="#"><h3>ICT Consultancy</h3>
 
                     </a>
                     <p>BGD Technologies (UK) Limited is one of the leading information technology consulting.</p>
-                    <div class="read-more"> <a href="#">Take Services</a> </div>
+                    <div class="read-more"> <a href="#">Take Solutions</a> </div>
                 </div>
 
                 <div class="romana_single_service">
-                    <a class="service-icon" href="#"><span><img src="{{url('images/training.jpg')}}" alt=""></span>
+                    <a class="service-icon" href="#"><span><img src="{{url('images/training.jpg')}}" alt=""width="100"height="100"></span>
 
                     </a>
                     <a href="#"><h3>Training</h3>
 
                     </a>
-                    <p>Technology has become an indispensable tool for business, industry.</p>
+                    <p>Technology has become an indispensable tool for business.</p>
                     <div class="read-more"> <a href="#">Take Solutions</a> </div>
                 </div>
 

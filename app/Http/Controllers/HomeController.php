@@ -38,6 +38,11 @@ public function LicenseAgreement(){
     return view ('pages.license');
 }
 
+
+public function CopyrightInformation(){
+    return view('pages.copyright');
+}
+
     public function AboutUs(){
         return view('pages.aboutus');
     }

@@ -88,11 +88,12 @@
         <div class="container pt-5">
             <div class="blur-effect m-auto px-5">
                 <u>
-                    <h1 style="color:rgb(1, 133, 45)" class="py-3 text-center fw-bold">Web<span style="color:blue">
-                            Hosting</span></h1>
-                </u><br><br><br>
-                </h1>
+                    <h1 style="color:rgb(1, 133, 45)" class="py-3 text-center fw-bold">Web<span style="color:blue">Hosting</span></h1>
+                </u>
+                <a class="btn btn-primary"href="{{route('home')}}">Back</a>
+                <br><br><br>
             </div>
+
         </div>
 
          <div class="container py-5">

@@ -73,8 +73,8 @@
                             <li><a href="#">About Us</a></li>
                             <li><a href="#"> Products</a></li>
                             <li><a href="#"> Solutions</a></li>
-                            <li><a href="#"> Support</a></li>
-                            <li><a href="#"> Copyright information</a></li>
+                            <li><a href="{{route('contactus')}}"> Support</a></li>
+                            <li><a href="{{route('copyright')}}"> Copyright information</a></li>
                         </ul>
                     </div>
                 </div>

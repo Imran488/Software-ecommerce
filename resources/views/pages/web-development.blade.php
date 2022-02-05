@@ -151,7 +151,9 @@
                 <u>
                     <h1 style="color:rgb(1, 133, 45)" class="py-3 text-center fw-bold">Web<span style="color:blue">
                             Development</span></h1>
-                </u><br><br><br>
+                </u>
+                <a class="btn btn-primary"href="{{route('home')}}">Back</a>
+                <br><br><br>
                 </h1>
             </div>
         </div>

@@ -35,7 +35,7 @@
             <div class="row">
                 <div class="col-sm-2 col-xs-6">
                     <div class="romana_logo">
-                        <a href="#"><img src="{{url('images/BGD Tec UK.png')}}" alt=""></a>
+                        <a href="#"><img src="{{url('images/BGD Tec UK.png')}}" alt=""width="85"height="85"></a>
                     </div>
                 </div>
                 <!-- column End -->
@@ -48,13 +48,13 @@
                         </button>
                     </div>
 
-                    @if(session()->has('message'))
+                    {{-- @if(session()->has('message'))
                     <p class="alert alert-success">{{session()->get('message')}}</p>
                     @endif
 
                     @if(session()->has('error'))
                     <p class="alert alert-danger">{{session()->get('error')}}</p>
-                    @endif
+                    @endif --}}
                     <nav id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
 

@@ -69,7 +69,7 @@
 
 
 
-    <div class="romana_people_trust_area">
+    {{-- <div class="romana_people_trust_area">
         <div class="container">
             <div class="row ">
                 <div class="col-md-12 col-sm-12 col-xs-12">
@@ -88,7 +88,7 @@
             <!-- row End -->
         </div>
         <!-- container End -->
-    </div>
+    </div> --}}
 
 
 @include('partials.subscriber')

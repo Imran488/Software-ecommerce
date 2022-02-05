@@ -33,6 +33,7 @@ Route::get('/privacypolicy',[HomeController::class,'PrivacyPolicy'])->name('priv
 Route::get('/faq',[HomeController::class,'Faq'])->name('faq');
 Route::get('/cookiespolicy',[HomeController::class,'CookiesPolicy'])->name('cookies.policy');
 Route::get('/license',[HomeController::class,'LicenseAgreement'])->name('license.agreement');
+Route::get('/copyright',[HomeController::class,'CopyrightInformation'])->name('copyright');
 Route::get('/aboutus',[HomeController::class,'AboutUs'])->name('about.us');
 Route::get('/digital-marketting',[ServiceController::class,'Digitalmarketting'])->name('read.digital.marketting');
 Route::get('/web-hosting',[ServiceController::class,'Webhosting'])->name('read.web.hosting');

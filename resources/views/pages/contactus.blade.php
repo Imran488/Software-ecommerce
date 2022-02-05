@@ -8,6 +8,7 @@
                        <center><h2 style=color:Green;><u><b>You can Contact with us Always</b></u></h2></center>
                     </div>
                 </div>
+                
             </div>
             <!-- row End -->
             <div class="romana_contact_form romana_section_padding_bottom">
@@ -44,5 +45,6 @@
             </div>
         </div>
         <!-- container End -->
+
     </div>
 <!--     <div class="map_area" id="googleMap"></div> -->

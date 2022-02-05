@@ -1,18 +1,71 @@
 @extends('master')
 @include('partials.header')
 
-<section id="privacy-policy">
+<!DOCTYPE html>
+<html>
+    <style>
+        article,
+        aside,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block;
+        }
 
-    <div class="blur-effect m-auto px-5">
-        <u><h1 style="color:green;" class=" text-center fw-bold">Privacy <span>POLICY</span>
-    </h1></u>
-    </div>
+        #modal {
+            width: 1000px;
+            border: 1px solid #CCC;
+            box-shadow: 0 1px 5px #CCC;
+            border-radius: 5px;
+            font-family: verdana;
+            margin: 25px auto;
+            overflow: hidden;
+        }
 
-    <div class="container py-5">
+        #modal header {
+            background: #f1f1f1;
+            background-image: -webkit-linear-gradient(top, #f1f1f1, #CCC);
+            background-image: -ms-linear-gradient(top, #f1f1f1, #CCC);
+            background-image: -moz-linear-gradient(top, #f1f1f1, #CCC);
+            background-image: -o-linear-gradient(top, #f1f1f1, #CCC);
+            box-shadow: 0 1px 2px rgb(8, 8, 8);
+            padding: 10px;
+        }
 
-        <div class="col-8 mx-auto">
-            <h3 style="color:green;">Privacy Policy</h3>
-            <p>Your privacy is important to us. It is BGD LLC's policy to respect your privacy and comply with any
+        #modal h1 {
+            padding: 0;
+            margin: 0;
+            font-size: 24px;
+            font-weight: normal;
+            text-shadow: 0 1px 2px white;
+            color: rgb(8, 160, 76);
+            text-align: center;
+        }
+
+        #modal section {
+            padding: 10px 30px;
+            font-size: 18px;
+            line-height: 175%;
+            color: rgb(12, 11, 11);
+            text-align: left;
+        }
+
+    </style>
+
+
+<body>
+
+    <div id="modal">
+        <header>
+            <h1><b>Privacy and Policy</b></h1>
+        </header>
+        <section>
+
+            <p>Your privacy is important to us. It is BGD Tech's policy to respect your privacy and comply with any
                 applicable law and regulation regarding any personal information we may collect about you, including
                 across our website, https://www.bgdtech.uk, and other sites we own and operate. </p>
             <p>Personal information is any information about you which can be used to identify you. This includes
@@ -24,14 +77,14 @@
                 This Privacy Policy does not apply to any of your activities after you leave our site. </p>
             <p>This policy is effective as of 24 January 2022. </p>
             <p>Last updated: 24 January 2022 </p>
-            <h3 style="color:green;">Information We Collect</h3>
-            <p>Information we collect falls into one of two categories: “voluntarily provided” information and
-                “automatically collected” information. </p>
+            <h3 style="color:rgb(141, 3, 3);">Information We Collect</h3>
+            <p>Information we collect falls into one of two categories: One is “voluntarily provided” information and
+               another one is “automatically collected” information. </p>
             <p>“Voluntarily provided” information refers to any information you knowingly and actively provide us when
                 using or participating in any of our services and promotions. </p>
             <p>“Automatically collected” information refers to any information automatically sent by your devices in the
                 course of accessing our products and services. </p>
-            <h3 style="color:green;">Collection and Use of Information</h3>
+            <h3 style="color:rgb(141, 3, 3);">Collection and Use of Information</h3>
             <p>We may collect personal information from you when you do any of the following on our website: </p>
             <ul>
                 <li>Use a mobile device or web browser to access our content</li>
@@ -42,7 +95,7 @@
                 information or research data we receive from other trusted sources. For example, Our marketing and
                 market research activities may uncover data and insights, which we may combine with information about
                 how visitors use our site to improve our site and your experience on it. </p>
-            <h3 style="color:green;">Security of Your Personal Information</h3>
+            <h3 style="color:rgb(141, 3, 3);">Security of Your Personal Information</h3>
             <p>When we collect and process personal information, and while we retain this information, we will protect
                 it within commercially acceptable means to prevent loss and theft, as well as unauthorized access,
                 disclosure, copying, use, or modification. </p>
@@ -52,7 +105,7 @@
             <p>You are responsible for selecting any password and its overall security strength, ensuring the security
                 of your own information within the bounds of our services. For example, ensuring you do not make your
                 personal information publicly available via our platform. </p>
-            <h3 style="color:green;">How Long We Keep Your Personal Information</h3>
+            <h3 style="color:rgb(141, 3, 3);">How Long We Keep Your Personal Information</h3>
             <p>We keep your personal information only for as long as we need to. This time period may depend on what we
                 are using your information for, in accordance with this privacy policy. For example, if you have
                 provided us with personal information such as an email address when contacting us about a specific
@@ -63,10 +116,10 @@
             <p>However, if necessary, we may retain your personal information for our compliance with a legal,
                 accounting, or reporting obligation or for archiving purposes in the public interest, scientific, or
                 historical research purposes or statistical purposes. </p>
-            <h3 style="color:green;">Children’s Privacy</h3>
+            <h3 style="color:rgb(141, 3, 3);">Children’s Privacy</h3>
             <p>We do not aim any of our products or services directly at children under the age of 13, and we do not
                 knowingly collect personal information about children under 13. </p>
-            <h3 style="color:green;">Your Rights and Controlling Your Personal Information</h3>
+            <h3 style="color:rgb(141, 3, 3);">Your Rights and Controlling Your Personal Information</h3>
             <p><span>Your choice:</span> By providing personal information to us, you understand we will collect, hold,
                 use, and disclose your personal information in accordance with this privacy policy. You do not have to
                 provide personal information to us, however, if you do not, it may affect your use of our website or the
@@ -100,40 +153,52 @@
                 marketing communications), please contact us using the details provided in this privacy policy, or
                 opt-out using the opt-out facilities provided in the communication. We may need to request specific
                 information from you to help us confirm your identity. </p>
-            <h3 style="color:green;">Use of Cookies</h3>
+            <h3 style="color:rgb(141, 3, 3);">Use of Cookies</h3>
             <p>We use “cookies” to collect information about you and your activity across our site. A cookie is a small
                 piece of data that our website stores on your computer, and accesses each time you visit, so we can
                 understand how you use our site. This helps us serve you content based on preferences you have
                 specified. </p>
             <p>Please refer to our Cookie Policy for more information. </p>
-            <h3 style="color:green;">Business Transfers</h3>
+            <h3 style="color:rgb(141, 3, 3);">Business Transfers</h3>
             <p>If we or our assets are acquired, or in the unlikely event that we go out of business or enter
                 bankruptcy, we would include data, including your personal information, among the assets transferred to
                 any parties who acquire us. You acknowledge that such transfers may occur, and that any parties who
                 acquire us may, to the extent permitted by applicable law, continue to use your personal information
                 according to this policy, which they will be required to assume as it is the basis for any ownership or
                 use rights we have over such information. </p>
-            <h3 style="color:green;">Limits of Our Policy</h3>
+            <h3 style="color:rgb(141, 3, 3);">Limits of Our Policy</h3>
             <p>Our website may link to external sites that are not operated by us. Please be aware that we have no
                 control over the content and policies of those sites, and cannot accept responsibility or liability for
                 their respective privacy practices. </p>
-            <h3 style="color:green;">Changes to This Policy</h3>
+            <h3 style="color:rgb(141, 3, 3);">Changes to This Policy</h3>
             <p>At our discretion, we may change our privacy policy to reflect updates to our business processes, current
                 acceptable practices, or legislative or regulatory changes. If we decide to change this privacy policy,
                 we will post the changes here at the same link by which you are accessing this privacy policy. </p>
             <p>If required by law, we will get your permission or give you the opportunity to opt in to or opt out of,
                 as applicable, any new uses of your personal information. </p>
-            <h3 style="color:green;">Contact Us</h3>
+            <h3 style="color:rgb(141, 3, 3);">Contact Us</h3>
             <p>For any questions or concerns regarding your privacy, you may contact us using the following details:
             </p>
-            <h3 style="color:green;">BGD Technology(UK)</h3>
+            <h3 style="color:rgb(141, 3, 3);">BGD Technology(UK)</h3>
             <a href="mailto://info@bgdtech.uk">info@bgdtech.uk </a>
 
-        </div>
-
-
+        </section>
     </div>
+</body>
 
-</section>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

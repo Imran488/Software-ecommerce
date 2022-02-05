@@ -1,7 +1,7 @@
 @extends('master')
 @include('partials.header')
 
-<h1 style=color:green><center><u><b>Terms and Conditions </b></u></center></h1>
+
 
 <!DOCTYPE html>
 <html>
@@ -44,7 +44,7 @@
             font-size: 24px;
             font-weight: normal;
             text-shadow: 0 1px 2px white;
-            color: rgb(16, 4, 87);
+            color: rgb(4, 87, 36);
             text-align: center;
         }
 
@@ -63,7 +63,7 @@
 
     <div id="modal">
         <header>
-            <h1><b><u>Introduction</u></b></h1>
+            <h1><b>Introduction</b></h1>
         </header>
         <section>
             <p>
@@ -125,12 +125,13 @@
             <p>
                 Throughout these Website Normal Terms and Situations, “Your Content” should mean any audio tracks, video
                 text, photos or other stuff you elect to exhibit within this Website. By simply displaying Your Written
-                content, you grant <span style=color:green><b>BGD Technologies(UK) Limited</b></span> a non-exclusive, throughout
+                content, you grant <br><span style=color:green><b>BGD Technologies(UK) Limited</b></span> a non-exclusive, throughout
                 the world irrevocable, sub licensable license to work with, duplicate, adapt, publish, convert and
                 distribute that in any media.
                 <br>
                 Your Written content has to be your individual and should certainly not be invading virtually any
-                third-party’s rights. <span style=color:green><b>BGD Technologies(UK) Limited</b></span> reserves the appropriate
+                third-party’s rights.<br>
+                <span style=color:green><b>BGD Technologies(UK) Limited</b></span> reserves the appropriate
                 to remove all of your Content from this kind of Website at virtually any time without see.
             </p>
         </section>
