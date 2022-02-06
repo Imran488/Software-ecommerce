@@ -1,217 +1,219 @@
 @php
 
-    $datas = array(
-            array(
-                'title'=>'Basic Package',
-                'price'=>'249',
-                'description'=>array(
-                    'Static Website',
-                    'Fully mobile responsive',
-                    'Logo design',
-                    '5 Static pages',
-                    'Static slider',
-                    'Static Image gallery',
-                    'Social page connection link',
-                    '2 Months free maintenance',
+$datas = array(
+array(
+'title'=>'Basic Package',
+'price'=>'249',
+'description'=>array(
+'Static Website',
+'Fully mobile responsive',
+'Logo design',
+'5 Static pages',
+'Static slider',
+'Static Image gallery',
+'Social page connection link',
+'2 Months free maintenance',
 
-                ),
-        ),
-                array(
-                'title'=>'Standard Package',
-                'price'=>'299',
-                'description'=>array(
-                    'Web Development with CMS(Content management system)Word press',
-                    'Innovative design',
-                    'Fully mobile responsive',
-                    'Logo design',
-                    '10 Dynamic pages',
-                    'Dynamic slider',
-                    'Dynamic service listings',
-                    'All service page',
-                    'Single service page',
-                    'Social page connection link',
-                    'Notice board download option',
-                    'Contact mail',
-                    'Site location map',
-                    'Admin panel to update content',
-                    '2 Months free maintenance',
-        ),
+),
+),
+array(
+'title'=>'Standard Package',
+'price'=>'299',
+'description'=>array(
+'Web Development with CMS(Content management system)Word press',
+'Innovative design',
+'Fully mobile responsive',
+'Logo design',
+'10 Dynamic pages',
+'Dynamic slider',
+'Dynamic service listings',
+'All service page',
+'Single service page',
+'Social page connection link',
+'Notice board download option',
+'Contact mail',
+'Site location map',
+'Admin panel to update content',
+'2 Months free maintenance',
+),
 
-                ),
+),
 
-            array(
-                'title' => 'Premium Package',
-                'price' => '399',
-                'description' => array(
-                    'Web Development with CMS(Content management system)Word press',
-                    'Innovative design',
-                    'Fully mobile responsive',
-                    'Logo design',
-                    '15 Dynamic pages',
-                    'Dynamic slider',
-                    'Dynamic service listings',
-                    'All service page',
-                    'Single service page',
-                    'Social page connection link',
-                    'Fb page live feed box',
-                    'Live chat application',
-                    'Blog system',
-                    'Notice board download option',
-                    'Customized query mail',
-                    'Site location map',
-                    'Admin panel to update content',
-                    '2 Months free maintenance',
-                )
-            ),
-                array(
-                'title'=>'News Portal or Magazine Portal',
-                'price'=>'999',
-                'description'=>array(
-                    'Web Development with CMS(Content management system)Word press',
-                    'Completely Innovative Design',
-                    'Fully mobile responsive',
-                    'Logo design',
-                    'Dynamic slider',
-                    'Dynamic image gallery',
-                    'Unlimited Dynamic pages',
-                    'All post page',
-                    'Single post page',
-                    'Social page connection link',
-                    'Fb page live feed box',
-                    'Live chat application',
-                    'Dynamic Bulletin feed',
-                    'Contact mail',
-                    'Customized query mail',
-                    'Comments system',
-                    'Admin panel to update content',
-                    '2 Months free maintenance',
+array(
+'title' => 'Premium Package',
+'price' => '399',
+'description' => array(
+'Web Development with CMS(Content management system)Word press',
+'Innovative design',
+'Fully mobile responsive',
+'Logo design',
+'15 Dynamic pages',
+'Dynamic slider',
+'Dynamic service listings',
+'All service page',
+'Single service page',
+'Social page connection link',
+'Fb page live feed box',
+'Live chat application',
+'Blog system',
+'Notice board download option',
+'Customized query mail',
+'Site location map',
+'Admin panel to update content',
+'2 Months free maintenance',
+)
+),
+array(
+'title'=>'News Portal or Magazine Portal',
+'price'=>'999',
+'description'=>array(
+'Web Development with CMS(Content management system)Word press',
+'Completely Innovative Design',
+'Fully mobile responsive',
+'Logo design',
+'Dynamic slider',
+'Dynamic image gallery',
+'Unlimited Dynamic pages',
+'All post page',
+'Single post page',
+'Social page connection link',
+'Fb page live feed box',
+'Live chat application',
+'Dynamic Bulletin feed',
+'Contact mail',
+'Customized query mail',
+'Comments system',
+'Admin panel to update content',
+'2 Months free maintenance',
 
-                    ),
-                ),
-                array(
-                'title'=>'E-commerce',
-                'price'=>'1999',
-                'description'=>array(
-                    'Web Development with CMS(Content management system)Word press',
-                    'Completely innovative design',
-                    'Fully mobile responsive',
-                    'Logo design',
-                    'Dynamic slider',
-                    'Unlimited dynamic pages',
-                    'Dynamic product listing',
-                    'All product page',
-                    'Singe product page',
-                    'Fb page like box and live feed',
-                    'Blog system',
-                    'Live chat application',
-                    'Cash on delivery system',
-                    'Card payment system (May cause extra charge due to bank agreement)',
-                    'Mobile banking system (May cause extra charge due to commission on transaction)',
-                    'Admin panel to update content',
-                    '2 Months free maintenance',
+),
+),
+array(
+'title'=>'E-commerce',
+'price'=>'1999',
+'description'=>array(
+'Web Development with CMS(Content management system)Word press',
+'Completely innovative design',
+'Fully mobile responsive',
+'Logo design',
+'Dynamic slider',
+'Unlimited dynamic pages',
+'Dynamic product listing',
+'All product page',
+'Singe product page',
+'Fb page like box and live feed',
+'Blog system',
+'Live chat application',
+'Cash on delivery system',
+'Card payment system (May cause extra charge due to bank agreement)',
+'Mobile banking system (May cause extra charge due to commission on transaction)',
+'Admin panel to update content',
+'2 Months free maintenance',
 
-                    ),
-                ),
-                array(
-                'title'=>'Customized',
-                'price'=>'1999',
-                'description'=>array(
-                    'Web Development with CMS(Content management system)Word press or other CMS or Framework depending on need',
-                    'Fully mobile responsive',
-                    'Logo Design',
-                    'Completely innovative design',
-                    'Dynamic slider',
-                    'Dynamic image gallery',
-                    'Unlimited Dynamic pages',
-                    'Dynamic service listings',
-                    'All service page',
-                    'Single service page',
-                    'Social page connection link',
-                    'Fb page live feed box',
-                    'Live chat application',
-                    'Blog system',
-                    'Customized query mail',
-                    'Notice board download option',
-                    'Site location map',
-                    'Admin panel to update content',
-                    '2 Months free maintenance',
+),
+),
+array(
+'title'=>'Customized',
+'price'=>'1999',
+'description'=>array(
+'Web Development with CMS(Content management system)Word press or other CMS or Framework depending on need',
+'Fully mobile responsive',
+'Logo Design',
+'Completely innovative design',
+'Dynamic slider',
+'Dynamic image gallery',
+'Unlimited Dynamic pages',
+'Dynamic service listings',
+'All service page',
+'Single service page',
+'Social page connection link',
+'Fb page live feed box',
+'Live chat application',
+'Blog system',
+'Customized query mail',
+'Notice board download option',
+'Site location map',
+'Admin panel to update content',
+'2 Months free maintenance',
 
-                    ),
-                ),
+),
+),
 
-        )
+)
 
 @endphp
- @extends('master')
- @include('partials.header')
-     <section id="terms-and-conditions">
+@extends('master')
+@section('content')
+@include('partials.header')
+<section id="terms-and-conditions">
 
-        <div class="container pt-5">
-            <div class="blur-effect m-auto px-5">
-                <u>
-                    <h1 style="color:rgb(1, 133, 45)" class="py-3 text-center fw-bold">Web<span style="color:blue">
-                            Development</span></h1>
-                </u>
-                <a class="btn btn-primary"href="{{route('home')}}">Back</a>
-                <br><br><br>
-                </h1>
+    <div class="container pt-5">
+        <div class="blur-effect m-auto px-5">
+            <u>
+                <h1 style="color:rgb(1, 133, 45)" class="py-3 text-center fw-bold">Web<span style="color:blue">
+                        Development</span></h1>
+            </u>
+            <a class="btn btn-primary" href="{{route('home')}}">Back</a>
+            <br><br><br>
+            </h1>
+        </div>
+    </div>
+
+    <div class="container py-5">
+
+        <div class="row">
+            <div class="title">
+
             </div>
         </div>
 
-         <div class="container py-5">
-
-             <div class="row">
-                 <div class="title">
-
-                 </div>
-             </div>
-
-             <div class="row">
-                 @foreach ($datas as $data)
+        <div class="row">
+            @foreach ($datas as $data)
 
 
-                     <div class="col-md-4">
-                         <div class="card p-2 pkg-item animated slideInUp">
-                             <h5 style="font-size: 24px;" class="pkg-title">
-                                 {{ $data['title'] }}
-                             </h5>
-                             <h3 class="pkg-price">
-                                 {{ $data['price'] }} GBP
-                             </h3>
-                             <div class="description-area">
-                                <ul>
-                                     @foreach ($data['description'] as $description)
-                                        <li>{{ $description }}</li>
+            <div class="col-md-4">
+                <div class="card p-2 pkg-item animated slideInUp">
+                    <h5 style="font-size: 24px;" class="pkg-title">
+                        {{ $data['title'] }}
+                    </h5>
+                    <h3 class="pkg-price">
+                        {{ $data['price'] }} GBP
+                    </h3>
+                    <div class="description-area">
+                        <ul>
+                            @foreach ($data['description'] as $description)
+                            <li>{{ $description }}</li>
 
-                                    @endforeach
-                                </ul>
-                            </div>
+                            @endforeach
+                        </ul>
+                    </div>
 
-                            <form action="{{route('stripe.post')}}" method="post">
-                                @csrf
-                                <div style="display:none;">
-                                    <input type="text" name="name" value="{{$data['title']}}">
-                                    <input type="text" name="amount" value="{{$data['price']}}">
-                                </div>
+                    <form action="{{route('stripe.post')}}" method="post">
+                        @csrf
+                        <div style="display:none;">
+                            <input type="text" name="name" value="{{$data['title']}}">
+                            <input type="text" name="amount" value="{{$data['price']}}">
+                        </div>
 
-                                <br>
+                        <br>
 
-                                <button type="submit" class="btn btn-primary">
-                                    Buy Now
-                                </button>
-                            </form>
-                         </div>
-                     </div>
-                 @endforeach
+                        <button type="submit" class="btn btn-primary">
+                            Buy Now
+                        </button>
+                    </form>
+                </div>
+            </div>
+            @endforeach
 
-             </div>
+        </div>
 
-         </div>
+    </div>
+</section>
 
-     </section>
+    @endsection
 
 
-     <style>
+    <style>
         .pkg-title {
             margin: 0 !important;
             color: rgb(255, 246, 246);
@@ -237,7 +239,7 @@
 
         .pkg-item h3 {
             color: rgb(8, 34, 150);
-            background:color:lightblue;
+            background: color:lightblue;
             padding: 1rem 0rem;
         }
 

@@ -35,18 +35,18 @@
             <div class="row">
                 <div class="col-sm-2 col-xs-6">
                     <div class="romana_logo">
-                        <a href="#"><img src="{{url('images/BGD Tec UK.png')}}" alt=""width="85"height="85"></a>
+                        <a href="#"><img src="{{url('images/logo.png')}}" alt=""width="85"height="85"></a>
                     </div>
                 </div>
                 <!-- column End -->
 
-                <div class="col-sm-10">
+                {{-- <div class="col-sm-10">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                             data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span
                                 class="sr-only"></span> <i class="icofont icofont-navigation-menu"></i>
                         </button>
-                    </div>
+                    </div> --}}
 
                     {{-- @if(session()->has('message'))
                     <p class="alert alert-success">{{session()->get('message')}}</p>
@@ -226,8 +226,6 @@
                     </nav>
 
                 </div>
-
-
 
             </div>
 

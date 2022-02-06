@@ -24,7 +24,6 @@
                     <div class="romana_single_client_text_img">
                         <div class="romana_client_img">
                             <a href=""><img src="{{url('images/partner2.jpg')}}" alt=""></a>
-
                         </div>
                     </div>
 

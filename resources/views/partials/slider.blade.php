@@ -31,10 +31,6 @@
         <!-- item one end -->
 
 
-
-
-
-
         <div class="hero_slider_bg">
             <div class="container">
                 <div class="row">
@@ -82,7 +78,8 @@
                     </div>
                     <!-- column End -->
                     <div class="col-md-5 col-md-offset-1 col-sm-6 col-xs-12">
-                        <div class="romana_hero_img"> <img width="453" height="339" src="{{url('images/hosting.png')}}"class="attachment-home-full-size size-home-full-size wp-post-image" alt=""loading="lazy"
+                        <div class="romana_hero_img"> <img width="453" height="339" src="{{url('images/hosting.png')}}"class="attachment-home-full-size size-home-full-size wp-post-image" alt=""
+                            loading="lazy"
                                 srcset="https://bgdonline.net/wp-content/uploads/2017/02/hosting.png 453w, https://bgdonline.net/wp-content/uploads/2017/02/hosting-300x225.png 300w"sizes="(max-width: 453px) 100vw, 453px" /> </div>
                     </div>
                     <!-- column end -->

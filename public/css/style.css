@@ -56,7 +56,7 @@ CSS INDEX
     padding: 0px; }
 
   img {
-    width: 100%; }
+    width: 100px; }
 
   ol, ul {
     margin: 0px;
@@ -108,7 +108,7 @@ CSS INDEX
   }
   .theme_bg, .romana_header_top_right ul li, .hero_slider_bg, .romana_search_input input, .romana_single_check label,.romana_single_table .hvr-radial-out::before, .romana_client_crsl .owl-prev,
   .romana_client_crsl .owl-next,.romana_footer_area form.romana_contact_Subscribe input + input, .account_list .active, .account_list .active:after, .check_out_text {
-    background: #08d4d4; }
+    background: #d4082e; }
 
   .romana_client_crsl .owl-next:hover {
     background: #EA2229;

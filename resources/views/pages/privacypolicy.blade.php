@@ -1,4 +1,5 @@
 @extends('master')
+@section('content')
 @include('partials.header')
 
 <!DOCTYPE html>
@@ -187,6 +188,7 @@
 </body>
 
 </html>
+@endsection
 
 
 

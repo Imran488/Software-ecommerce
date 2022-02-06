@@ -11,7 +11,7 @@
                 <div class="col-sm-3">
                     <div class="widget footer_left_text footer_menu">
                         <div class="footer_logo">
-                            <a href="#"><img src="{{url('images/BGD Tec UK.png')}}" style="width: 150px;height: 100px; "
+                            <a href="#"><img src="{{url('images/logo.png')}}" style="width: 150px;height: 100px; "
                                     alt="logo"></a>
                         </div>
                         <p>BGD Technologies (UK) Limited main slogan is “Making Changes”. We work together to make a
@@ -40,10 +40,10 @@
                     <div class="widget footer_menu widget_right_text">
                         <h2 style="color:#2dd967">Our Services</h2>
                         <ul>
-                            <li><a href="#">Domain Registration</a></li>
-                            <li><a href="#">Web Hosting</a></li>
-                            <li><a href="#">Web Developing</a></li>
-                            <li><a href="#">Digital Marketting</a></li>
+                            <li><a href="{{url('https://bgdonline.net/whmcs/cart.php?a=add&domain=register')}}">Domain Registration</a></li>
+                            <li><a href="{{route('read.web.hosting')}}">Web Hosting</a></li>
+                            <li><a href="{{route('read.web.development')}}">Web Developing</a></li>
+                            <li><a href="{{route('read.digital.marketting')}}">Digital Marketting</a></li>
                         </ul>
                     </div>
                 </div>
@@ -69,10 +69,10 @@
                     <div class="widget footer_menu footer_left10">
                         <h2 style="color:#2dd967">Link</h2>
                         <ul>
-                            <li ><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#"> Products</a></li>
-                            <li><a href="#"> Solutions</a></li>
+                            <li ><a href="{{route("home")}}">Home</a></li>
+                            <li><a href="{{('aboutus')}}">About Us</a></li>
+                            {{-- <li><a href="{{('#')}}"> Products</a></li>
+                            <li><a href="{{('#')}}"> Solutions</a></li> --}}
                             <li><a href="{{route('contactus')}}"> Support</a></li>
                             <li><a href="{{route('copyright')}}"> Copyright information</a></li>
                         </ul>

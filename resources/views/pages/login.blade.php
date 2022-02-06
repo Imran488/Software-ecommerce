@@ -1,4 +1,5 @@
 @extends('master')
+@section('content')
 @include('partials.header')
 
 <center>
@@ -9,15 +10,17 @@
             <label for="exampleInputEmail1">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                 placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <strong id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</strong>
         </div>
 
         <div class="form-group">
             <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password">
+            <strong id="passwordHelp" class="form-text text-muted">If You Have Didnt Account SignUp First</strong>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
         <a href="{{route('signup')}}" class="btn btn-primary">SignUp</a>
     </form>
     <div style="height: 100px;"></div>
 </center>
+@endsection
