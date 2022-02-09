@@ -37,31 +37,16 @@ class LoginController extends Controller
     public function UserLogin(Request $request)
     {
 
-        $userInfo=$request->except('_token');
-//        $credentials['email']=$request->user_email;
-//        $credentials['password']=$request->user_password;
-//        dd($credentials);
-//        $credentials=$request->only('user_email','user_password');
 
+        $userInfo=$request->except('_token');
+        
         if(Auth::attempt($userInfo)){
             return redirect()->route('home')->with('message','Login successful.');
         }
-        return redirect()->route('home')->with('error','Invalid user credentials');
+        return redirect()->back()->with('error','Invalid user credentials');
 
     }
 
-    // public function UserLogin(Request $request){
-    //     // dd($request->all());
-    //     $userpost = $request->except('_token');
-    //     // dd($userpost);
-    //     //  dd(Auth::attempt($userpost));
-    //     if (Auth::attempt($userpost)) {
-    //         return redirect()->route('home')->with('message','Login Succesfull');
-    //     }
-    //     else
-    //         return redirect()->back()->with('error','Invalid email or password');
-
-    // }
 
     public function userlogout(){
         Auth::logout();

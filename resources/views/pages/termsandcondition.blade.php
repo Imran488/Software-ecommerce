@@ -6,65 +6,67 @@
 
 <!DOCTYPE html>
 <html>
-    <style>
-        article,
-        aside,
-        figure,
-        footer,
-        header,
-        hgroup,
-        menu,
-        nav,
-        section {
-            display: block;
-        }
+    <html>
+        <style>
+            article,
+            aside,
+            figure,
+            footer,
+            header,
+            hgroup,
+            menu,
+            nav,
+            section {
+                display: block;
+            }
 
-        #modal {
-            width: 1200px;
-            border: 1px solid #CCC;
-            box-shadow: 0 1px 5px #CCC;
-            border-radius: 5px;
-            font-family: verdana;
-            margin: 25px auto;
-            overflow: hidden;
-        }
+            #modal {
+                width: 1000px;
+                border: 1px solid #CCC;
+                box-shadow: 0 1px 5px #CCC;
+                border-radius: 5px;
+                font-family: cursive;
+                margin: 25px auto;
+                overflow: hidden;
+            }
 
-        #modal header {
-            background: #f1f1f1;
-            background-image: -webkit-linear-gradient(top, #f1f1f1, #CCC);
-            background-image: -ms-linear-gradient(top, #f1f1f1, #CCC);
-            background-image: -moz-linear-gradient(top, #f1f1f1, #CCC);
-            background-image: -o-linear-gradient(top, #f1f1f1, #CCC);
-            box-shadow: 0 1px 2px rgb(8, 8, 8);
-            padding: 10px;
-        }
+            #modal header {
+                background: #f1f1f1;
+                background-image: -webkit-linear-gradient(top, #f1f1f1, #CCC);
+                background-image: -ms-linear-gradient(top, #f1f1f1, #CCC);
+                background-image: -moz-linear-gradient(top, #f1f1f1, #CCC);
+                background-image: -o-linear-gradient(top, #f1f1f1, #CCC);
+                box-shadow: 0 1px 2px rgb(8, 8, 8);
+                padding: 10px;
+            }
 
-        #modal h1 {
-            padding: 0;
-            margin: 0;
-            font-size: 24px;
-            font-weight: normal;
-            text-shadow: 0 1px 2px white;
-            color: rgb(4, 87, 36);
-            text-align: center;
-        }
+            #modal h1 {
+                padding: 0;
+                margin: 0;
+                font-size: 24px;
+                font-weight: normal;
+                text-shadow: 0 1px 2px white;
+                color: rgb(8, 160, 76);
+                text-align: center;
+            }
 
-        #modal section {
-            padding: 10px 30px;
-            font-size: 18px;
-            line-height: 175%;
-            color: rgb(12, 11, 11);
-            text-align: left;
-        }
+            #modal section {
+                padding: 10px 30px;
+                font-size: 18px;
+                font-family: cursive;
+                line-height: 175%;
+                color: rgb(12, 11, 11);
+                text-align: left;
+            }
 
-    </style>
+        </style>
 
 
 <body>
 
     <div id="modal">
         <header>
-            <h1><b>Introduction</b></h1>
+            <h1><b><u>Introduction</u></b></h1>
         </header>
         <section>
             <p>
@@ -95,18 +97,14 @@
                 An individual are especially constrained from all involving the following:
             </p>
             <ul>
-                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M16 12l-6 6V6z" fill="rgba(47,204,113,1)"/></svg> creating any Website stuff in any various other media; </li>
-                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M16 12l-6 6V6z" fill="rgba(47,204,113,1)"/></svg>selling, sublicensing and/or otherwise commercializing any Website stuff;</li>
-                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M16 12l-6 6V6z" fill="rgba(47,204,113,1)"/></svg>publicly performing and showing any Internet site material;</li>
-                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M16 12l-6 6V6z" fill="rgba(47,204,113,1)"/></svg>using this kind of Website in virtually any way that is definitely or may always be damaging to the
-                    Internet site;</li>
-                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M16 12l-6 6V6z" fill="rgba(47,204,113,1)"/></svg>using this Internet site in any approach that impacts end user access to this excellent website;
-                </li>
-                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M16 12l-6 6V6z" fill="rgba(47,204,113,1)"/></svg>using this Internet site despite applicable regulations and regulations, or perhaps in any approach
-                    may cause problems for the Website, or perhaps to anybody or perhaps business entity;</li>
-                <li> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M16 12l-6 6V6z" fill="rgba(47,204,113,1)"/></svg>joining in any files mining, data collection, data extracting or some kind of other similar
-                    exercise in relation in order to this Website;</li>
-                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12"><path fill="none" d="M0 0h24v24H0z"/><path d="M16 12l-6 6V6z" fill="rgba(47,204,113,1)"/></svg> by using this Website to participate in advertising or even marketing</li>
+                <li>1)creating any Website stuff in any various other media; </li>
+                <li>2)selling, sublicensing and/or otherwise commercializing any Website stuff;</li>
+                <li>3)publicly performing and showing any Internet site material;</li>
+                <li>4)using this kind of Website in virtually any way that is definitely or may always be damaging to the Internet site;</li>
+                <li>5)using this Internet site in any approach that impacts end user access to this excellent website;</li>
+                <li>6)using this Internet site despite applicable regulations and regulations, or perhaps in any approach may cause problems for the Website, or perhaps to anybody or perhaps business entity;</li>
+                <li>7)joining in any files mining, data collection, data extracting or some kind of other similar exercise in relation in order to this Website;</li>
+                <li>8)by using this Website to participate in advertising or even marketing</li>
 
             </ul>
             <p>Certain places of this site are usually restricted from staying access by an individual and <span style=color:green><b>BGD Technologies(UK) Limited</b></span> may well further restrict gain access to by you

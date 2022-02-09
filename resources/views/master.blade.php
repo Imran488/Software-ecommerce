@@ -7,13 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="google-site-verification" content="d18jpR7u8HROf91dFGi0EKTyP8JDJCeCPMQVUxqPUvA" />
     <meta name="msvalidate.01" content="8D4CE304B885C544914E7E84AF3695E0" />
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    {{-- <link rel="stylesheet" media="screen and (max-width: 600px)" href="mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 992px)" href="laptop.css"> --}}
     <!-- Title -->
     <title>BGD Technologies (UK) Limited</title>
     <!-- ================================================================
     ***Favicon***
     ================================================================= -->
-    <link rel="shortcut icon" type="image/png" href="#">
+    <link rel="shortcut icon" type="image/png" href="{{url('images/logo.png')}}">
     <!-- ================================================================
     ***CSS File***
     ================================================================= -->

@@ -40,21 +40,21 @@
                 </div>
                 <!-- column End -->
 
-                {{-- <div class="col-sm-10">
+                <div class="col-sm-10">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                             data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span
-                                class="sr-only"></span> <i class="icofont icofont-navigation-menu"></i>
+                                class="sr-only"></span> <i class="fas fa-bars"></i>
                         </button>
-                    </div> --}}
+                    </div>
 
-                    {{-- @if(session()->has('message'))
+                    @if(session()->has('message'))
                     <p class="alert alert-success">{{session()->get('message')}}</p>
                     @endif
 
                     @if(session()->has('error'))
                     <p class="alert alert-danger">{{session()->get('error')}}</p>
-                    @endif --}}
+                    @endif
                     <nav id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
 
@@ -212,8 +212,7 @@
                             <li><a href="{{route('contactus')}}"><b>CONTACT US</b></a></li>
                             @if(auth()->user())
                             <li>
-                                <a href="{{route('logout')}}"
-                                    class="dropdown-item w3-hover-purple w3-medium w3-text-purple">{{auth()->user()->name}}|Logout
+                                <a href="{{route('logout')}}"><b>{{auth()->user()->name}}|Logout</b>
                                 </a>
                             </li>@else
                             <li>

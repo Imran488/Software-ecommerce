@@ -22,7 +22,7 @@
             border: 1px solid #CCC;
             box-shadow: 0 1px 5px #CCC;
             border-radius: 5px;
-            font-family: verdana;
+            font-family: cursive;
             margin: 25px auto;
             overflow: hidden;
         }
@@ -50,6 +50,7 @@
         #modal section {
             padding: 10px 30px;
             font-size: 18px;
+            font-family: cursive;
             line-height: 175%;
             color: rgb(12, 11, 11);
             text-align: left;

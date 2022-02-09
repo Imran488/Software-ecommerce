@@ -108,7 +108,7 @@ CSS INDEX
   }
   .theme_bg, .romana_header_top_right ul li, .hero_slider_bg, .romana_search_input input, .romana_single_check label,.romana_single_table .hvr-radial-out::before, .romana_client_crsl .owl-prev,
   .romana_client_crsl .owl-next,.romana_footer_area form.romana_contact_Subscribe input + input, .account_list .active, .account_list .active:after, .check_out_text {
-    background: #d4082e; }
+    background: #089236; }
 
   .romana_client_crsl .owl-next:hover {
     background: #EA2229;
@@ -1084,10 +1084,10 @@ CSS INDEX
     padding-bottom: 32px; }
 
   .romana_single_service {
-    background: #fff;
-    font-size: 18px;
+    background: #e9d9d9;
+    font-size: 12px;
     margin-bottom: 56px;
-    border: 1px solid #eee;
+    /* border: 1px solid #eee; */
     text-align: center;
     padding: 20px 20px;}
     @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1097,7 +1097,7 @@ CSS INDEX
       .romana_single_service {
         font-size: 13px;
         margin-bottom: 50px;
-        padding: 0 28px;
+        /* padding: 0 28px; */
         text-align: center; } }
   .romana_single_service:hover {
       box-shadow: 0 20px 20px rgba(0,0,0,0.14);
@@ -1106,7 +1106,7 @@ CSS INDEX
       display: block;
       overflow: hidden;
       margin-bottom: 12px;
-      margin-left: 105px;}
+      margin-left: 40px;}
       .romana_single_service .service-icon span {
       /* border: 1px solid #26a65b; */
       /* border-radius: 50%; */
