@@ -39,7 +39,7 @@ class LoginController extends Controller
 
 
         $userInfo=$request->except('_token');
-        
+
         if(Auth::attempt($userInfo)){
             return redirect()->route('home')->with('message','Login successful.');
         }

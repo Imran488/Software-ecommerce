@@ -25,10 +25,10 @@
                     <div class="widget footer_menu footer_padding_left">
                         <h2 style="color:#2dd967">Contact Us</h2>
                         <ul>
-                            <li><a href="#"><i class="fas fa-phone"></i>  Phone : +447441445018 </a></li>
-                            <li><a href="#"><i class="fas fa-phone"></i>  Landline :  +447441445018 </a></li>
-                            <li><a href="mailto:info@bgdonline.com"><i class="far fa-envelope"></i>  Email : info@bgdtech.uk</a></li>
-                            <li> <a href="#"><i class="fas fa-map-marked-alt"></i>  Address :71-75, Shelton Street,<br> Covent Garden, London,<br> WC2H 9JQ,UNITED KINGDOM</a>
+                            <li><a href="#"><i class="fas fa-phone"></i> &nbsp &nbsp Phone : +447441445018 </a></li>
+                            <li><a href="#"><i class="fas fa-phone"></i>&nbsp &nbsp Landline :  +447441445018 </a></li>
+                            <li><a href="mailto:info@bgdonline.com"><i class="far fa-envelope"></i>&nbsp &nbsp Email : info@bgdtech.uk</a></li>
+                            <li> <a href="#"><i class="fas fa-map-marked-alt"></i>&nbsp &nbsp Address :71-75, Shelton Street,Covent Garden, London,<br> WC2H 9JQ,UNITED KINGDOM</a>
 
                             </li>
 

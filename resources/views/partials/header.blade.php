@@ -55,6 +55,8 @@
                     @if(session()->has('error'))
                     <p class="alert alert-danger">{{session()->get('error')}}</p>
                     @endif
+
+
                     <nav id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
 
@@ -66,80 +68,80 @@
                                 <ul class="dropdown-menu mega-menu">
 
                                     <li class="menu-collumn">
-                                        <span href="#" target="_blank"style="color:red; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>Internet Connectivity</span>
+                                        <span href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Digital Marketting</span>
                                         <ul>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Corporate</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Small Offices</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Home User</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Facebook Marketting</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Google AdWords</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp SEO</a>
 
-                                            <br><br><span href="#" target="_blank"style="color:red; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>Web Hosting</span>
+                                            <br><br><span href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Web Hosting</span>
 
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Shared web hosting</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Windows hosting</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Linux Hosting</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Reseller hosting (Windows)</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Reseller hosting (Linux)</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>VPS Hosting</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Dedicated Server</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Shared web hosting</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Windows hosting</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Linux Hosting</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Reseller hosting (Windows)</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Reseller hosting (Linux)</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp VPS Hosting</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Dedicated Server</a>
                                         </ul>
                                     </li>
 
                                     <li class="menu-collumn">
-                                        <span href="#" target="_blank"style="color:red; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>Data Connectivity</span>
+                                        <span href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Data Connectivity</span>
 
                                         <ul>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Nationwide Secure Connectivity</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Nationwide Secure Connectivity</a>
 
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Dark Fiber Connectivity</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Dark Fiber Connectivity</a>
 
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Clear Channel Connectivity</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Clear Channel Connectivity</a>
 
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Capacity Based Connectivity</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Capacity Based Connectivity</a>
 
 
                                             <br><br>
 
-                                            <span href="#" target="_blank"style="color:red; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>Managed Services </span>
+                                            <span href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Managed Services </span>
 
 
 
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Office PC Maintenance</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Radio Maintenance</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Fiber Optic Networks Maintenance</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Office PC Maintenance</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Radio Maintenance</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Fiber Optic Networks Maintenance</a>
 
                                         </ul>
                                     </li>
 
                                     <li class="menu-collumn">
-                                        <span href="#" target="_blank"style="color:red; padding-left: 8px; font-weight: 700;"> <i class="fas fa-hand-point-right"></i>Web Development</span>
+                                        <span href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"> <i class="fas fa-hand-point-right"></i>&nbsp &nbsp Web Development</span>
 
 
 
 
                                         <ul>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Starter Package</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Basic Package</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Economy Package</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Deluxe Package</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Gold Package</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Platinum Package </a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Starter Package</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Basic Package</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Economy Package</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Deluxe Package</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Gold Package</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Platinum Package </a>
 
 
                                             <br><br>
 
-                                            <span href="#" target="_blank"style="color:red; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>Domain</span>
+                                            <span href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Domain</span>
 
 
 
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Domain Registration</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Domain Transfer</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Domain Registration</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Domain Transfer</a>
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
 
 
-                            <li><a href="#"><b>PRODUCTS</b></a>
+                            {{-- <li><a href="#"><b>PRODUCTS</b></a>
                                 <ul class="dropdown-menu mega-menu">
                                     <li class="menu-collumn">
                                         <span href="#" target="_blank"style="color:red; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>Camera</span>
@@ -172,52 +174,71 @@
                                         </ul>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> --}}
 
                             <li><a href="#"><b>SOLUTIONS</b></a>
                                 <ul class="dropdown-menu mega-menu">
                                     <li class="menu-collumn">
                                         <span href="#" target="_blank"
-                                            style="color:red; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>Enterprize</span>
+                                            style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Enterprize</span>
 
                                         <ul>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Networks</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>IP- VPN</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Hosting</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Co- location</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Networks</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp IP- VPN</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Hosting</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Co- location</a>
                                         </ul>
                                     </li>
                                     <li class="menu-collumn">
                                         <span href="#" target="_blank"
-                                            style="color:red; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>System Integration</span>
+                                            style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp System Integration</span>
 
                                         <ul>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>ICT Consultancy</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Customized Solution</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Training</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp ICT Consultancy</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Customized Solution</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Training</a>
                                         </ul>
                                     </li>
                                     <li class="menu-collumn">
                                         <span href="#" target="_blank"
-                                            style="color:red; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>IP Phone</span>
+                                            style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp IP Phone</span>
 
                                         <ul>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>IPPBX</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Call Center</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp IPPBX</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Call Center</a>
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
 
                             <li><a href="{{route('contactus')}}"><b>CONTACT US</b></a></li>
+
+
                             @if(auth()->user())
+                            <li><a href="#"><b>{{auth()->user()->name}}</b></a>
+                                <ul class="dropdown-menu mega-menu">
+                                    <li class="menu-collumn">
+
+                                        <span>
+                                            <a href="#"><i class="fa-solid fa-user"></i>&nbsp &nbsp &nbsp <b>My Profile</b></a>
+                                            <a href="{{route('logout')}}"><i class="fa-solid fa-right-from-bracket"></i>&nbsp &nbsp &nbsp <b>Logout</b></a>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </li>@else
+                            <li>
+                                <a href="{{route('login')}}" style="color:#ea2229;font-weight:800;"><b>LOGIN</b></a>
+                            </li>@endif
+
+
+                            {{-- @if(auth()->user())
                             <li>
                                 <a href="{{route('logout')}}"><b>{{auth()->user()->name}}|Logout</b>
                                 </a>
                             </li>@else
                             <li>
                                 <a href="{{route('login')}}" style="color:#ea2229;font-weight:800;"><b>LOGIN</b></a>
-                            </li>@endif
+                            </li>@endif --}}
 
 
                         </ul>

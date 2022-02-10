@@ -1,19 +1,9 @@
 @extends('master')
-
 @section('content')
-    {{-- <div id="preloader">
-            <div class="preloader_spinner"></div>
-        </div> --}}
+@include('partials.header')
+@include('partials.slider')
 
-        @include('partials.header')
-
-        @include('partials.slider')
-
-
-
-
-
-        <div class="romana_search_domain_area">
+<div class="romana_search_domain_area">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-xs-12">
