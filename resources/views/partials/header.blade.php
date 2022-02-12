@@ -41,12 +41,7 @@
                 <!-- column End -->
 
                 <div class="col-sm-10">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                            data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span
-                                class="sr-only"></span> <i class="fas fa-bars"></i>
-                        </button>
-                    </div>
+                    <div class="navbar-header"></div>
 
                     @if(session()->has('message'))
                     <p class="alert alert-success">{{session()->get('message')}}</p>
