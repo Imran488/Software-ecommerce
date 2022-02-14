@@ -16,9 +16,9 @@
                 <div class="col-sm-5 col-md-offset-2 col-xs-12">
                     <div class="romana_header_top_right">
                         <ul>
-                            <li><a href="#"><i class="fab fa-facebook" style=height:25px;width:30px></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter" style=height:25px;width:30px></i></a></li>
-                            <li><a href="#"><i class="fab fa-google-plus-g" style=height:25px;width:30px></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook" style=height:25px;width:auto></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter" style=height:25px;width:auto></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g" style=height:25px;width:auto></i></a></li>
 
                         </ul>
                     </div>
@@ -35,7 +35,7 @@
             <div class="row">
                 <div class="col-sm-2 col-xs-6">
                     <div class="romana_logo">
-                        <a href="#"><img src="{{url('images/logo.png')}}" alt=""width="85"height="85"></a>
+                        <a href="#"><img src="{{url('images/logo.png')}}" alt=""></a>
                     </div>
                 </div>
                 <!-- column End -->

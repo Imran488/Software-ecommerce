@@ -8,17 +8,16 @@
             <div class="col-xs-12">
                 <div class="partner_crsl">
 
-                    <div class="romana_single_service">
-                        <a class="service-icon" href="#"><span><img src="{{url('images/webhosting.png')}}" alt=""
-                         width="100" height="100"></span>
+                    <div class="romana_single_service"><br>
+                        <a class="service-icon" href="#"><img src="{{url('images/webhosting.png')}}" alt="">
 
                         </a>
                         <a href="#">
                             <h3>WEB HOSTING</h3>
 
                         </a>
-                        <p>BGD Technologies (UK) Limited make registration of web hosting fast,secure,affordable and secure manner.If you are looking to transfer hosting to shared,reseller,dedicated
-                             provider. </p>
+                        <p>BGD Technologies (UK) Limited make registration of web hosting fast,secure,affordable and secure manner.<br>If you are looking to transfer hosting to shared provider.Get in Touch</p><br>
+
                         <div class="read-more"><a href="{{route('read.web.hosting')}}">Take Services</a> </div>
                     </div>
 
@@ -26,9 +25,10 @@
 
 
 
+
+
                     <div class="romana_single_service">
-                        <a class="service-icon" href="#"><span><img src="{{url('images/domain.png')}}" alt=""
-                                    width="100" height="100"></span>
+                        <a class="service-icon" href="#"><img src="{{url('images/webdevelopment.png')}}" alt="">
 
                         </a>
 
@@ -37,10 +37,8 @@
 
                         </a>
                         <p>We provide UK .uk or and the all the popular domain registration services. Our server uptime
-                            99.99% compared to others. We ensure high server uptime with superb support.</p>
-                        <div class="read-more"> <a
-                                href="{{url('https://bgdonline.net/whmcs/cart.php?a=add&domain=register')}}">Take
-                                Services</a> </div>
+                            99.99% compared to others. We ensure high server uptime with superb support and you can get help.</p>
+                        <div class="read-more"> <a href="{{url('https://bgdonline.net/whmcs/cart.php?a=add&domain=register')}}">Take Services</a></div>
                     </div>
 
 
@@ -48,8 +46,7 @@
 
 
                     <div class="romana_single_service">
-                        <a class="service-icon" href="#"><span><img src="{{url('images/webdevelopment.png')}}" alt=""
-                                    width="100" height="100"></span>
+                        <a class="service-icon" href="#"><img src="{{url('images/webdevelopment.png')}}" alt="">
 
                         </a>
 
@@ -58,7 +55,7 @@
 
                         </a>
                         <p>BGD Technologies (UK) Limited expertise in web development. We do outsourcing web design and
-                            provide hosting services.We developcompany website , ecommerce solution etc.</p>
+                            provide hosting services.We developcompany website ,ecommerce solution,Business etc.</p>
                         <div class="read-more"> <a href="{{route('read.web.development')}}">Take Services</a> </div>
                     </div>
 
@@ -66,8 +63,7 @@
 
 
                     <div class="romana_single_service">
-                        <a class="service-icon" href="#"><span><img src="{{url('images/manageservices.png')}}" alt=""
-                                    width="100" height="100"></span>
+                        <a class="service-icon" href="#"><img src="{{url('images/manageservices.png')}}" alt="">
 
                         </a>
 
@@ -76,7 +72,7 @@
 
                         </a>
                         <p>A generic term for connecting devices to each other in order to transfer data back and forth.
-                            It often refers to network connections., which embraces bridges, routers, switches.
+                            It often refers to network connections its embraces bridges,switches ,routers .
                         </p>
                         <div class="read-more"> <a href="{{route('read.digital.marketting')}}">Take Services</a> </div>
 
@@ -87,8 +83,7 @@
 
 
                     <div class="romana_single_service">
-                        <a class="service-icon" href="#"><span><img src="{{url('images/webdevelopment.png')}}" alt=""
-                                    width="100" height="100"></span>
+                        <a class="service-icon" href="#"><img src="{{url('images/webdevelopment.png')}}" alt="">
 
                         </a>
 
@@ -97,7 +92,7 @@
 
                         </a>
                         <p>BGD Technologies (UK) Limited expertise in web development. We do outsourcing web design and
-                            provide hosting services.We developcompany website , ecommerce solution etc.</p>
+                            provide hosting services.We developcompany website ,ecommerce solution,Business etc.</p>
                         <div class="read-more"> <a href="{{route('read.web.development')}}">Take Services</a> </div>
                     </div>
 
@@ -111,6 +106,8 @@
     </div>
 
 </div>
+
+
 
 
 
