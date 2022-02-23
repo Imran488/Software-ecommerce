@@ -59,17 +59,19 @@
 
                             <li><a href="{{route('about.us')}}"><b>ABOUT US</b></a></li>
 
+
+
                             <li><a href="#"><b>SERVICES</b></a>
                                 <ul class="dropdown-menu mega-menu">
 
                                     <li class="menu-collumn">
-                                        <span href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Digital Marketting</span>
+                                        <a href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Digital Marketting</a>
                                         <ul>
                                             <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Facebook Marketting</a>
                                             <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Google AdWords</a>
                                             <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp SEO</a>
 
-                                            <br><br><span href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Web Hosting</span>
+                                            <br><br><a href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Web Hosting</a>
 
                                             <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Shared web hosting</a>
                                             <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Windows hosting</a>
@@ -82,7 +84,7 @@
                                     </li>
 
                                     <li class="menu-collumn">
-                                        <span href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Data Connectivity</span>
+                                        <a href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Data Connectivity</a>
 
                                         <ul>
                                             <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Nationwide Secure Connectivity</a>
@@ -96,7 +98,7 @@
 
                                             <br><br>
 
-                                            <span href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Managed Services </span>
+                                            <a href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Managed Services </a>
 
 
 
@@ -108,7 +110,7 @@
                                     </li>
 
                                     <li class="menu-collumn">
-                                        <span href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"> <i class="fas fa-hand-point-right"></i>&nbsp &nbsp Web Development</span>
+                                        <a href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"> <i class="fas fa-hand-point-right"></i>&nbsp &nbsp Web Development</a>
 
 
 
@@ -124,7 +126,7 @@
 
                                             <br><br>
 
-                                            <span href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Domain</span>
+                                            <a href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Domain</a>
 
 
 
@@ -139,7 +141,7 @@
                             {{-- <li><a href="#"><b>PRODUCTS</b></a>
                                 <ul class="dropdown-menu mega-menu">
                                     <li class="menu-collumn">
-                                        <span href="#" target="_blank"style="color:red; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>Camera</span>
+                                        <a href="#" target="_blank"style="color:red; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>Camera</a>
 
 
                                         <ul>
@@ -149,7 +151,7 @@
                                     </li>
 
                                     <li class="menu-collumn">
-                                        <span href="#" target="_blank"style="color:red; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>Network Products</span>
+                                        <a href="#" target="_blank"style="color:red; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>Network Products</a>
 
                                         <ul>
                                             <a href="#"><i class="fas fa-angle-double-right"></i>Router</a>
@@ -160,8 +162,8 @@
                                         </ul>
                                     </li>
                                     <li class="menu-collumn">
-                                        <span href="#" target="_blank"
-                                            style="color:red; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>Radio Station</span>
+                                        <a href="#" target="_blank"
+                                            style="color:red; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>Radio Station</a>
 
                                         <ul>
                                             <a href="#"><i class="fas fa-angle-double-right"></i>Radio Station</a>
@@ -174,8 +176,8 @@
                             <li><a href="#"><b>SOLUTIONS</b></a>
                                 <ul class="dropdown-menu mega-menu">
                                     <li class="menu-collumn">
-                                        <span href="#" target="_blank"
-                                            style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Enterprize</span>
+                                        <a href="#" target="_blank"
+                                            style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Enterprize</a>
 
                                         <ul>
                                             <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Networks</a>
@@ -185,8 +187,8 @@
                                         </ul>
                                     </li>
                                     <li class="menu-collumn">
-                                        <span href="#" target="_blank"
-                                            style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp System Integration</span>
+                                        <a href="#" target="_blank"
+                                            style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp System Integration</a>
 
                                         <ul>
                                             <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp ICT Consultancy</a>
@@ -195,8 +197,8 @@
                                         </ul>
                                     </li>
                                     <li class="menu-collumn">
-                                        <span href="#" target="_blank"
-                                            style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp IP Phone</span>
+                                        <a href="#" target="_blank"
+                                            style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp IP Phone</a>
 
                                         <ul>
                                             <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp IPPBX</a>
@@ -214,10 +216,10 @@
                                 <ul class="dropdown-menu mega-menu">
                                     <li class="menu-collumn">
 
-                                        <span>
+                                        <a>
                                             <a href="#"><i class="fa-solid fa-user"></i>&nbsp &nbsp &nbsp <b>My Profile</b></a>
                                             <a href="{{route('logout')}}"><i class="fa-solid fa-right-from-bracket"></i>&nbsp &nbsp &nbsp <b>Logout</b></a>
-                                        </span>
+                                        </a>
                                     </li>
                                 </ul>
                             </li>@else

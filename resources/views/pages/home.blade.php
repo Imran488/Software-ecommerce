@@ -48,11 +48,6 @@
 
         <div class="red-line"></div>
 
-
-
-
-
-
         @include('partials.service')
         @include('partials.solution')
 

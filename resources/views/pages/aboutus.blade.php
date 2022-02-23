@@ -29,7 +29,7 @@
 
         #modal header {
             background: #f1f1f1;
-            background-image: -webkit-linear-gradient(top, #f1f1f1, #CCC);
+            background-image: -webkit-linear-gradient(top, #ffc5c5, #CCC);
             background-image: -ms-linear-gradient(top, #f1f1f1, #CCC);
             background-image: -moz-linear-gradient(top, #f1f1f1, #CCC);
             background-image: -o-linear-gradient(top, #f1f1f1, #CCC);
@@ -42,7 +42,7 @@
             margin: 0;
             font-size: 24px;
             font-weight: normal;
-            text-shadow: 0 1px 2px white;
+            text-shadow: 0 1px 2px rgb(7, 7, 7);
             color: rgb(8, 160, 76);
             text-align: center;
         }
@@ -55,6 +55,14 @@
             color: rgb(12, 11, 11);
             text-align: center;
         }
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+            height: 100%;
+            border-radius: 50%;
+            }
 
     </style>
 
@@ -63,6 +71,7 @@
 
     <div id="modal">
         <header>
+            <img src="{{url('images/webhosting.png')}}" alt="#">
             <h1><b><u>At A Glance</u></b></h1>
         </header>
         <section>
@@ -80,6 +89,7 @@
 
     <div id="modal">
         <header>
+            <img src="{{url('images/mision.jpg')}}" alt="#">
             <h1><b><u>Our Mission</u></b></h1>
         </header>
         <section>
@@ -93,6 +103,7 @@
 
     <div id="modal">
         <header>
+            <img src="{{url('images/webhosting.png')}}" alt="#">
             <h1><b><u>Our Vision</u></b></h1>
         </header>
         <section>
@@ -105,6 +116,7 @@
 
     <div id="modal">
         <header>
+            <img src="{{url('images/ceo.jpg')}}" alt="#">
             <h1><b><u>Message From CEO</u></b></h1><br>
         </header>
         <section>
