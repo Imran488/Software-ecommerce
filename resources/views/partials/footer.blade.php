@@ -100,7 +100,7 @@
                                 <li><a href="#"><i class="fa-brands fa-instagram"style=height:25px;width:auto></i></a></li>
                                 <li><a href="#"><i class="fab fa-google-plus-g" style=height:25px;width:auto></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter" style=height:25px;width:auto></i></a></li>
-                                <li><a href="https://www.facebook.com/bgdonlineltd/"><i class="fab fa-facebook" style=height:25px;width:auto></i></a></li>
+                                <li><a href="https://www.facebook.com/bgdtechnologiesuk"><i class="fab fa-facebook" style=height:25px;width:auto></i></a></li>
                             </ul>
                         </div>
                     </div>

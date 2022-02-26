@@ -7,7 +7,7 @@
                         <div class="romana_left_info">
                             <ul>
                                 <li><a href="mailto:info@bgdonline.com"><i class="far fa-envelope"></i>    info@bgdtech.uk</a></li>
-                                <li><a href="tel:"><i class="fas fa-phone"></i>    +447441445018</a></li>
+                                <li><a href="tel:"><i class="fas fa-phone"></i>+447441445018</a></li>
                             </ul>
                         </div>
                     </div>
@@ -16,7 +16,7 @@
                 <div class="col-sm-5 col-md-offset-2 col-xs-12">
                     <div class="romana_header_top_right">
                         <ul>
-                            <li><a href="#"><i class="fab fa-facebook" style=height:25px;width:auto></i></a></li>
+                            <li><a href="https://www.facebook.com/bgdtechnologiesuk"><i class="fab fa-facebook" style=height:25px;width:auto></i></a></li>
                             <li><a href="#"><i class="fab fa-twitter" style=height:25px;width:auto></i></a></li>
                             <li><a href="#"><i class="fab fa-google-plus-g" style=height:25px;width:auto></i></a></li>
 
@@ -35,7 +35,7 @@
             <div class="row">
                 <div class="col-sm-2 col-xs-6">
                     <div class="romana_logo">
-                        <a href="#"><img src="{{url('images/logo.png')}}" alt=""></a>
+                        <a href="{{route('home')}}"><img src="{{url('images/logo.png')}}" alt=""></a>
                     </div>
                 </div>
                 <!-- column End -->
@@ -71,7 +71,7 @@
                                             <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Google AdWords</a>
                                             <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp SEO</a>
 
-                                            <br><br><a href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Web Hosting</a>
+                                            <a href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Web Hosting</a>
 
                                             <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Shared web hosting</a>
                                             <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Windows hosting</a>
@@ -80,40 +80,21 @@
                                             <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Reseller hosting (Linux)</a>
                                             <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp VPS Hosting</a>
                                             <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Dedicated Server</a>
+
+
                                         </ul>
                                     </li>
 
                                     <li class="menu-collumn">
-                                        <a href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Data Connectivity</a>
-
+                                        <a href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Domain</a>
                                         <ul>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Nationwide Secure Connectivity</a>
-
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Dark Fiber Connectivity</a>
-
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Clear Channel Connectivity</a>
-
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Capacity Based Connectivity</a>
-
-
-                                            <br><br>
-
-                                            <a href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Managed Services </a>
-
-
-
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Office PC Maintenance</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Radio Maintenance</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Fiber Optic Networks Maintenance</a>
-
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Domain Registration</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Domain Transfer</a>
                                         </ul>
-                                    </li>
 
-                                    <li class="menu-collumn">
+
+
                                         <a href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"> <i class="fas fa-hand-point-right"></i>&nbsp &nbsp Web Development</a>
-
-
-
 
                                         <ul>
                                             <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Starter Package</a>
@@ -122,56 +103,19 @@
                                             <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Deluxe Package</a>
                                             <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Gold Package</a>
                                             <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Platinum Package </a>
-
-
-                                            <br><br>
-
-                                            <a href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Domain</a>
-
-
-
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Domain Registration</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Domain Transfer</a>
                                         </ul>
+                                    </li>
+
+                                    <li class="menu-collumn">
+                                        <a href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp Managed Services</a>
+                                        <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Office PC Maintaince</a>
+                                        <a href="#"><i class="fas fa-angle-double-right"></i>&nbsp &nbsp Radio Station Maintainance</a>
                                     </li>
                                 </ul>
                             </li>
 
 
-                            {{-- <li><a href="#"><b>PRODUCTS</b></a>
-                                <ul class="dropdown-menu mega-menu">
-                                    <li class="menu-collumn">
-                                        <a href="#" target="_blank"style="color:red; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>Camera</a>
 
-
-                                        <ul>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>CC Camera </a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>IP Camera</a>
-                                        </ul>
-                                    </li>
-
-                                    <li class="menu-collumn">
-                                        <a href="#" target="_blank"style="color:red; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>Network Products</a>
-
-                                        <ul>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Router</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Switch</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>TJ Box</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Fiber Optic Cable</a>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>UTP Cable</a>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-collumn">
-                                        <a href="#" target="_blank"
-                                            style="color:red; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>Radio Station</a>
-
-                                        <ul>
-                                            <a href="#"><i class="fas fa-angle-double-right"></i>Radio Station</a>
-
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li> --}}
 
                             <li><a href="#"><b>SOLUTIONS</b></a>
                                 <ul class="dropdown-menu mega-menu">
@@ -226,18 +170,6 @@
                             <li>
                                 <a href="{{route('login')}}" style="color:#ea2229;font-weight:800;"><b>LOGIN</b></a>
                             </li>@endif
-
-
-                            {{-- @if(auth()->user())
-                            <li>
-                                <a href="{{route('logout')}}"><b>{{auth()->user()->name}}|Logout</b>
-                                </a>
-                            </li>@else
-                            <li>
-                                <a href="{{route('login')}}" style="color:#ea2229;font-weight:800;"><b>LOGIN</b></a>
-                            </li>@endif --}}
-
-
                         </ul>
 
                     </nav>

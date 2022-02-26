@@ -2,7 +2,7 @@
 @section('content')
 @include('partials.header')
 
-<!DOCTYPE html>
+
 <html>
     <style>
         article,
@@ -55,15 +55,6 @@
             color: rgb(12, 11, 11);
             text-align: center;
         }
-        img{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 20%;
-            height: 100%;
-            border-radius: 50%;
-            }
-
     </style>
 
 
@@ -89,7 +80,7 @@
 
     <div id="modal">
         <header>
-            <img src="{{url('images/mision.jpg')}}" alt="#">
+            <img src="{{url('images/webhosting.png')}}" alt="#">
             <h1><b><u>Our Mission</u></b></h1>
         </header>
         <section>

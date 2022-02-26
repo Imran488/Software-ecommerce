@@ -8,20 +8,19 @@
             <div class="col-xs-12">
                 <div class="partner_crsl">
 
-                    <div class="romana_single_service"><br>
-                        <a class="service-icon" href="#"><img src="{{url('images/webhosting.png')}}" alt="">
+
+                    <div class="romana_single_service">
+                        <a class="service-icon" href="#"><img src="{{url('images/webdevelopment.png')}}" alt="">
 
                         </a>
+
                         <a href="#">
-                            <h3>WEB HOSTING</h3>
+                            <h3>WEB <br> HOSTING</h3>
 
                         </a>
-                        <p>BGD Technologies (UK) Limited make registration of web hosting fast,secure,affordable and secure manner.<br>If you are looking to transfer hosting to shared provider.Get in Touch</p><br>
-
-                        <div class="read-more"><a href="{{route('read.web.hosting')}}">Take Services</a> </div>
+                        <p>BGD Technologies (UK) Limited make registration of web hosting fast,secure,affordable and secure manner.If you are looking to transfer hosting to shared provider.Get in Touch for booking advance </p>
+                        <div class="read-more"> <a href="{{route('read.web.hosting')}}">Take Services</a></div>
                     </div>
-
-
 
 
 

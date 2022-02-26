@@ -56,8 +56,12 @@ CSS INDEX
     padding: 0px; }
 
   img {
-    width: 100%;
-    height: 100%; }
+    width: auto;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%; }
 
   ol, ul {
     margin: 0px;
