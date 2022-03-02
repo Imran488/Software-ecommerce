@@ -6,8 +6,8 @@
                     <div class="romana_header_top_left">
                         <div class="romana_left_info">
                             <ul>
-                                <li><a href="mailto:info@bgdonline.com"><i class="far fa-envelope"></i>    info@bgdtech.uk</a></li>
-                                <li><a href="tel:"><i class="fas fa-phone"></i>+447441445018</a></li>
+                                <li><a href="mailto:info@bgdonline.com"><i class="fa-solid fa-envelope"></i>&nbsp &nbsp <b>info@bgdtech.uk</b></a></li>
+                                <li><a href="tel:"><i class="fas fa-phone"></i>&nbsp &nbsp <b>+447441445018</b></a></li>
                             </ul>
                         </div>
                     </div>
@@ -57,7 +57,20 @@
 
                             <li><a href="{{route('home')}}"><b>HOME</b></a></li>
 
-                            <li><a href="{{route('about.us')}}"><b>ABOUT US</b></a></li>
+                            {{-- <li><a href="{{route('about.us')}}"><b>ABOUT US</b></a></li> --}}
+
+
+                            <li><a href="#"><b>ABOUT US</b></a>
+                                <ul class="dropdown-menu mega-menu-about">
+
+                                    <li class="menu-collumn">
+                                        <a href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp AT A GLANCE</a>
+                                        <a href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp COMPANY MISSION</a>
+                                        <a href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp COMPANY VISION</a>
+                                        <a href="#" target="_blank" style="color:green; padding-left: 8px; font-weight: 700;"><i class="fas fa-hand-point-right"></i>&nbsp &nbsp MESSAGE FROM C.E.O</a>
+                                    </li>
+                                </ul>
+                            </li>
 
 
 

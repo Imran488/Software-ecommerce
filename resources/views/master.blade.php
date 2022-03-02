@@ -94,11 +94,12 @@
     <div id="fb-root"></div>
 
     <!-- Your Chat plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat"></div>
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
 
     <script>
         var chatbox = document.getElementById('fb-customer-chat');
-        chatbox.setAttribute("page_id", "101172495825457");
+        chatbox.setAttribute("page_id", "104701228781893");
         chatbox.setAttribute("attribution", "biz_inbox");
     </script>
 
